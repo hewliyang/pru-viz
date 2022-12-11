@@ -2,3 +2,4 @@ node_modules
 *.js
 *.ipynb
 reminder
+__pycache__

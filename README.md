@@ -20,7 +20,7 @@ pip3 install -r requirements.txt
 Run
 
 ```
-streamlit run main
+streamlit run main.py
 ```
 
 ### Credits
