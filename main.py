@@ -55,7 +55,7 @@ def main():
     # do a log transformation on the pengundi_jumlah column - need to refactor this
     # results["log_total"] = np.log(results["pengundi_jumlah"])
 
-    options = ["Results", "Registered Voters"]
+    options = ["Results", "Registered Voters", "Undi Tolak", "Undi Tak Kembali", "Peratus Keluar", "Pengundi Tidak Hadir"]
     index = 0
 
 
@@ -79,7 +79,31 @@ def main():
         elif selected_map == options[1]:
             target = "pengundi_jumlah"
             map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
-                title="GE15 Registered Voters by Parliament (2022)", log_flag=log_flag)
+                title="GE15 Registered Voters (2022)", log_flag=log_flag)
+            clicked_state = st_echarts(options, map=map, height=800, key="voter",
+                events={"click": "function(params) {return params.name}"})
+        elif selected_map == options[2]:
+            target = "undi_rosak"
+            map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
+                title="GE15 Spoilt Votes (2022)", log_flag=log_flag)
+            clicked_state = st_echarts(options, map=map, height=800, key="voter",
+                events={"click": "function(params) {return params.name}"})
+        elif selected_map == options[3]:
+            target = "undi_tak_kembali"
+            map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
+                title="GE15 Vote - No Return (2022)", log_flag=log_flag)
+            clicked_state = st_echarts(options, map=map, height=800, key="voter",
+                events={"click": "function(params) {return params.name}"})
+        elif selected_map == options[4]:
+            target = "peratus_keluar"
+            map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
+                title="GE15 Voter Turnout (2022)", log_flag=log_flag)
+            clicked_state = st_echarts(options, map=map, height=800, key="voter",
+                events={"click": "function(params) {return params.name}"})
+        elif selected_map == options[5]:
+            target = "pengundi_tidak_hadir"
+            map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
+                title="GE15 Voters Not Present (2022)", log_flag=log_flag)
             clicked_state = st_echarts(options, map=map, height=800, key="voter",
                 events={"click": "function(params) {return params.name}"})
 
@@ -119,7 +143,9 @@ def main():
         df_exp = dataframe_explorer(candidates)
         st.dataframe(df_exp, use_container_width=True)
 
-
+    with st.expander("Explore result data!"):
+        result_exp = dataframe_explorer(results)
+        st.dataframe(result_exp, use_container_width=True)
 
 if __name__ == "__main__":
     st.set_page_config(layout="wide", page_title="pru-viz", page_icon="./public/malaysia.ico")
