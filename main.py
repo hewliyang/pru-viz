@@ -143,9 +143,27 @@ def main():
         df_exp = dataframe_explorer(candidates)
         st.dataframe(df_exp, use_container_width=True)
 
+        # make the filtered DF available for download via a button
+        csv = df_exp.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label = "Download data as CSV",
+            data = csv,
+            file_name = "candidates_ge15_filtered.csv",
+            mime = "text/csv"
+        )
+
     with st.expander("Explore result data!"):
         result_exp = dataframe_explorer(results)
         st.dataframe(result_exp, use_container_width=True)
+
+        # make the filtered DF available for download via a button
+        csv = result_exp.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label = "Download data as CSV",
+            data = csv,
+            file_name = "results_ge15_filtered.csv",
+            mime = "text/csv"
+        )
 
 if __name__ == "__main__":
     st.set_page_config(layout="wide", page_title="pru-viz", page_icon="./public/malaysia.ico")
