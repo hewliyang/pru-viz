@@ -10,8 +10,6 @@ from streamlit_extras.colored_header import colored_header
 from streamlit_extras.dataframe_explorer import dataframe_explorer
 from streamlit_extras.badges import badge
 
-geojson_url = "https://raw.githubusercontent.com/dosm-malaysia/data-open/main/datasets/geodata/electoral_0_parlimen.geojson"
-
 @st.experimental_singleton
 def load_css(path):
     with open(path) as f:
@@ -19,7 +17,6 @@ def load_css(path):
 
 @st.experimental_singleton
 def load_bootstrap_stylesheet(path):
-    #return st.markdown(bootstrap_stylesheet, unsafe_allow_html=True)
     with open(path) as f:
         return st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
@@ -55,7 +52,7 @@ def main():
     # do a log transformation on the pengundi_jumlah column - need to refactor this
     # results["log_total"] = np.log(results["pengundi_jumlah"])
 
-    options = ["Results", "Registered Voters", "Undi Tolak", "Undi Tak Kembali", "Peratus Keluar", "Pengundi Tidak Hadir"]
+    options = ["Results", "Registered Voters", "Turnout", "Undi Rosak", "Majoriti", "Undi Tolak", "Absentees"]
     index = 0
 
 
@@ -63,7 +60,7 @@ def main():
     selected_map = st.selectbox(label="Select metric:",options=options, index=index)
     # display log transform option if selected ~results
     if selected_map != "Results":
-        log_flag = st.checkbox("Log Transform")
+        log = st.checkbox("Log Transform")
 
     col1, col2 = st.columns((3,1))
     with col1:
@@ -79,33 +76,39 @@ def main():
         elif selected_map == options[1]:
             target = "pengundi_jumlah"
             map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
-                title="GE15 Registered Voters (2022)", log_flag=log_flag)
-            clicked_state = st_echarts(options, map=map, height=800, key="voter",
+                title="GE15 Registered Voters (2022)", log=log)
+            clicked_state = st_echarts(options, map=map, height=800, key=target,
                 events={"click": "function(params) {return params.name}"})
         elif selected_map == options[2]:
-            target = "undi_rosak"
-            map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
-                title="GE15 Spoilt Votes (2022)", log_flag=log_flag)
-            clicked_state = st_echarts(options, map=map, height=800, key="voter",
-                events={"click": "function(params) {return params.name}"})
-        elif selected_map == options[3]:
-            target = "undi_tak_kembali"
-            map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
-                title="GE15 Vote - No Return (2022)", log_flag=log_flag)
-            clicked_state = st_echarts(options, map=map, height=800, key="voter",
-                events={"click": "function(params) {return params.name}"})
-        elif selected_map == options[4]:
             target = "peratus_keluar"
             map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
-                title="GE15 Voter Turnout (2022)", log_flag=log_flag)
-            clicked_state = st_echarts(options, map=map, height=800, key="voter",
+                title="GE15 Voter Turnout (%) (2022)", log=log)
+            clicked_state = st_echarts(options, map=map, height=800, key=target,
+                events={"click": "function(params) {return params.name}"})                
+        elif selected_map == options[3]:
+            target = "undi_rosak"
+            map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
+                title="GE15 Undi Rosak (%) (2022)", log=log, normalise=True)
+            clicked_state = st_echarts(options, map=map, height=800, key=target,
+                events={"click": "function(params) {return params.name}"})
+        elif selected_map == options[4]:
+            target = "majoriti"
+            map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
+                title="GE15 Majoriti (%) (2022)", log=log, normalise=True)
+            clicked_state = st_echarts(options, map=map, height=800, key=target,
                 events={"click": "function(params) {return params.name}"})
         elif selected_map == options[5]:
+            target = "undi_tolak"
+            map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
+                title="GE15 Undi Tolak (%) (2022)", log=log, normalise=True)
+            clicked_state = st_echarts(options, map=map, height=800, key=target,
+                events={"click": "function(params) {return params.name}"})            
+        elif selected_map == options[6]:
             target = "pengundi_tidak_hadir"
             map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
-                title="GE15 Voters Not Present (2022)", log_flag=log_flag)
-            clicked_state = st_echarts(options, map=map, height=800, key="voter",
-                events={"click": "function(params) {return params.name}"})
+                title="GE15 Absentees (%) (2022)", log=log, normalise=True, normalise_on="pengundi_jumlah")
+            clicked_state = st_echarts(options, map=map, height=800, key=target,
+                events={"click": "function(params) {return params.name}"})  
 
     if clicked_state is None:
         return
@@ -139,7 +142,7 @@ def main():
             st.markdown(card, unsafe_allow_html=True)
 
     # display the dataframe in an expander
-    with st.expander("Explore the raw data!"):
+    with st.expander("Explore candidate data!"):
         df_exp = dataframe_explorer(candidates)
         st.dataframe(df_exp, use_container_width=True)
 
@@ -168,6 +171,6 @@ def main():
 if __name__ == "__main__":
     st.set_page_config(layout="wide", page_title="pru-viz", page_icon="./public/malaysia.ico")
     load_bootstrap_stylesheet("./styles/bootstrap.min.css")
-    load_css("./styles/main.css")
+    # load_css("./styles/main.css")
     main()
 
