@@ -25,6 +25,7 @@ def load_data():
     results = pd.read_csv("./data/results_parlimen_ge15.csv")
     geojson = json.load(open("./geo/parlimen_adjusted.geojson"))
     candidates = pd.read_csv("./data/candidates_ge15.csv")
+    carto = json.load(open("./geo/carto_10.geojson"))
 
     # split party names into the full name ; alias
 
@@ -38,7 +39,7 @@ def load_data():
         party = lambda df_: df_["party"].map(lambda x: split(x)[0])
     )
 
-    return results, geojson, candidates
+    return results, geojson, candidates, carto
 
 def main():
     st.title("pru-viz")
@@ -47,7 +48,7 @@ def main():
     with next(badge_columns): badge(type="twitter", name="hewliyang")
 
     # read in data
-    results, geojson, candidates = load_data()  
+    results, geojson, candidates, carto = load_data()  
 
     # do a log transformation on the pengundi_jumlah column - need to refactor this
     # results["log_total"] = np.log(results["pengundi_jumlah"])
@@ -61,6 +62,8 @@ def main():
     # display log transform option if selected ~results
     if selected_map != "Results":
         log = st.checkbox("Log Transform")
+    else:
+        morph = st.checkbox("Morph by total voters per seat")
 
     col1, col2 = st.columns((3,1))
     with col1:
@@ -70,7 +73,7 @@ def main():
             color_name = "light-blue-70"
         )
         if selected_map == options[0]:
-            map, options = map_results_echarts(candidate_df=candidates, geojson=geojson)
+            map, options = map_results_echarts(candidate_df=candidates, geojson=carto) if morph else map_results_echarts(candidate_df=candidates, geojson=geojson)
             clicked_state = st_echarts(options, map=map, height=800, key="result",
                 events={"click": "function(params) {return params.name}"})
         elif selected_map == options[1]:
