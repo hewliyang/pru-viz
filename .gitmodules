@@ -1,3 +1,0 @@
-[submodule "cartogram_geopandas"]
-	path = cartogram_geopandas
-	url = https://github.com/mthh/cartogram_geopandas
