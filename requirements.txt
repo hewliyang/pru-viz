@@ -1,4 +1,5 @@
-Cython==0.29.32
+cartogram_geopandas==0.0.0rc0
+Cython
 folium==0.13.0
 geopandas==0.12.1
 numpy==1.23.5
@@ -7,4 +8,3 @@ plotly==5.11.0
 streamlit==1.15.1
 streamlit_echarts==0.4.0
 streamlit_extras==0.2.4
-./cartogram_geopandas
