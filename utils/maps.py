@@ -6,7 +6,8 @@ import geopandas as gpd
 import folium
 from streamlit_echarts import JsCode, Map
 from typing import Tuple
-from .constants import alias_to_id_color, id_to_alias_color, vmap_jscode, tooltip_result_jscode, tooltip_cont_jscode
+from .constants import alias_to_id_color, id_to_alias_color, vmap_jscode, tooltip_result_jscode, tooltip_cont_jscode, \
+    tooltip_discrete_jscode
 
 def map_cont_plotly(
     result_df:pd.DataFrame, 
@@ -36,6 +37,7 @@ def map_cont_echarts(
     geojson:dict,
     target:str,
     title:str,
+    discrete:bool = False,
     log: bool = False,
     normalise: bool = False,
     normalise_on: str = None
@@ -51,7 +53,7 @@ def map_cont_echarts(
 
     prep = result_df.copy()
 
-    # check if normalisation is to be applied (divide by "pengundi_jumlah")
+    # check if normalisation is to be applied (divide by "pengundi_jumlah-pengundi_tidak_hadir = total actual votes")
     new_target = None
     if normalise:
         new_target = target + "_%"
@@ -69,7 +71,7 @@ def map_cont_echarts(
     prep.rename(columns= {new_target:"value","parlimen":"name"}, inplace=True)
     series_data = prep.to_dict(orient="records")
 
-    formatter = JsCode(tooltip_cont_jscode).js_code
+    formatter = JsCode(tooltip_cont_jscode).js_code if not discrete else JsCode(tooltip_discrete_jscode).js_code
 
     map = Map(map_name="Malaysia",geo_json=geojson)
 
@@ -195,7 +197,7 @@ def map_results_echarts(
 
     # legend formatter - map id to alias
     # unfortunately some hardcoding + JS one liners is required here. sadge
-    vmap_formatter = JsCode(str(vmap_jscode)).js_code
+    vmap_formatter = JsCode(vmap_jscode).js_code
 
     # prepare map
     
@@ -206,7 +208,7 @@ def map_results_echarts(
     options = {
         "title": {
             "text": "GE15 Results by Parliament (2022)",
-            "subtext": "Data from Thevesh & DOSM",
+            "subtext": "Data from Thevesh & DOSM \n OTHER (< 3 seats): PBM, KDM, BEBAS, MUDA",
             "sublink": "https://github.com/dosm-malaysia/data-open",
             "left": "right",
         },

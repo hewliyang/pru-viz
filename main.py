@@ -76,7 +76,7 @@ def main():
         elif selected_map == options[1]:
             target = "pengundi_jumlah"
             map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
-                title="GE15 Registered Voters (2022)", log=log)
+                title="GE15 Registered Voters (2022)", log=log, discrete=True)
             clicked_state = st_echarts(options, map=map, height=800, key=target,
                 events={"click": "function(params) {return params.name}"})
         elif selected_map == options[2]:
