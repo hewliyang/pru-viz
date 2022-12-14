@@ -29,7 +29,6 @@ def load_data():
     results = pd.read_csv("./data/results_parlimen_ge15.csv")
     geojson = json.load(open("./geo/parlimen_adjusted.geojson"))
     candidates = pd.read_csv("./data/candidates_ge15.csv")
-    carto = json.load(open("./geo/carto_10.geojson"))
     gdf = gpd.read_file("./geo/parlimen_adjusted.geojson")
 
     # split party names into the full name ; alias
@@ -44,7 +43,7 @@ def load_data():
         party = lambda df_: df_["party"].map(lambda x: split(x)[0])
     )
 
-    return results, geojson, candidates, carto, gdf
+    return results, geojson, candidates, gdf
 
 def main():
     st.title("pru-viz")
@@ -53,7 +52,7 @@ def main():
     with next(badge_columns): badge(type="twitter", name="hewliyang")
 
     # read in data
-    results, geojson, candidates, carto, gdf = load_data()  
+    results, geojson, candidates, gdf = load_data()  
 
     # do a log transformation on the pengundi_jumlah column - need to refactor this
     # results["log_total"] = np.log(results["pengundi_jumlah"])
