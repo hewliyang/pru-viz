@@ -1,14 +1,18 @@
 import streamlit as st
 import pandas as pd
+import geopandas as gpd
 import re
 import json
+from cartogram_geopandas import make_cartogram
 from itertools import cycle
 from streamlit_echarts import st_echarts
 from utils.maps import map_cont_echarts, map_results_echarts
 from utils.cards import result_card
+from utils.geometry import morph_geos
 from streamlit_extras.colored_header import colored_header
 from streamlit_extras.dataframe_explorer import dataframe_explorer
 from streamlit_extras.badges import badge
+
 
 @st.experimental_singleton
 def load_css(path):
@@ -26,6 +30,7 @@ def load_data():
     geojson = json.load(open("./geo/parlimen_adjusted.geojson"))
     candidates = pd.read_csv("./data/candidates_ge15.csv")
     carto = json.load(open("./geo/carto_10.geojson"))
+    gdf = gpd.read_file("./geo/parlimen_adjusted.geojson")
 
     # split party names into the full name ; alias
 
@@ -39,7 +44,7 @@ def load_data():
         party = lambda df_: df_["party"].map(lambda x: split(x)[0])
     )
 
-    return results, geojson, candidates, carto
+    return results, geojson, candidates, carto, gdf
 
 def main():
     st.title("pru-viz")
@@ -48,7 +53,7 @@ def main():
     with next(badge_columns): badge(type="twitter", name="hewliyang")
 
     # read in data
-    results, geojson, candidates, carto = load_data()  
+    results, geojson, candidates, carto, gdf = load_data()  
 
     # do a log transformation on the pengundi_jumlah column - need to refactor this
     # results["log_total"] = np.log(results["pengundi_jumlah"])
@@ -64,6 +69,7 @@ def main():
         log = st.checkbox("Log Transform")
     else:
         morph = st.checkbox("Morph by total voters per seat")
+        n = st.number_input(label="Number of iterations", min_value=1, max_value=15)
 
     col1, col2 = st.columns((3,1))
     with col1:
@@ -73,7 +79,7 @@ def main():
             color_name = "light-blue-70"
         )
         if selected_map == options[0]:
-            map, options = map_results_echarts(candidate_df=candidates, geojson=carto) if morph else map_results_echarts(candidate_df=candidates, geojson=geojson)
+            map, options = map_results_echarts(candidate_df=candidates, geojson=morph_geos(gdf,results,n)) if morph else map_results_echarts(candidate_df=candidates, geojson=geojson)
             clicked_state = st_echarts(options, map=map, height=800, key="result",
                 events={"click": "function(params) {return params.name}"})
         elif selected_map == options[1]:
