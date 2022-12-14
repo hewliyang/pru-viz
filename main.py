@@ -3,7 +3,6 @@ import pandas as pd
 import geopandas as gpd
 import re
 import json
-from cartogram_geopandas import make_cartogram
 from itertools import cycle
 from streamlit_echarts import st_echarts
 from utils.maps import map_cont_echarts, map_results_echarts

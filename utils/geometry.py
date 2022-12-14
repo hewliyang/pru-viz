@@ -1,5 +1,6 @@
 import pandas as pd
 import geopandas as gpd
+import streamlit as st
 from cartogram_geopandas import make_cartogram
 
 def morph_geos(gdf:gpd.GeoDataFrame, result_df:pd.DataFrame, n:int) -> dict:
