@@ -29,6 +29,8 @@ def load_data():
     geojson = json.load(open("./geo/parlimen_adjusted.geojson"))
     candidates = pd.read_csv("./data/candidates_ge15.csv")
     gdf = gpd.read_file("./geo/parlimen_adjusted.geojson")
+    census = pd.read_csv("./data/census_parlimen.csv")
+    voters = pd.read_csv("./data/voters_ge15.csv")
 
     # split party names into the full name ; alias
 
@@ -42,7 +44,7 @@ def load_data():
         party = lambda df_: df_["party"].map(lambda x: split(x)[0])
     )
 
-    return results, geojson, candidates, gdf
+    return results, geojson, candidates, gdf, census, voters
 
 def main():
     st.title("pru-viz")
@@ -51,7 +53,7 @@ def main():
     with next(badge_columns): badge(type="twitter", name="hewliyang")
 
     # read in data
-    results, geojson, candidates, gdf = load_data()  
+    results, geojson, candidates, gdf, census, voters = load_data()  
 
     # do a log transformation on the pengundi_jumlah column - need to refactor this
     # results["log_total"] = np.log(results["pengundi_jumlah"])
@@ -59,15 +61,16 @@ def main():
     options = ["Results", "Registered Voters", "Turnout", "Undi Rosak", "Majoriti", "Undi Tolak", "Absentees"]
     index = 0
 
-
-
     selected_map = st.selectbox(label="Select metric:",options=options, index=index)
     # display log transform option if selected ~results
     if selected_map != "Results":
         log = st.checkbox("Log Transform")
     else:
-        morph = st.checkbox("Morph by total voters per seat")
-        n = st.number_input(label="Number of iterations", min_value=1, max_value=15)
+        c1, c2, _, _, _ = st.columns(5)
+        with c1:
+            morph = st.checkbox("Morph by total voters per seat")
+        with c2:
+            n = st.number_input(label="Number of iterations", min_value=1, max_value=100)
 
     col1, col2 = st.columns((3,1))
     with col1:
@@ -118,35 +121,42 @@ def main():
                 events={"click": "function(params) {return params.name}"})  
 
     if clicked_state is None:
-        return
-    
-    filtered_df = results[results.parlimen==clicked_state]
-    filtered_candidates = candidates[candidates.parlimen==clicked_state].sort_values(by="votes", ascending=False)
+        with col2:
+            colored_header(
+                label = "Results",
+                description = "Personal information in the order: age, sex, race",
+                color_name = "violet-70"
+            )
+            st.markdown('### Click on a region to display the results')
+    else:
+        filtered_df = results[results.parlimen==clicked_state]
+        filtered_candidates = candidates[candidates.parlimen==clicked_state].sort_values(by="votes", ascending=False)
 
-    with col2:
-        colored_header(
-            label = "Results",
-            description = "Personal information in the order: age, sex, race",
-            color_name = "violet-70"
-        )
-        # st.dataframe(filtered_df)
-        # st.dataframe(filtered_candidates)
+        # results to be conditionally rendered
+        with col2:
+            colored_header(
+                label = "Results",
+                description = "Personal information in the order: age, sex, race",
+                color_name = "violet-70"
+            )
+            # st.dataframe(filtered_df)
+            # st.dataframe(filtered_candidates)
 
-        # display state + parlimen
-        st.markdown(f"""##### **{filtered_df["state"].iloc[0]} - {filtered_df["parlimen"].iloc[0]}**""")
+            # display state + parlimen
+            st.markdown(f"""##### **{filtered_df["state"].iloc[0]} - {filtered_df["parlimen"].iloc[0]}**""")
 
-        # create and display result cards
-        for _, row in filtered_candidates.iterrows():
-            card = result_card(
-                candidate_name = row["name_display"],
-                party_name = row["party"]+f" ({row['party_short']})",
-                vote_count = row["votes"],
-                result = row["result"],
-                result_desc = row["result_desc"],
-                candidate_age = row["age"],
-                candidate_sex = row["sex"],
-                candidate_race = row["ethnicity"])
-            st.markdown(card, unsafe_allow_html=True)
+            # create and display result cards
+            for _, row in filtered_candidates.iterrows():
+                card = result_card(
+                    candidate_name = row["name_display"],
+                    party_name = row["party"]+f" ({row['party_short']})",
+                    vote_count = row["votes"],
+                    result = row["result"],
+                    result_desc = row["result_desc"],
+                    candidate_age = row["age"],
+                    candidate_sex = row["sex"],
+                    candidate_race = row["ethnicity"])
+                st.markdown(card, unsafe_allow_html=True)
 
     # display the dataframe in an expander
     with st.expander("Explore candidate data!"):
@@ -174,6 +184,33 @@ def main():
             file_name = "results_ge15_filtered.csv",
             mime = "text/csv"
         )
+
+    with st.expander("Explore census data!"):
+        census_exp = dataframe_explorer(census)
+        st.dataframe(census_exp, use_container_width=True)
+
+        # make the filtered DF available for download via a button
+        csv = census_exp.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label = "Download data as CSV",
+            data = csv,
+            file_name = "census_filtered.csv",
+            mime = "text/csv"
+        )
+
+    with st.expander("Explore voter data!"):
+        voters_exp = dataframe_explorer(voters)
+        st.dataframe(voters_exp, use_container_width=True)
+
+        # make the filtered DF available for download via a button
+        csv = voters_exp.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label = "Download data as CSV",
+            data = csv,
+            file_name = "voters_filtered.csv",
+            mime = "text/csv"
+        )
+
 
 if __name__ == "__main__":
     st.set_page_config(layout="wide", page_title="pru-viz", page_icon="./public/malaysia.ico")
