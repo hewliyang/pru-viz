@@ -1,4 +1,5 @@
 Cython==0.29.32
+shapely==1.8.5.post1
 folium==0.13.0
 geopandas==0.12.1
 numpy==1.23.5

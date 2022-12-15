@@ -1,2 +1,2 @@
 [build-system]
-requires = ["Cython==0.29.32", "setuptools", "wheel"]
+requires = ["setuptools","cython","shapely==1.8.5.post1"]

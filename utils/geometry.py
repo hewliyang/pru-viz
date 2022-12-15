@@ -1,7 +1,11 @@
 import pandas as pd
 import geopandas as gpd
-import streamlit as st
+import warnings
+from shapely.errors import ShapelyDeprecationWarning
 from cartogram_geopandas import make_cartogram
+
+warnings.filterwarnings("ignore", category=ShapelyDeprecationWarning)
+warnings.filterwarnings("ignore", category=UserWarning)
 
 def morph_geos(gdf:gpd.GeoDataFrame, result_df:pd.DataFrame, n:int) -> dict:
     """
