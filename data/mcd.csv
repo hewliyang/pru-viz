@@ -1,334 +1,334 @@
 name,address,telephone,parlimen,dun,latitude,longitude
-McDonald'sBukitBintang,"120-120AJalanBukitBintang,55100,KualaLumpur,Malaysia",03-21427843,P.120 Bukit Bintang,,3.146847,101.710931
-McDonald'sBangsar,"48,JalanTelawiLima,59100,BangsarBaru,Bangsar,KualaLumpur,Malaysia",03-22843790,P.121 Lembah Pantai,,3.13295,101.672297
-McDonald'sSS2,"No.56JalanSS2/61,47300,PetalingJaya,Selangor,Malaysia",03-78731026,P.106 Damansara,N.35 Kampung Tunku,3.118274,101.620423
-McDonald'sKepong,"No.1&2Jalan54,DesaJaya,52100,Kepong,Selangor,Malaysia",03-62614381,P.106 Damansara,N.37 Bukit Lanjan,3.213549,101.63281
-McDonald'sSubangParade,"LG10SubangParade,No.5JalanSS16/1,47500,SubangJaya,Selangor,Malaysia",03-55495398,P.104 Subang,N.31 Subang Jaya,3.081861,101.585211
-McDonald'sTitiwangsaDT,"Lot8,Section85,JalanPahang,53000,Setapak,KualaLumpur,Malaysia",03-40232602,P.118 Setiawangsa,,3.179551,101.700383
+McDonald'sKangarDT,"JalanKampungBakau,01000,Kangar,Perlis,Malaysia",04-9779336,P.002 Kangar,N.08 Indera Kayangan,6.432622,100.196158
+McDonald'sUnderwaterWorldLangkawi,"PantaiCenang,07000,Langkawi,Kedah,Malaysia",04-9551565,P.004 Langkawi,N.02 Kuah,6.286845,99.72959
+McDonald'sLangkawiKuahDT,"Lot107,MukimKuah,07000DaerahLangkawiKedah",,P.004 Langkawi,N.02 Kuah,6.32844,99.834406
+McDonald'sLangkawiFair,"GF3,LangkawiFair,Lot44,JalanPersiaranPutra,07000,Langkawi,Kedah,Malaysia",04-9662388,P.004 Langkawi,N.02 Kuah,6.310419,99.85622
+McDonald'sAlorMengkuduDT,"No8-A,JalanAlorMengkudu,05400,AlorSetar,Kedah,Malaysia",04-7317304,P.009 Alor Setar,N.14 Alor Mengkudu,6.096192,100.376115
+McDonald'sCityPlaza,"GF7,CityPlaza,JalanTuankuIbrahim,05100,AlorSetar,Kedah,Malaysia",04-7308288,P.009 Alor Setar,N.13 Kota Darul Aman,6.11773,100.369718
+McDonald'sAmanCentral,"Unit1-39A,58,59,60,67&68,FirstFloor,AmanCentral,05100,AlorSetar,Kedah,Malaysia",04-7319299,P.009 Alor Setar,N.13 Kota Darul Aman,6.12524,100.366629
+McDonald'sKotaStarDT,"Lot81,JalanSultanahBahiyah,MukimAlorMalai.05350KotaSetarKedah",04-7372976,P.009 Alor Setar,N.12 Suka Menanti,6.1431924,100.3654614
+McDonald'sAmanjayaDT,"PartofLot894-Lot900,Lot955-Lot961,Seksyen64,BandarAmanJaya,Seksyen64,BandarAmanJaya,08000,SungaiPetani,KedahDarulAman",04-4410974,P.014 Merbok,N.25 Bukit Selambau,5.6730823,100.5102205
+McDonald'sCentralSquare,"G16-G19,GroundFloor,KompleksCentralSquare,23,JalanKampungBaru,08000,SungaiPetani,Kedah,Malaysia",04-4211117,P.015 Sungai Petani,N.28 Bakar Arang,5.636536,100.488095
+McDonald'sKulimDT,"No.28,JalanKLC1,KulimLandmarkCentral,09000Kedah,Malaysia",04-4903063,P.017 Padang Serai,N.34 Lunas,5.383114,100.545805
+McDonald'sPetronasPasirPekanDT,"Lot3201,StesyenMinyakPetronas,KampungPasirPekan,16250,PasirPekanKotaBharu,KelantanDarulNaim",09-7186061,P.019 Tumpat,N.03 Pasir Pekan,6.1190494,102.2165414
+McDonald'sPengkalanChepaDT,"JalanBendahara1/36,TamanBendahara,PengkalanChepa,16100,KotaBaru,Kelantan,Malaysia",09-7731763,P.020 Pengkalan Chepa,N.06 Chempaka,6.163431,102.283544
+McDonald'sKBMall,"LotNo.29A&30,GroundFloor,KBMall,JalanHamzah,15050,KotaBharu,Kelantan,Malaysia",09-7419787,P.021 Kota Bharu,N.09 Kota Lama,6.117193,102.240196
+McDonald'sTroika,"Lot1-1,1-2ResidensiTroika,JalanMahmood,15200KotaBharu,Kelantan",,P.021 Kota Bharu,N.09 Kota Lama,6.120501,102.240525
+McDonald'sKotaBahruDT,"Lot2994,JalanKualaKrai,WakafCheYeh,15050,KotaBahru,Kelantan,Malaysia",09-7405427,P.021 Kota Bharu,N.10 Bunut Payong,6.086991,102.238965
+McDonald'sKubangKerianDT,"Lot523Seksyen54,MukimKenali,DaerahKubangKerian,JajahanKotaBharu,KelantanDarulNaim",,P.024 Kubang Kerian,N.19 Demit,6.093778,102.27775
+McDonald'sKokLanasDT,"Lot282,MukimMahangWest,DaerahKetereh,JajahanKotaBahru,16450,Kelantan,Malaysia",09-7882107,P.026 Ketereh,N.25 Kok Lanas,5.921957,102.244611
+McDonald'sPetronasTanahMerahDT,"PSSMaka,Lot9844&9845,MukimofMaka,17500JajahanTanahMerah,Kelantan.",,P.027 Tanah Merah,N.26 Bukit Panau,5.821232,102.149476
+McDonald'sGongBadakDT,"LotNo.9154GM4340,JalanTengkuAmpuanIntanZaharah,MukimKualaNerus,21300,KualaTerengganu,Terengganu,Malaysia",09-6627800,P.035 Kuala Nerus,N.11 Seberang Takir,5.39816,103.084856
+McDonald'sKualaTerengganuDT,"Lot3540,JalanSultanMohammad,PadangHiliran,21100,KualaTerengganu,Terengganu,Malaysia",09-6313901,P.036 Kuala Terengganu,N.14 Bandar,5.310455,103.129287
+McDonald'sDungun,"GroundFloor&1stFloor,JalanBaruPakSabah,MukimKualaDungun,23000,Dungun,Terengganu,Malaysia",09-8441334,P.039 Dungun,N.27 Sura,4.755274,103.414494
+McDonald'sSriKertehDT,"LotPT7132,MukimKerteh,24300,DaerahKemaman,Terengganu,Malaysia",09-8266920,P.040 Kemaman,N.29 Kemasik,4.506567,103.442922
+McDonald'sCalteChukai,"K-191,JalanKubangKurus,CukaiKemaman,24000,Kemaman,Terengganu,Malaysia",09-8585579,P.040 Kemaman,N.31 Cukai,4.22948,103.419971
+McDonald'sBertamDT,"SebahagianLot20016,Mukim06,SeberangPeraiUtara,13200,PulauPinang,Malaysia",04-5755358,P.041 Kepala Batas,N.03 Pinang Tunggal,5.517539,100.450306
+McDonald'sBaganAjamDT,"PlotNo.2,PusatPerniagaanOren,DiatasLot10067(SebahagianLotLama:35),JalanBaganAjamSeksyen1,13000BandarButterworth,SeberangPeraiUtaraPulauPinang.",04-3137858,P.043 Bagan,N.07 Sungai Puyu,5.440361,100.381611
+McDonald'sBandarPerdaDT,"PT860,HS(D)1217,BandarPerda,Mukim6,DaerahSeberangPraiTengah,14000,PulauPinang,Malaysia",04-3830675,P.044 Permatang Pauh,N.10 Seberang Jaya,5.36814,100.424111
+McDonald'sCalteSungaiDuaDT,"CalteSungaiDuaNorthBound,PMT10359,KM132.5,LebuhrayaUtaraSelatan,13600PermatangPauh,PulauPinang",,P.044 Permatang Pauh,N.11 Permatang Pasir,5.423207,100.4128
+McDonald'sTescoAlmaDT,"SebahagianLot17493,JalanRozhan,PusatPerniagaanSeriImpian,14000,BukitMertajam,PulauPinang,Malaysia",604-5308379,P.045 Bukit Mertajam,N.14 Machang Bubuk,5.315285,100.477512
+McDonald'sJuruR&R,"PartofLotNo.341&6154,Mukim6,JalanBukitTengah,SeberangPeraiTengah,13700PulauPinang",04-5026142,P.046 Batu Kawan,N.17 Bukit Tengah,5.355126,100.416819
+McDonald'sMegamallPenang,"G-11,2898,JalanBaru,BandarPraiJaya,13600,SeberangPraiTengah,Prai,PulauPinang,Malaysia",04-3998199,P.046 Batu Kawan,N.16 Perai,5.377595,100.39953
+McDonald'sJuruDT,"No.1689,JalanPerusahaan,HighwayAutoCity,KawasanPerusahaan4,North-SouthHighway,JuruInterchange,MK11,SeberangPeraiTengahPerai4,13600,Perai,PulauPinang,Malaysia",04-5080510,P.046 Batu Kawan,N.17 Bukit Tengah,5.337408,100.431189
+McDonald'sCalteSunwayPraiDT,"LotNos.5730,5731&5732,JalanJelawat,Mukim1,PusatBandarSeberangJaya,13700,Prai,PulauPinang,Malaysia",04-3982180,P.046 Batu Kawan,N.17 Bukit Tengah,5.339805,100.400229
+McDonald'sICONICSimpangAmpatDT,"2,JalanIconicPoint,IconicPoint,14100SimpangAmpat,PulauPinang",,P.046 Batu Kawan,N.18 Bukit Tambun,5.283685,100.476241
+McDonald'sIKEABatuKawanDT,"PlotNo.1,HSD47588,PT5910,Mukim13,SeberangPeraiSelatan,14100BatuKawan,PulauPinang",,P.046 Batu Kawan,N.18 Bukit Tambun,5.234703,100.442596
+McDonald'sGurneyPlaza,"UnitNo.170-G-75&170-01-73,10250,Penang,Malaysia",04-2264654,P.048 Bukit Bendera,N.25 Pulau Tikus,5.43709,100.309951
+McDonald'sTanjungTokongDT,"No.6,JalanTanjungTokong,10250GeorgeTownPulauPinang",,P.048 Bukit Bendera,N.25 Pulau Tikus,5.446954,100.3055678
+McDonald'sPetronasBatuFerringhiDT,"Lot697&Lot764,JalanBatuFerringi,Seksyen2,BandarBaruFerringi,DaerahTimurLaut,11100,PulauPinang,Malaysia",04-8812516,P.048 Bukit Bendera,N.22 Tanjong Bunga,5.475314,100.251541
+McDonald'sLotussTanjungPinang,"LotG10,11,12,13&14,TescoTanjungPinang,No1,JalanSeriTanjungPinang,10470,TanjungTokong,PulauPinang,Malaysia",04-8903551,P.048 Bukit Bendera,N.22 Tanjong Bunga,5.459071,100.30883
+McDonald'sPranginMall,"Lot33-1-40,PranginMall,JalanDrLimChweeLeong,10000,GeorgeTown,PulauPinang,Malaysia",04-2626277,P.049 Tanjong,N.28 Komtar,5.414422,100.331057
+McDonald'sBirchHouseDT,"No.73,JalanDato'Keramat,10150,Georgetown,PulauPinang,Malaysia",04-2265685,P.049 Tanjong,N.28 Komtar,5.412839,100.326031
 McDonald'sGreenlaneDT,"Lot2506/7,Section6,JalanMasjidNegeri,11600,Penang,PulauPinang,Malaysia",04-2834299,P.050 Jelutong,N.31 Batu Lancang,5.401264,100.304258
-McDonald'sPlazaPelangi,"Lot1.19,PlazaPelangi,JalanTebrau/JalanKuning,80400,JohorBahru,Johor,Malaysia",07-3311746,P.160 Johor Bahru,N.45 Stulang,1.4799,103.7651
-McDonald'sAlphaAngle,"LotG-13,GroundFloor,AlphaAngleComple,JalanR1,WangsaMaju,53000,Setapak,KualaLumpur,Malaysia",03-41311340,P.116 Wangsa Maju,,3.202098,101.734244
-McDonald'sKajang,"27&28,JalanAbdulAziz,43000,Kajang,Selangor,Malaysia",03-87335649,P.102 Bangi,N.25 Kajang,2.991572,101.791236
-McDonald'sKuching,"2ndFloor,Lot268-269,JalanTuankuAbdulRahman,93100,Kuching,Sarawak,Malaysia",082-232278,P.195 Bandar Kuching,N.09 Padungan,1.557502,110.353033
-McDonald'sSOGO,"Lot6,LGFSogoPernasDepartmentStoresS/B,190,JalanTuankuAbdulRahman,50100,KualaLumpur,Malaysia",03-22028063,P.120 Bukit Bintang,,3.156262,101.695574
-McDonald'sLeisureMallCheras,"LG16,LowerGroundFloor,LeisureMall,TamanSegar,No.6,JalanCheras,56100,Cheras,KualaLumpur,Malaysia",03-91327577,P.123 Cheras,,3.090122,101.74152
-McDonald'sTaipan,"No4,JalanUSJ10/1,TaipanUSJ,SubangJaya,47620,USJ,Selangor,Malaysia",03-80115219,P.104 Subang,N.31 Subang Jaya,3.048248,101.585878
+McDonald'sBandarSriPinangDT,"No2,LebuhSungaiPinang4,11600,PulauPinang,Malaysia",04-2815291,P.050 Jelutong,N.30 Sungai Pinang,5.395419,100.326778
+McDonald'sCalteFarlimDT,"CalteFarlimPetrolstation,LotNo.9435,Mukim13,NorthEastDistrict,11900,PulauPinang,Malaysia",012-7877219,P.051 Bukit Gelugor,N.34 Paya Terubong,5.387483,100.276876
+McDonald'sLotussPenang,"1-1-01&1-1-02,LotA3-4,JalanUdini,11700,PulauPinang,Malaysia",04-6579803,P.051 Bukit Gelugor,N.32 Seri Delima,5.377527,100.315257
+McDonald'sQueensbayMall,"LG-73,LowerGroundFloor,QueensbayMall,100,PersiaranBayanIndah,11900,PulauPinang,Malaysia",04-6411559,P.052 Bayan Baru,N.36 Pantai Jerejak,5.332927,100.306606
+McDonald'sCalteJalanTengahDT,"No.23-A,JalanTengah,BayanBaru,11950,BayanLepas,PulauPinang,Malaysia",04-6380570,P.052 Bayan Baru,N.36 Pantai Jerejak,5.319377,100.284669
+McDonald'sBukitJambul,"3A-G-19,KompleksBukitJambul,JalanRumbia,11900,PulauPinang,Malaysia",04-6468988,P.052 Bayan Baru,N.35 Batu Uban,5.334074,100.290991
+McDonald'sPenangInternationalAirport,"LotPC05,DepatureLevel,PenangInternationalAirport,11900BayanLepas,PulauPinang",,P.052 Bayan Baru,N.37 Batu Maung,5.293007,100.265933
 McDonald'sSunshineSquare,"Level1,Lot1.01,AnneedBuilding,SunshineComple,11950,BayanBaru,PulauPinang,Malaysia",04-6427731,P.052 Bayan Baru,N.36 Pantai Jerejak,5.325744,100.287327
+McDonald'sDesaUniversiti,"Lot4B,4C&4D,DesaUniversiti,JalanSg.Dua,11700,SungaiDua,PulauPinang,Malaysia",04-6599399,P.052 Bayan Baru,N.35 Batu Uban,5.352584,100.299424
+McDonald'sSetiaPearlDT,"PartofLot16793,Mukim12,BaratDaya,11900,PulauPinang,Malaysia",04-2962806,P.053 Balik Pulau,N.38 Bayan Lepas,5.302556,100.261412
+McDonald'sTaipingSentral,"LotG-21andG-22,GroundFloor,TaipingSentral,No36,JalanIstanaLarut,34000,Taiping,Perak,Malaysia",05-8058167,P.060 Taiping,N.17 Pokok Assam,4.865729,100.731111
+McDonald'sTaipingLakeGardenDT,"Lot3410(PT1238),JalanSultanMansor,DaerahLarutDanMatang,34000,Taiping,Perak,Malaysia",05-8088795,P.060 Taiping,N.17 Pokok Assam,4.85431,100.745349
+McDonald'sSimpangDT,"No.97JalanBesar,JalanSimpang,34000,Taiping,Perak,Malaysia",05-8472324,P.060 Taiping,N.18 Aulong,4.822039,100.707831
+McDonald'sSunwayCityIpohDT,"Lot303521,SunwayCity,MukimHuluKinta,DaerahKinta,31150UluKinta,Ipoh,Perak,Malaysia",05-5452194,P.063 Tambun,N.24 Hulu Kinta,4.624887,101.151631
+McDonald'sMeruRayaDT,"Lot82,JalanMeruBestariA2,DiatasSebahagianZon5,BandarMeruRaya,MukimHuluKinta,30020,Kinta,Perak,Malaysia",05-5262233,P.063 Tambun,N.23 Manjoi,4.670849,101.07766
+McDonald'sKlebangDT,"PT238632,PersiaranKlebangPutra,TamanKlebangPutra,31200Chemor,Perak,Malaysia",05-2913269,P.063 Tambun,N.23 Manjoi,4.685182,101.120584
+McDonald'sJalanSultanAzlanShahDT,"Lot197129,Plot2,JalanMedanIpoh,1AMedanIpohBistari,31400,Ipoh,Perak,Malaysia",05-5464573,P.064 Ipoh Timor,N.25 Canning,4.621261,101.116658
+McDonald'sPengkalanDT,"No.686,JalanPasirPuteh,PengkalanPegoh,31500,Ipoh,Perak,Malaysia",05-3203764,P.064 Ipoh Timor,N.26 Tebing Tinggi,4.542201,101.07017
+McDonald'sJalanKualaKangsarDT,"MukimHuluKinta,DaerahKinta,JalanKualaKangsar,31400,Ipoh,Perak,Malaysia",05-5250562,P.065 Ipoh Barat,N.29 Kepayang,4.633787,101.087556
+McDonald'sKualaKangsarDT,"Lot2492,JalanTaiping,MukimSayong,33000DaerahKualaKangsar,PerakDarulRidzuan",05-7762482,P.067 Kuala Kangsar,N.34 Bukit Chandan,4.772459,100.932845
+McDonald'sSeriIskandarDT,"Plot531,BandarSeriIskandar,MukimBota,32600,PerakTengah,Perak,Malaysia",05-3713275,P.069 Parit,N.40 Bota,4.357689,100.969653
+McDonald'sKamparDT,"SebahagianLotNo.126028,JalanBatuSinar,TamanBandarBaruKampar,31900,Kampar,Perak,Malaysia",05-4658626,P.070 Kampar,N.42 Keranji,4.326304,101.144709
+McDonald'sJalanGopengDT,"PN684,MukimUluKinta,JalanGopeng,31350,Ipoh,Perak,Malaysia",05-3111916,P.071 Gopeng,N.45 Simpang Pulai,4.57256,101.112687
+McDonald'sSriManjungDT,"Lot114,JalanLumut,Setiawangsa,32010,SriManjung,Perak,Malaysia",05-6887155,P.074 Lumut,N.51 Pasir Panjang,4.199318,100.655218
+McDonald'sSriManjung2DT,"SebahagianLot13108,MukimLumut,DaerahManjung,32010,SriManjung,Perak,Malaysia",05-6879482,P.074 Lumut,N.51 Pasir Panjang,4.199325,100.655221
+McDonald'sTelukIntanDT,"Lot5017McDonald's,JalanChangkatJong,36000,TelukIntan,Perak,Malaysia",05-6211912,P.076 Teluk Intan,N.55 Pasir Bedamar,4.017385,101.027503
+McDonald'sTanjongMalimDT,"Lot232,JalanTanjongMalim,ProtonCity,MukimHuluBernamProtonCity,MukimHuluBernam,35900TimorDaerahMuallim,Perak.",,P.077 Tanjong Malim,N.59 Behrang,3.69252,101.52008
+McDonald'sCameronHighlandDT,"LotPt3275,MukimTanahRata,39000,DaerahCameronHighlands,PahangDarulMakmur.",05-4914107,P.078 Cameron Highlands,N.01 Tanah Rata,4.496029,101.390626
+McDonald'sJerantutDT,"Lot15495,MukimPedah,DaerahJerantut,27000,Jerantut,Pahang,Malaysia",09-2665900,P.081 Jerantut,N.10 Damak,3.933405,102.381333
+McDonald'sInderaMahkotaDT,"LotPT96403,BandarInderaMahkota,MukimKualaKuantan,25200,Kuantan,Pahang,Malaysia",09-5737552,P.082 Indera Mahkota,N.13 Semambu,3.825664,103.304488
+McDonald'sTelukCempedakDT,"KawasanRekreasiTelukCempedak,JalanTelukCempedak,25100,Kuantan,Pahang,Malaysia",09-5054573,P.083 Kuantan,N.14 Teruntum,3.812396,103.37171
+McDonald'sJalanGambangDT,"Lot121596,JalanKuantanGambang,KualaKuantan,25150,Kuantan,Pahang,Malaysia",09-5362746,P.083 Kuantan,N.15 Tanjung Lumpur,3.779836,103.276752
+McDonald'sKuantanRiverfrontDT,"SebahagianLot57&SebahagianLot5,JalanTanahPutih,25000,Kuantan,Pahang",09-5132665,P.083 Kuantan,N.15 Tanjung Lumpur,3.799071,103.322594
+McDonald'sMegaMallKuantan,"LotNo.G-89&1-85(Ground&First),BerjayaMegamall,JalanTunIsmail,SriDagangan,25000,Kuantan,Pahang,Malaysia",09-5316255,P.083 Kuantan,N.14 Teruntum,3.816003,103.330452
+McDonald'sPekanDT,"SebahagianTanahTamanTasikSultanAbuBakar,26600,PekanBandarDiRaja,Pekan,Pahang,Malaysia",09-4269299,P.085 Pekan,N.21 Peramu Jaya,3.539354,103.385463
+McDonald'sTemerlohDT,"SebahagianLot1304Sek.05(GM7677),MukimPerak,28000,Temerloh,Pahang,Malaysia",09-2962529,P.088 Temerloh,N.32 Kuala Semantan,3.451867,102.409495
+McDonald'sMentakabStarMall,"F&B1,MentakabStarMall,No1,JalanStarCity1,StarCity,28400,Mentakab,Pahang,Malaysia",09-2785034,P.088 Temerloh,N.30 Mentakab,3.470383,102.331465
+McDonald'sGentingGrand,"LotNo.G/LG1A.00,LowerGroundFloor,GentingGrandHotel,GentingHighlandsResort,69000GentingHighland,Pahang",,P.089 Bentong,N.34 Ketari,3.43353,101.7925899
+McDonald'sGentingSempahDT,"KawasanRehatGenting-Sempah,KM38.4LebuhrayaKL-Karak,GentingSempah,28750,Bentong,Pahang,Malaysia",09-2330833,P.089 Bentong,N.34 Ketari,3.351034,101.790741
+McDonald'sTriangDT,"SebahagianPT25213,MukimTriang,DaerahBera,28300,Temerloh,Pahang,Malaysia",09-2556350,P.090 Bera,N.38 Triang,3.25927,102.435187
+McDonald'sSabakBernamDT,"Lot24040PekanSungaiBesar,MukimPanchangBedena,45300,SabakBernam,Selangor,Malaysia",03-32243024,P.093 Sungai Besar,N.03 Sungai Panjang,3.673571,100.991464
+McDonald'sPSSBukitBeruntungDT,"Lot10496,No.1JalanKamunting,MukimSerendah,48300DaerahHuluSelangor,Selangor",03-60218371,P.094 Hulu Selangor,N.07 Batang Kali,3.41297,101.557582
+McDonald'sKualaSelangorDT,"Lot640,TelukPiah,MukimKualaSelangor,45000,KualaSelangor,Selangor,Malaysia",03-32811285,P.096 Kuala Selangor,N.10 Bukit Melawati,3.330028,101.258749
+McDonald'sKotaEmeraldDT,"SebahagianLot1246,MukimRawang,DaerahGombak,48000,Rawang,Selangor,Malaysia",03-60915570,P.097 Selayang,N.14 Rawang,3.317667,101.538584
+McDonald'sRawangDT,"LotPT678,JalanPusatBandar,48000,Rawang,Selangor,Malaysia",03-60901716,P.097 Selayang,N.14 Rawang,3.32015,101.576902
+McDonald'sBatuCavesDT,"Lot52613,TamanSamudera,53000,BatuCaves,Selangor,Malaysia",03-61850130,P.098 Gombak,N.16 Sungai Tua,3.23509,101.689724
+McDonald'sSriGombak,"No.1JalanSG.1/6,TamanSriGombak,68100,BatuCaves,Selangor,Malaysia",03-61889587,P.098 Gombak,N.17 Gombak Setia,3.23776,101.6993
+McDonald'sProjectKarak,"Lot5946,JalanLingkaranTengahII,OffLebuhrayaKarak,53300,Gombak,Selangor,Malaysia",03-61876904,P.098 Gombak,N.17 Gombak Setia,3.240989,101.716157
+McDonald'sUluKelang,"Lot517,276&277,Batu7,LebuhrayaLingkaranTengah2,MRR2,53300,MukimUluKelang,Selangor,Malaysia",03-41617604,P.098 Gombak,N.18 Hulu Kelang,3.202369,101.760348
+McDonald'sAmpangPoint,"LotG08,GroundFloor,AmpangPointShoppingCentre,JalanMamanda3,68000,Ampang,Selangor,Malaysia",03-42653689,P.099 Ampang,N.19 Bukit Antarabangsa,3.157739,101.750803
+McDonald'sPetronasAmpangDT,"D/APetronasServisStesen,JalanKolamAyerLama,Lot36904(PT27423),TamanDato'AhmadRazali,68000,Ampang,Selangor,Malaysia",03-42651703,P.099 Ampang,N.19 Bukit Antarabangsa,3.160062,101.754149
+McDonald'sBHPTamanKosasDT,"LotPT9623,JalanTamanKosas2,TamanKosas,68000,Ampang,Selangor,Malaysia",016-7239014,P.099 Ampang,N.19 Bukit Antarabangsa,3.148208,101.76634
+McDonald'sPandanMewahDT,"BangunanRestoranMcDonald's,JalanMewahUtara,68000,Ampang,KualaLumpur,Malaysia",03-42955046,P.100 Pandan,N.22 Teratai,3.128108,101.762843
+McDonald'sPetronasTamanDagangDrive-Thru,"PetronasTamanDagang,PT12671,JalanNirwana,TamanNirwana,68000,Ampang,Selangor.",03-42705247,P.100 Pandan,N.21 Pandan Indah,3.145192,101.755045
+McDonald'sPrimaSaujanaKajangDT,"LotPT52317,PrimaSaujana,MukimKajang,43000,Kajang,Selangor,Malaysia",03-87416420,P.101 Hulu Langat,N.24 Semenyih,3.007491,101.804351
+McDonald'sEcoMajesticDT,"No.1,JalanEcoMajestic9/1,EcoMajestic,43500Semenyih,Selangor",03-87239527,P.101 Hulu Langat,N.24 Semenyih,2.901795,101.836588
+McDonald'sBandarSriPutraDT,"SebahagianLot38833,JalanSeriPutra1/9,BandarSeriPutra,43000,Kajang,Selangor,Malaysia",03-89120244,P.101 Hulu Langat,N.24 Semenyih,2.886726,101.792793
+McDonald'sSemenyihDT,"Lot1809,Batu22,JalanBeranang,MukimSemenyih,DaerahHuluLangat,43500,Selangor",03-87230592,P.101 Hulu Langat,N.24 Semenyih,2.936787,101.8526
+McDonald'sKajangImpianDT,"LotPT.70550,JalanKajangImpian1/2,TamanKajangImpian,MukimBandarBaruBangi,43650DaerahHuluLangat,SelangorDarulEhsan",03-89221937,P.102 Bangi,N.25 Kajang,2.975016,101.77144
+McDonald'sJuscoBalakong,"LotG51,GroundFloor,JuscoBalakongShoppingCentre,43200,Balakong,Selangor,Malaysia",03-90753905,P.102 Bangi,N.27 Balakong,3.033386,101.764829
+McDonald'sShellMahkotaCherasDT,"BandarMahkotaCheras,43200,Batu9,Cheras,Selangor.",03-90109849,P.102 Bangi,N.25 Kajang,3.050911,101.786975
+McDonald'sKajang,"27&28,JalanAbdulAziz,43000,Kajang,Selangor,Malaysia",03-87335649,P.102 Bangi,N.25 Kajang,2.991572,101.791236
+McDonald'sBandarBaruBangiDT,"PTD68518,PersiaranBangi,43650,BandarBaruBangi,Selangor,Malaysia",03-89221553,P.102 Bangi,N.26 Sungai Ramal,2.961851,101.758106
+McDonald'sPSSJalanREKO,"Lot53934,RekoSentral,MukimKajang,43000DaerahHuluLangat,Selangor",03-87354278,P.102 Bangi,N.25 Kajang,2.969077,101.789231
+McDonald'sBandarTunHusseinOnnDT,"LotPT18150&PT18151,JalanSuasana2/2,BandarTunHusseinOnn,43200,Cheras,Selangor,Malaysia",03-90813046,P.102 Bangi,N.27 Balakong,3.050159,101.765296
+McDonald'sKajangPerdanaDT,"18,MukimSemenyih,DaerahUluLangat,43000,Kajang,Selangor,Malaysia",03-87417192,P.102 Bangi,N.25 Kajang,2.990079,101.819705
+McDonald'sBandarBukitPuchongDT,"2,JalanBP7/1Sierra7,BandarBukitPuchong,47120Puchong,Selangor",,P.103 Puchong,N.29 Seri Serdang,2.98357,101.6171598
+McDonald'sPetronSeremban-KLHighwayDT,"8KM,KL-SerembanHighway,57000,SeriKembangan,KualaLumpur,Malaysia",03-89423932,P.103 Puchong,N.28 Seri Kembangan,3.047047,101.705739
+McDonald'sEquineParkDT,"LotNo.2,PersiaranEquine,TamanEquine,43300,SeriKembangan,Selangor,Malaysia",03-89385387,P.103 Puchong,N.29 Seri Serdang,2.995664,101.67021
+McDonald'sTheMines,"Lot79,2ndFloor,TheMinesShoppingFair,JalanDulang,MinesResortCity,43300,SriKembangan,Selangor,Malaysia",03-89425749,P.103 Puchong,N.28 Seri Kembangan,3.027901,101.718106
+McDonald'sShellSerdangRaya,"LotPT2469,JalanUtama,TamanSerdangJaya,43300SeriKembangan,Selangor.",03-89381092,P.103 Puchong,N.28 Seri Kembangan,3.047288,101.704716
+McDonald'sSriSerdangPrima,"No.20-1,20-2&20-3,Jalan18/33A,TamanSriSerdang,43300,SeriKembangan,Selangor,Malaysia",03-89409037,P.103 Puchong,N.29 Seri Serdang,3.008579,101.714358
+McDonald'sPuchongGatewayDT,"LotNo.48733,MukimPetalingLDPPuchongGateway,47100,Puchong,Selangor,Malaysia",03-89586508,P.103 Puchong,N.29 Seri Serdang,2.981733,101.648354
+McDonald'sPuchongPermaiDT,"Lot32426JalanPuchongPermai2,TamanPuchongPermai,47100,Puchong,Selangor,Malaysia",03-80518413,P.103 Puchong,N.29 Seri Serdang,3.009016,101.59908
+McDonald'sPetronasBandarKinraraDT,"PartofLot4054,Phase5A,JalanKinrara6,BandarKinrara,47180Puchong,Selangor",03-80740617,P.104 Subang,N.30 Kinrara,3.036724,101.654738
+McDonald'sLotussPuchongDT,"LotNo.7&9,GroundFloor,TescoHypermarket,JalanBandar3,PusatBandarPuchong,47100,Puchong,Selangor,Malaysia",03-80804917,P.104 Subang,N.30 Kinrara,3.035194,101.616172
+McDonald'sPSSUSJ1DT,"LotHS(D)216848,PT36061,PekanPenaga,TamanSubangMewah,SubangJaya,Selangor",03-80812681,P.104 Subang,N.31 Subang Jaya,3.04779,101.601864
+McDonald'sLitrakDT,"LayBy3,HentianSebelahPetalingJaya,LebuhrayaDamansaraPuchong,BandarSunway,PJS9,47600,PetalingJaya,Selangor,Malaysia",03-56328658,P.104 Subang,N.31 Subang Jaya,3.060685,101.614373
+McDonald'sIOIPuchongMall,"Lot17,GroundFloor,IOIMall,Batu9JalanPuchong,BandarPuchongJaya,47100,Puchong,Selangor,Malaysia",03-80718009,P.104 Subang,N.30 Kinrara,3.045519,101.618013
+McDonald'sSunwayPyramid,"LL2.41,SunwayPyramidMegamall,No.3,JalanPJS11/15,BandarSunway,46150,Selangor,Malaysia",03-56112097,P.104 Subang,N.31 Subang Jaya,3.071924,101.607403
+McDonald'sSS15Subang,"GF,No.82&84,JalanSS15/4D,47500,SubangJaya,Selangor,Malaysia",03-56110172,P.104 Subang,N.31 Subang Jaya,3.073651,101.590526
+McDonald'sSubangParade,"LG10SubangParade,No.5JalanSS16/1,47500,SubangJaya,Selangor,Malaysia",03-55495398,P.104 Subang,N.31 Subang Jaya,3.081861,101.585211
+McDonald'sBandarPuteriPuchongDT,"No.G-6,No.1-6&No.2-6,JalanPuteri7/13A,BandarPuteri,47100,Puchong,Selangor,Malaysia",03-80514150,P.104 Subang,N.30 Kinrara,3.020174,101.625074
+McDonald'sMainPlace,"LotNoGF-36,GroundFloor,MainPlaceMall,JalanUSJ21/10,47630,SubangJaya,Selangor,Malaysia",03-80118420,P.104 Subang,N.31 Subang Jaya,3.02665,101.581506
+McDonald'sSubangDT,"No.1JalanSS15/3A,47500,SubangJaya,Selangor,Malaysia",015-96049975,P.104 Subang,N.31 Subang Jaya,3.079081,101.585985
+McDonald'sTaipan,"No4,JalanUSJ10/1,TaipanUSJ,SubangJaya,47620,USJ,Selangor,Malaysia",03-80115219,P.104 Subang,N.31 Subang Jaya,3.048248,101.585878
+McDonald'sSunwayMentari,"No.30SunwayMentari,GroundFloorDataranMentari,JalanPJS8/2,46150,PetalingJaya,Selangor,Malaysia",03-56117941,P.105 Petaling Jaya,N.31 Subang Jaya,3.074902,101.612113
+McDonald'sShellSS6,"LotPT3630,JalanSS6/12,KelanaJaya,47301PetalingJaya,Selangor",03-78028854,P.105 Petaling Jaya,N.32 Seri Setia,3.105129,101.5975
+McDonald'sPJOldTown,"No.66,BlockCrystal,Jalan1/19,46200,PetalingJaya,Selangor,Malaysia",03-77836755,P.105 Petaling Jaya,N.34 Bukit Gasing,3.086649,101.64686
+McDonald'sSection14,"No.2,Jalan14/4,46100,PetalingJaya,Selangor,Malaysia",03-79312673,P.105 Petaling Jaya,N.34 Bukit Gasing,3.109608,101.637001
+McDonald'sCittaMall,"G-43,CittaMall,No1,JalanPJU1A/48,PJU1A,AraDamansara,47301,PetalingJaya,Selangor,Malaysia",03-78316952,P.105 Petaling Jaya,N.32 Seri Setia,3.11277,101.579786
+McDonald'sNKVEDT,"Lot15385SeksyenPJU1A,KM15.4ArahUtara,LebuhBaruLembahKelang,40150,PetalingJaya,Selangor,Malaysia",03-78028664,P.105 Petaling Jaya,N.32 Seri Setia,3.119409,101.59301
+McDonald'sSS2,"No.56JalanSS2/61,47300,PetalingJaya,Selangor,Malaysia",03-78731026,P.106 Damansara,N.35 Kampung Tunku,3.118274,101.620423
+McDonald'sTheCurve,"LotNoGZF-05&GZF-06,GroundFloor,TheCurve,MutiaraDamansara,47800,PetalingJaya,Selangor,Malaysia",03-76215834,P.106 Damansara,N.37 Bukit Lanjan,3.157567,101.612382
+McDonald'sDesaAmanPuriDT,"StesyenMinyakShell,LotNo.PT1021&PT1022,JalanAman,PersiaranPerdana,DesaAmanPuri,52100,Kepong,Selangor,Malaysia",03-62759170,P.106 Damansara,N.37 Bukit Lanjan,3.20839,101.614484
 McDonald'sSelayangMall,"LotB.44,SelayangMallShoppingCentre,JalanSU9,TamanSelayangUtama,68100,Selayang,Selangor,Malaysia",03-61201740,P.106 Damansara,N.37 Bukit Lanjan,3.237539,101.644754
+McDonald'sBandarSriDamansaraDT,"LotPT21552&PT21553,MukimSungaiBuloh,PersiaranPerdana,52200,BandarSriDamansara,KualaLumpur,Malaysia",03-62741559,P.106 Damansara,N.37 Bukit Lanjan,3.195093,101.607767
+McDonald'sDamansaraDamaiDT,"Lot36327,JalanPJU10/1,DamansaraDamai,47000,SungaiBuloh,Selangor,Malaysia",03-61435573,P.106 Damansara,N.37 Bukit Lanjan,3.19494,101.591349
+McDonald's1Utama,"LotLG221,LowerGroundFloorPromenade,1UtamaShoppingCentre,PersiaranBandarUtama,BandarUtama,47800,PetalingJaya,Selangor,Malaysia",03-77262361,P.106 Damansara,N.36 Bandar Utama,3.150325,101.615344
+McDonald'sBandarUtamaDT,"No.5LebuhBandarUtama,PJU6,BandarUtama,47800,PetalingJaya,Selangor,Malaysia",03-77265099,P.106 Damansara,N.36 Bandar Utama,3.137382,101.609558
+McDonald'sMutiaraDamansaraDT,"Lot69683,JalanPJU7/5,MutiaraDamansara,MukimSungaiBuloh,DaerahPetaling,45000,Selangor,Malaysia",03-77242782,P.106 Damansara,N.37 Bukit Lanjan,3.158188,101.613659
+McDonald'sKepong,"No.1&2Jalan54,DesaJaya,52100,Kepong,Selangor,Malaysia",03-62614381,P.106 Damansara,N.37 Bukit Lanjan,3.213549,101.63281
+McDonald'sKotaDamansaraDT,"LotB,JalanCecawi6/18A,KotaDamansara,47810,PetalingJaya,Selangor,Malaysia",03-61561180,P.107 Sungai Buloh,N.39 Kota Damansara,3.160465,101.574277
+McDonald'sRahmanPutraDT,"No.4,Lot33428,JalanBRP3/3,BukitRahmanPutra,SeksyenU20,40160,ShahAlam,Selangor,Malaysia",03-61417586,P.107 Sungai Buloh,N.38 Paya Jaras,3.224623,101.556665
+McDonald'sSubangBestariDT,"PT42395,JalanNovaJU5/J,SubangBestari,SeksyenU5,40150ShahAlam,Selangor.",03-78311205,P.107 Sungai Buloh,N.39 Kota Damansara,3.176072,101.545641
+McDonald'sPetronasKotaDamansaraDT,"PartofPetronasStationKotaDamansara,No30,JalanTeknologi,Seksyen2,PJU5,KotaDamansara,47810PetalingJaya,Selangor",03-61503517,P.107 Sungai Buloh,N.39 Kota Damansara,3.14975,101.579685
+McDonald'sAmvertonDT,"Lot85631,JalanU17/16,BukitAmvertonSeksyenU17,40160ShahAlam,Selangor",,P.107 Sungai Buloh,N.38 Paya Jaras,3.216468,101.5293271
+McDonald'sPuncakAlamDT,"Lot10655,JalanUtama,BandarPuncakAlam,45010,KualaSelangor,Selangor,Malaysia",03-33924370,P.107 Sungai Buloh,N.38 Paya Jaras,3.221722,101.447869
+McDonald'sSetiaAlamDT,"PT34532,JalanSetiaAlamARU13/AR,SetiaAlam,SectionU13,40170,ShahAlam,Selangor,Malaysia",03-33582970,P.108 Shah Alam,N.40 Kota Anggerik,3.127111,101.466829
+McDonald'sGiantShahAlam,"Lot17-22,GroundFloor,GiantHypermarket,Lot2,ShahAlamStadium,PersiaranSukan,Seksyen13,41400,ShahAlam,Selangor,Malaysia",03-55110368,P.108 Shah Alam,N.40 Kota Anggerik,3.083907,101.549024
+McDonald'sPetronSection7,"No.5,PersiaranKayanganSeksyen7(Fasa3C),40000,ShahAlam,Selangor,Malaysia",03-55240645,P.108 Shah Alam,N.40 Kota Anggerik,3.065698,101.490766
+McDonald'sPKNSShahAlam,"G14&G36,TingkatBawah,KompleksPKNS,40000,ShahAlam,Selangor,Malaysia",03-55192302,P.108 Shah Alam,N.40 Kota Anggerik,3.070532,101.516984
+McDonald'sSection18ShahAlam,"No.37,JalanPinang18B,Section18,40200,ShahAlam,Selangor,Malaysia",03-55495398,P.108 Shah Alam,N.41 Batu Tiga,3.044239,101.51807
+McDonald'sSection22ShahAlamDT,"No.2,Jalan22/6,Seksyen22,40300,ShahAlam,Selangor,Malaysia",03-51037743,P.108 Shah Alam,N.41 Batu Tiga,3.040568,101.547503
+McDonald'sSection3ShahAlamDT,"No.4,JalanRU3/94,Sect3,40000,ShahAlam,Selangor,Malaysia",03-55139811,P.108 Shah Alam,N.40 Kota Anggerik,3.07445,101.510395
+McDonald'sSetiaCityMall,"UnitNo.LG-40,SetiaCityMall,No.7,PersiaranSetiaDagang,BandarSetiaAlam,SeksyenU13,40170,ShahAlam,Selangor,Malaysia",03-33585287,P.108 Shah Alam,N.40 Kota Anggerik,3.109525,101.461522
+PetronasBatu3FederalHighwayDT,"LotPT5,HD(D)239246,Batu3FederalHighway,PekanCountryHeight(FederalHighwayKlangBound),DaerahPetaling,46150SubangJaya,Selangor",016-2238193,P.108 Shah Alam,N.41 Batu Tiga,3.080722,101.572347
+McDonald'sShellSection13DT,"No.1,Jalan13/55A,Seksyen13,40100ShahAlam,SelangorDarulEhsan.",03-55690661,P.108 Shah Alam,N.40 Kota Anggerik,3.0857043,101.55331
+McDonald'sCalteDenaiAlamDT,"LotNo.3,PersiaranElektron,DenaiAlam,SectionU16,40160,ShahAlam,Selangor,Malaysia",03-77342914,P.108 Shah Alam,N.40 Kota Anggerik,3.159427,101.51307
+McDonald'sBHPJalanKapar,"PT34062,Batu3.5JalanKapar,42100SelangorDarulEhsan",03-32901226,P.109 Kapar,N.43 Sementa,3.071424,101.410867
+McDonald'sPKNSPJDT,"Lot201,No.17,JalanYongShookLin,MenaraPKNSPetalingJaya,Seksyen7,46050SelangorDarulEhsan",03-79314943,P.109 Kapar,N.43 Sementa,3.05596,101.3834
+McDonald'sShellJalanSentulDT,"PT8938,JalanSentul/BatuCaves,MukimSetapak,Sentul,51100KualaLumpur",016-2127692,P.109 Kapar,N.42 Meru,3.12223,101.41208
+McDonald'sKlangSentral,"No.2,JalanKlangSentral/KU05,BukitRaja,Meru,41050,Klang,Selangor,Malaysia",03-33583012,P.109 Kapar,N.42 Meru,3.110278,101.441132
+McDonald'sCanaryGardenKlangDT,"PartofLotPT51795,JalanLangatKS8,BandarBestari,41200Klang,SelangorDarulEhsan.",03-31221647,P.110 Klang,N.46 Pelabuhan Klang,2.960231,101.466226
+McDonald'sPersiaranRajaMudaMusaDT,"LotPT3358,Seksyen31,PersiaranRajaMudaMusa(KS05),BandarKlang,DaerahKlang,41200,Klang,Selangor,Malaysia",03-33701539,P.110 Klang,N.47 Pandamaran,3.026235,101.423601
+McDonald'sWismaLimFooYong,"WismaLimFooYong,LotNo.62,Seksyen57,JalanRajaChulan,50250KualaLumpur.",03-21102479,P.110 Klang,N.45 Bandar Baru Klang,3.09032,101.42334
+McDonald'sGiantJalanKebunDT,"PT128899,Batu31/2,JalanKebun,TamanMaznah,41000,BandarKlang,DaerahKlang,Selangor,Malaysia",03-33701985,P.111 Kota Raja,N.48 Sentosa,3.024657,101.479994
+McDonald'sAEONBukitTinggi,"AEONBukitTinggiShoppingCentre,No.1,PersiaranBatuNilam1/KS6,BandarBukitTinggi2,41200,Klang,Selangor,Malaysia",03-33188457,P.111 Kota Raja,N.48 Sentosa,2.994316,101.444921
+McDonald'sBukitTinggiDT,"Lot1,PersiaranBatuNilam,BandarBaruBukitTinggi,41200,Klang,Selangor,Malaysia",03-33243190,P.111 Kota Raja,N.48 Sentosa,3.007941,101.432729
+McDonald'sShellBandarBotanikDT,"LotPT118176JalanLangat,BandarBotanik,41200Klang,Selangor",,P.111 Kota Raja,N.49 Sungai Kandis,2.99088,101.4477997
+McDonald'sKotaKemuning,"No.1,JalanAnggerikVanilla31/94,Seksyen31,KotaKemuning,40706,ShahAlam,Selangor,Malaysia",03-51310287,P.111 Kota Raja,N.50 Kota Kemuning,3.002996,101.540994
+McDonald'sCalteBandarPuteriKlangDT,"Lot133826,LebuhSanggul1/KS7,BandarPuteri,41200,Klang,Selangor,Malaysia",03-51623985,P.111 Kota Raja,N.49 Sungai Kandis,2.988257,101.465999
+McDonald'sTamanSriAndalas,"No.2,JalanSriSarawak18,TamanSriAndalas,41200,Klang,Selangor,Malaysia",03-33247937,P.111 Kota Raja,N.49 Sungai Kandis,3.016452,101.442557
+McDonald'sShellPutraHeightDT,"LotPT.35810,PersiaranPutraIndah,PutraHeights,MukimDamansara,DaerahPetaling,47650,Selangor,Malaysia",03-51035347,P.111 Kota Raja,N.50 Kota Kemuning,2.99728,101.570971
+McDonald'sBantingDT,"No.2JalanCemerlang4,42700Banting,Selangor,Malaysia",03-31813188,P.112 Kuala Langat,N.52 Banting,2.812972,101.50808
+McDonald'sPetronBandarSaujanaPutraDT,"PartofLot26104,JalanSaujanaPutra,BandarSaujanaPutra,OffLebuhrayaELITE,42610JenjaromSelangor.",03-51036118,P.112 Kuala Langat,N.51 Sijangkang,2.944413,101.587978
+McDonald'sPetronasKLIADT,"LotPT3906,JalanTerminalKLIA(Outbound),64000,Sepang,Selangor,Malaysia",016-2232827,P.113 Sepang,N.56 Sungai Pelek,2.764666,101.683261
+McDonald'sKotaWarisanDT,"PintasanDengkilByPass(B29),43900,Sepang,Selangor,Malaysia",03-87068788,P.113 Sepang,N.55 Dengkil,2.817261,101.69428
+McDonald'sCyberjaya,"Prima5-B,JalanTeknorat5,63000,Cyberjaya,SelangorDarulEhsan",03-86880450,P.113 Sepang,N.55 Dengkil,2.921166,101.655869
+McDonald'sShellDengkilBypassDT,"Lot101777,KM48.7,JalanPintasanDengkil-Putrajaya(FT29)ArahUtara,43800Dengkil,Selangor",,P.113 Sepang,N.55 Dengkil,2.869292,101.685648
+McDonald'sPSSBangiNBLaybyDT,"LotPT2(HSD41974)BerhadapanLebuhraya,UtaraSelatanKL-(KM297.9-298.1ArahUtara)BandarSungaiMerab,MukimDengkil,Sepang,SelangorDarulEhsan",03-89229640,P.113 Sepang,N.55 Dengkil,2.945037,101.751844
+McDonald'sEdusphereDT,"AtelierCentre,JalanAtelier1,Edusphere,Cyber11,63000Cyberjaya,Selangor.",,P.113 Sepang,N.55 Dengkil,2.93385,101.63631
+McDonald'sIOICityMall,"LotNos.57&58,IOICityMall,IOIResort,62502,Putrajaya,Selangor,Malaysia",03-89571562,P.113 Sepang,N.55 Dengkil,2.970368,101.712868
+McDonald'sKLIA2Gateway,"LotL3-47-L3-50&L3-33,Level3,Gateway@KLIA2,H.S(D)7429,PTNo13,BandarLapanganTerbangAntarabangsaSepang,64000,Sepang,Selangor,Malaysia",03-87878271,P.113 Sepang,N.56 Sungai Pelek,2.743521,101.685438
+McDonald'sBHPJalanKepong,"LotPT1,Batu61/2,JalanKepong,52000KualaLumpur",03-62500090,P.114 Kepong,,3.208163,101.653579
+McDonald'sSentulUOADT,"LOTPT10098,JalanSentulPasar,MukimSetapakDalam,BandarayaKualaLumpur51000KualaLumpur",03-27029214,P.115 Batu,,3.202057,101.689976
+McDonald'sShellJalanKuchingDT,"Lot58043,JalanKuching,MukimBatu68100,WlayahPersekutuanKualaLumpur",,P.115 Batu,,3.223098,101.6721257
+McDonald'sPetronasMRR2KepongDT,"Lot25747,LebuhRayaSelayang,KepongLebuhRaya,LingkaranTengah2(MRR2),52100,Kepong,KualaLumpur,Malaysia",03-62596498,P.115 Batu,,3.229265,101.65503
+McDonald'sBHPTamanMelawatiDT,"LotPT8669,JalanLingkaranTengahII,53100,KualaLumpur,Malaysia",03-41622318,P.116 Wangsa Maju,,3.220217,101.735889
+McDonald'sPetronasMelatiDT,"Lot3644HS(D)70344&,LotPT8081HS(D)107241,TamanMelati,MukimSetapak,53100,KualaLumpur,Malaysia",03-41473107,P.116 Wangsa Maju,,3.225019,101.728649
+McDonald'sGombak,"M01&M02,KompleksIdaman,No.40-50,Jalan2/21D,MedanIdaman,Batu51/4,JalanGombak,53000,KualaLumpur,Malaysia",03-40316251,P.116 Wangsa Maju,,3.212711,101.711531
+McDonald'sAlphaAngle,"LotG-13,GroundFloor,AlphaAngleComple,JalanR1,WangsaMaju,53000,Setapak,KualaLumpur,Malaysia",03-41311340,P.116 Wangsa Maju,,3.202098,101.734244
+McDonald'sDanauKotaDT,"PartofLot201138,JalanLangkawi,MukimSetapak,TamanDanauKota,53300KualaLumpur.",03-41310897,P.116 Wangsa Maju,,3.2066149,101.7175568
+McDonald'sPetronNorthKiaraDT,"452,JalanSegambut,KampungSegambutTengah,1200KualaLumpur",,P.117 Segambut,,3.18298,101.65492
+McDonald'sDesaParkCityDT,"LotGF32&FF31,WaterfrontParkcity,PersiaranResiden,DesaparkCity,52200KualaLumpur.",03-62610971,P.117 Segambut,,3.1877337,101.62778
+McDonald'sMontKiara,"No.1,BlockD,PlazaMontKiara,JalanBukitKiara,50480,BukitKiara,KualaLumpur,Malaysia",03-62033759,P.117 Segambut,,3.165745,101.652203
+McDonald'sTTDI(TamanTunDrIsmail),"No.2,2A&B,JalanTunMohdFuad2,TamanTunDrIsmail,60000,KualaLumpur,Malaysia",603-77221767,P.117 Segambut,,3.140522,101.629209
+McDonald'sJalanTunRazakDT,"No9,JalanFletcher,50400KualaLumpur",,P.118 Setiawangsa,,3.1721,101.7086
+McDonald'sAEONWangsaMaju,"LotsF2.43,F2.44,F2.45,LevelF2,AeonWangsaMaju,No.6Jalan8/27A,Section5,53300,,KualaLumpur,Malaysia",03-41495655,P.118 Setiawangsa,,3.196319,101.743032
+McDonald'sTitiwangsaDT,"Lot8,Section85,JalanPahang,53000,Setapak,KualaLumpur,Malaysia",03-40232602,P.118 Setiawangsa,,3.179551,101.700383
+McDonald'sShellWangsaMajuDT,"Lot28332,Jalan8/27A,PusatBandarWangsaMaju,53300KualaLumpur",,P.118 Setiawangsa,,3.19744,101.744674130684
+McDonald'sSetiawangsaDT,"Lot16794&16795,Jalan37/56,TamanSetiawangsa,54200,KualaLumpur,Malaysia",03-42651384,P.118 Setiawangsa,,3.178129,101.743585
+McDonald'sMyTownMall,"LotNo.B1-03&B1-E-03,MyTownShoppingCentre,No.6,JalanCohcrane,Section90,55100,KualaLumpur,Malaysia",03-27322566,P.119 Titiwangsa,,3.134208,101.723645
+McDonald'sIntermarkMall,"LotNo.G17,G17A&G17B,GroundFloor,IntermarkMall,348,JalanTunRazak,50400,KualaLumpur,Malaysia",03-27155667,P.119 Titiwangsa,,3.161279,101.720181
+McDonald'sShellTasikAmpangDT,"LotPT2536,LebuhRayaLingkaranTengah2,MukimAmpang,55000KualaLumpur",,P.119 Titiwangsa,,3.151919749,101.745321
+McDonald'sDesaPandan,"Lot2&2-1,Jalan1/76D,DesaPandan,55100,KualaLumpur,Malaysia",03-92852636,P.119 Titiwangsa,,3.14709,101.736853
+McDonald'sShellBukitBintangDT,"225,BukitBintangSt,Imbi,55100KualaLumpur,FederalTerritoryOfKualaLumpur",,P.120 Bukit Bintang,,3.14752,101.7178428
+McDonald'sSOGO,"Lot6,LGFSogoPernasDepartmentStoresS/B,190,JalanTuankuAbdulRahman,50100,KualaLumpur,Malaysia",03-22028063,P.120 Bukit Bintang,,3.156262,101.695574
+McDonald'sSuriaKLCC,"LotC35-38,ConcourseFloor,SuriaKLCCShoppingCentre,JalanAmpang,50088,KualaLumpur,Malaysia",03-27151512,P.120 Bukit Bintang,,3.157474,101.712164
+McDonald'sKLSentral,"Lot14,15,&16,FirstFloor,KualaLumpurSentralStation,50470,KualaLumpur,Malaysia",03-22711431,P.120 Bukit Bintang,,3.134615,101.686593
+McDonald'sJalanP.Ramlee,"LotG-W-1,GroundFloor,WestWing,RohasPureCircle,No9,JalanPRamlee,50450KualaLumpur",03-21815851,P.120 Bukit Bintang,,3.154587,101.708461
+McDonald'sJalanTunPerak,"38,JalanTunPerak,Ground&MezzanineFloor,WismaTeckLee,50050,KualaLumpur,Malaysia",03-20266899,P.120 Bukit Bintang,,3.149178,101.696865
+McDonald'sBukitBintang,"120-120AJalanBukitBintang,55100,KualaLumpur,Malaysia",03-21427843,P.120 Bukit Bintang,,3.146847,101.710931
+McDonald'sBerjayaTimesSquare,"Lot05-93,93A,No.1,JalanImbi,55100,KualaLumpur,Malaysia",03-21100154,P.120 Bukit Bintang,,3.142065,101.710819
+McDonald'sM2Mall,"Lot1,Level1,BUSANA,MenaraMARA,No.232,JalanTuankuAbdulRahman,50100,KualaLumpur,Malaysia",03-22028034,P.120 Bukit Bintang,,3.157924,101.695732
+McDonald'sNUSentral,"UnitNo.L4.02&03,Level4,1Sentral,JalanTravers,50470,KualaLumpur,Malaysia",03-22722054,P.120 Bukit Bintang,,3.133295,101.687277
+McDonald'sMidValley3,"Tingkat3,MidValleyMegamall,LingkaranSyedPutra,59200,KualaLumpur,Malaysia",03-22010506,P.121 Lembah Pantai,,3.117399,101.677572
+McDonald'sBangsar,"48,JalanTelawiLima,59100,BangsarBaru,Bangsar,KualaLumpur,Malaysia",03-22843790,P.121 Lembah Pantai,,3.13295,101.672297
+McDonald'sPantaiSentralParkDT,"No.2,JalanPantaiSentral1,PantaiSentral,59200,WilayahPersekutuanKualaLumpur.",,P.121 Lembah Pantai,,3.101972,101.666333
+McDonald'sPetronasTPMDT,"PetronasPetrolStation,TechnologyParkMalaysia,SerembanKL-Highway,50700,KualaLumpur,Malaysia",03-90541502,P.122 Seputeh,,3.056652,101.704186
+McDonald'sKuchaiLamaDT,"1/116B,OffJalanKuchaiLama,KuchaiEntrepreneursPark,58200,KualaLumpur,Malaysia",03-79822180,P.122 Seputeh,,3.087352,101.690106
+McDonald'sPearlPointDT,"LotNoG-08,GroundFloor,PearlPointShoppingComple,5thMile,OldKlangRoad,58000KualaLumpur",03-79710196,P.122 Seputeh,,3.084915,101.673568
+McDonald'sOUG,"PartofG03toG06,GroundFloor,PlazaOUG,JalanKlangLama,58000KualaLumpur.",03-79820933,P.122 Seputeh,,3.081921,101.671337
+McDonald'sSriPetaling,"No63&63-1,JalanRadinTengah,BandarBaruSriPetaling,57000,KualaLumpur,Malaysia",03-90545927,P.122 Seputeh,,3.068888,101.6918
+McDonald'sShellJalanCherasDT,"LotPT7430,HSD111856,KM5.5,JalanCheras,56000,Cheras,KualaLumpur,Malaysia",03-91331724,P.123 Cheras,,3.104739,101.732853
+McDonald'sTamanConnaughtDT,"Lot18113,JalanCendikiawan,55100,MukimPetaling,KualaLumpur,Malaysia",03-91016190,P.123 Cheras,,3.081484,101.731946
+McDonald'sLeisureMallCheras,"LG16,LowerGroundFloor,LeisureMall,TamanSegar,No.6,JalanCheras,56100,Cheras,KualaLumpur,Malaysia",03-91327577,P.123 Cheras,,3.090122,101.74152
+McDonald'sSunwayVelocityMall,"LG,SunwayVelocityMall,JalanPeel,55100,KualaLumpur,Malaysia",03-27320717,P.123 Cheras,,3.127299,101.724463
+McDonald'sShaftsburyDT,"UnitNo.G-17,GroundFloor,ShaftsburyPutrajaya,JalanAlamanda,Presint1,62000Putrajaya,WilayahPersekutuanPutrajaya",03-88612903,P.125 Putrajaya,,2.939236,101.713325
+McDonald'sPutrajayaPersint2DT,"SebahagianLot7(2M1),Presint2,62100Putrajaya",03-88615413,P.125 Putrajaya,,2.926237,101.684837
+McDonald'sAlamandaPutrajaya,"LG-07,LowerGroundFloor,AlamandaShoppingComple,JalanAlamanda,Presinct1,62000,Putrajaya,KualaLumpur,Malaysia",03-88888641,P.125 Putrajaya,,2.939491,101.710793
+McDonald'sBahauDT,"PT1127,JalanKiara1/2,PusatPerniagaanKiara,72100Bahau,NegeriSembilan",06-4539877,P.127 Jempol,N.07 Jeram Padang,2.825381,102.431691
+McDonald'sPutraNilaiDT,"PT1134,PersiaranPusatBandar,71800Nilai,NegeriSembilan,Malaysia",06-7971888,P.128 Seremban,N.10 Nilai,2.822465,101.793611
+McDonald'sBandarBaruNilai,"ShoplotPTNo.7330,BandarBaruNilai,79149Nilai,NegeriSembilan,Malaysia",06-7948788,P.128 Seremban,N.10 Nilai,2.815152,101.791978
+McDonald'sAmpanganDT,"LotGE-03,CentrepointSeremban,JalanDato'SiamangGagap,70300,Seremban,NegeriSembilan,Malaysia",06-7600425,P.128 Seremban,N.14 Ampangan,2.722367,101.955652
+McDonald'sKualaPilahDT,"LotPT2781,JalanMelang,TamanMelang,72000KualaPilah,NegeriSembilan",06-4831069,P.129 Kuala Pilah,N.18 Pilah,2.73433,102.235089
+McDonald'sSerembanDT,"Lot24158(PT2)&Lot24159(PT3),PekanBukitKepayang,MukimRasah,70200,Seremban,NegeriSembilan,Malaysia",06-7627625,P.130 Rasah,N.21 Bukit Kepayang,2.716919,101.918724
+McDonald'sSeremban2DT,"LotPT560,BandarSerembanUtama,Seremban2,70300,Seremban,NegeriSembilan,Malaysia",06-6307043,P.130 Rasah,N.21 Bukit Kepayang,2.691766,101.906053
+McDonald'sTerminal1Seremban,"LotLG35,LowerGround,Terminal1ShoppingComple,70300,Seremban,NegeriSembilan,Malaysia",06-7621257,P.130 Rasah,N.21 Bukit Kepayang,2.722481,101.936979
+McDonald'sForestHeightDT,"SebahagianLot33369,MukimAmpanganSeremban,70450,Seremban,NegeriSembilan,Malaysia",06-7630260,P.130 Rasah,N.24 Seremban Jaya,2.699703,101.970083
+McDonald'sTescoSeremban2,"No1,JalanHaruan2,70300,Seremban,NegeriSembilan,Malaysia",06-6315613,P.130 Rasah,N.21 Bukit Kepayang,2.711553,101.91543
+McDonald'sShellSerembanJayaDT,"JalanSerembanJaya,PT2443,Pekan,71450Seremban,NegeriSembilan",,P.130 Rasah,N.24 Seremban Jaya,2.675337,101.975288
+McDonald'sAEONSeremban2,"LotG43,GroundFloor,JuscoSeremban2,ShoppingCentre,112PersiaranS2,PhaseB1,Seremban2,70300,Seremban,NegeriSembilan,Malaysia",06-6015842,P.130 Rasah,N.21 Bukit Kepayang,2.701288,101.91168
+McDonald'sSenawangDT,"Lot2726,JalanTamanKomersilSenawang1,TamanKomersilSenawang,70450,Senawang,NegeriSembilan,Malaysia",06-6788489,P.131 Rembau,N.25 Paroi,2.703619,101.985591
+McDonald'sShellPortDicksonDT,"Lot9169,7thMile,JalanPantai,KampungBaharu,71050PortDickson,NegeriSembilan",06-6466815,P.132 Port Dickson,N.31 Bagan Pinang,2.47339,101.857923
+McDonald'sPDWaterfrontDT,"No.27,JalanPersiaran,PDWaterfront,71010,PortDickson,NegeriSembilan,Malaysia",06-6463188,P.132 Port Dickson,N.33 Sri Tanjung,2.521093,101.800038
+McDonald'sShellLukutDT,"PT4849,JalanBesarLukut,Batu4,BandarBaruLukut,71010PortDickson,NegeriSembilan",,P.132 Port Dickson,N.30 Lukut,2.565154633,101.820597
+McDonald'sTampinDT,"Lot613,JalanSeremban-Tampin,73000Tampin,NegeriSembilan",016-2372097,P.133 Tampin,N.36 Repah,2.473091,102.226762
+McDonald'sBandarUtamaCheng,"No.75,JalanInang3,TamanPayaRumputUtama,76450,BandarCheng,Melaka,Malaysia",06-3122476,P.136 Tangga Batu,N.13 Paya Rumput,2.280646,102.215438
+McDonald'sCalteKrubongDT,"SebahagianLot23344,JalanPantaiBelimbing,75260Krubong,Melaka",,P.136 Tangga Batu,N.13 Paya Rumput,2.29776,102.24862
+McDonald'sMelakaMallDT,"SebahagianLotPT3368,LebohAyehKeroh,MukimBukitBaru,75450,Melaka,Malaysia",06-3170712,P.137 Hang Tuah Jaya,N.17 Bukit Katil,2.231665,102.281344
+McDonald'sPSSBukitKatilDT,"Lot4985,JalanTunHamzah,MukimBukitKatil,75450BukitKatil,Melaka",06-3182439,P.137 Hang Tuah Jaya,N.17 Bukit Katil,2.235689,102.301093
+McDonald'sMelakaSentral,"PlazaMelakaSentral,LotNo.59,ZoneD,GroundFloor,75000,Melaka,Malaysia",06-2841224,P.137 Hang Tuah Jaya,N.15 Pengkalan Batu,2.221022,102.250072
+McDonald'sMITCMelakaDT,"Lot15702,MukimBukitKatil,DaerahMelakaTengah,HangTuahJaya,75450,Melaka,Malaysia",06-2314743,P.137 Hang Tuah Jaya,N.16 Ayer Keroh,2.273822,102.285796
+McDonald'sTamanBuayaDT,"Lot4570TamanBuayaMelaka,MukimBukitKatil,DaerahMelakaTengah,75320,AirKeroh,Melaka,Malaysia",06-2337400,P.137 Hang Tuah Jaya,N.16 Ayer Keroh,2.277511,102.298276
+McDonald'sAMJBertamDT,"GM229,Lot18859,MukimBertam,75260DaerahMelakaTengah,Melaka",06-3347865,P.138 Kota Melaka,N.19 Kesidang,2.253646,102.222233
+McDonald'sDataranPahlawan2,"FG-15&FG-16,GroundFloor,DataranPahlawanMelakaMegamall,JalanMerdeka,75000,Melaka,Malaysia",06-2866079,P.138 Kota Melaka,N.22 Bandar Hilir,2.190281,102.252978
+McDonald'sDataranPahlawan,"LotA02,DataranPahlawanMelakaMegamall,JalanMerdeka,75000,Melaka,Malaysia",06-2810679,P.138 Kota Melaka,N.22 Bandar Hilir,2.190503,102.248951
+McDonald'sKotaLaksamanaDT,"LotPT188,PekanKlebangSek.IV,DaerahMelakaTengah,BandarayaMelaka,75200,Melaka,Malaysia",06-2821406,P.138 Kota Melaka,N.19 Kesidang,2.202883,102.223247
+McDonald'sBatuBerendamDT,"LotPT13668,MukimBatuBerendam,MelakaTengah,75350,HangTuahJaya,Melaka,Malaysia",06-3173461,P.138 Kota Melaka,N.19 Kesidang,2.251997,102.2459
+McDonald'sMerlimauDT,"PT6370,JalanBMU1,BandarBaruMerlimauUtara,77300Merlimau,Melaka",06-2639126,P.139 Jasin,N.27 Merlimau,2.169054,102.431728
 McDonald'sSegamat,"ShopNo.111,112,113,JalanSiaHarYam,85000,Segamat,Johor,Malaysia",07-9320531,P.140 Segamat,N.02 Jementah,2.503335,102.821686
 McDonald'sMuar,"G-25,WeteParade,JalanAli,84000,Muar,Johor,Malaysia",06-9517848,P.145 Bakri,N.12 Bentayan,2.04456,102.566181
-McDonald'sTerminal1Seremban,"LotLG35,LowerGround,Terminal1ShoppingComple,70300,Seremban,NegeriSembilan,Malaysia",06-7621257,P.130 Rasah,N.21 Bukit Kepayang,2.722481,101.936979
-McDonald'sAmpangPoint,"LotG08,GroundFloor,AmpangPointShoppingCentre,JalanMamanda3,68000,Ampang,Selangor,Malaysia",03-42653689,P.099 Ampang,N.19 Bukit Antarabangsa,3.157739,101.750803
-McDonald'sIOIPuchongMall,"Lot17,GroundFloor,IOIMall,Batu9JalanPuchong,BandarPuchongJaya,47100,Puchong,Selangor,Malaysia",03-80718009,P.104 Subang,N.30 Kinrara,3.045519,101.618013
-McDonald'sDesaPandan,"Lot2&2-1,Jalan1/76D,DesaPandan,55100,KualaLumpur,Malaysia",03-92852636,P.119 Titiwangsa,,3.14709,101.736853
-McDonald'sCityPlaza,"GF7,CityPlaza,JalanTuankuIbrahim,05100,AlorSetar,Kedah,Malaysia",04-7308288,P.009 Alor Setar,N.13 Kota Darul Aman,6.11773,100.369718
-McDonald'sCentralSquare,"G16-G19,GroundFloor,KompleksCentralSquare,23,JalanKampungBaru,08000,SungaiPetani,Kedah,Malaysia",04-4211117,P.015 Sungai Petani,N.28 Bakar Arang,5.636536,100.488095
-McDonald'sTheMines,"Lot79,2ndFloor,TheMinesShoppingFair,JalanDulang,MinesResortCity,43300,SriKembangan,Selangor,Malaysia",03-89425749,P.103 Puchong,N.28 Seri Kembangan,3.027901,101.718106
-McDonald'sKluang,"No.1,JalanMd.LazimSaim,86000,Kluang,Johor,Malaysia",07-7716134,P.152 Kluang,N.29 Mahkota,2.034448,103.320414
-McDonald'sDesaUniversiti,"Lot4B,4C&4D,DesaUniversiti,JalanSg.Dua,11700,SungaiDua,PulauPinang,Malaysia",04-6599399,P.052 Bayan Baru,N.35 Batu Uban,5.352584,100.299424
-McDonald'sPermasJaya,"No2,JalanPermasJaya10,BandarBaruPermasJaya,80400,JohorBahru,Johor,Malaysia",07-3804925,P.159 Pasir Gudang,N.43 Permas,1.49526,103.815515
-McDonald'sBukitJambul,"3A-G-19,KompleksBukitJambul,JalanRumbia,11900,PulauPinang,Malaysia",04-6468988,P.052 Bayan Baru,N.35 Batu Uban,5.334074,100.290991
-McDonald'sSunwayPyramid,"LL2.41,SunwayPyramidMegamall,No.3,JalanPJS11/15,BandarSunway,46150,Selangor,Malaysia",03-56112097,P.104 Subang,N.31 Subang Jaya,3.071924,101.607403
-McDonald'sJalanTunPerak,"38,JalanTunPerak,Ground&MezzanineFloor,WismaTeckLee,50050,KualaLumpur,Malaysia",03-20266899,P.120 Bukit Bintang,,3.149178,101.696865
-McDonald'sGombak,"M01&M02,KompleksIdaman,No.40-50,Jalan2/21D,MedanIdaman,Batu51/4,JalanGombak,53000,KualaLumpur,Malaysia",03-40316251,P.116 Wangsa Maju,,3.212711,101.711531
-McDonald'sBandarBaruNilai,"ShoplotPTNo.7330,BandarBaruNilai,79149Nilai,NegeriSembilan,Malaysia",06-7948788,P.128 Seremban,N.10 Nilai,2.815152,101.791978
-McDonald'sPlazaAngsana,"LotNo.L1-27,PlazaAngsana,JalanSkudai,PusatBandarTampoi,81000,Johor,Malaysia",07-2321277,P.161 Pulai,N.47 Kempas,1.495077,103.705668
-McDonald'sLangkawiFair,"GF3,LangkawiFair,Lot44,JalanPersiaranPutra,07000,Langkawi,Kedah,Malaysia",04-9662388,P.004 Langkawi,N.02 Kuah,6.310419,99.85622
-McDonald'sKuchingII,"GroundFloor,ShopLotNo.12&13,3rdMile,JalanTunAhmadZaidiAdruce,93250,Kuching,Sarawak,Malaysia",082-232265,P.195 Bandar Kuching,N.11 Batu Lintang,1.525011,110.336949
-McDonald'sGentingSempahDT,"KawasanRehatGenting-Sempah,KM38.4LebuhrayaKL-Karak,GentingSempah,28750,Bentong,Pahang,Malaysia",09-2330833,P.089 Bentong,N.34 Ketari,3.351034,101.790741
-McDonald'sMegaMallKuantan,"LotNo.G-89&1-85(Ground&First),BerjayaMegamall,JalanTunIsmail,SriDagangan,25000,Kuantan,Pahang,Malaysia",09-5316255,P.083 Kuantan,N.14 Teruntum,3.816003,103.330452
-McDonald'sLitrakDT,"LayBy3,HentianSebelahPetalingJaya,LebuhrayaDamansaraPuchong,BandarSunway,PJS9,47600,PetalingJaya,Selangor,Malaysia",03-56328658,P.104 Subang,N.31 Subang Jaya,3.060685,101.614373
-McDonald'sBandarUtamaDT,"No.5LebuhBandarUtama,PJU6,BandarUtama,47800,PetalingJaya,Selangor,Malaysia",03-77265099,P.106 Damansara,N.36 Bandar Utama,3.137382,101.609558
-McDonald'sMontKiara,"No.1,BlockD,PlazaMontKiara,JalanBukitKiara,50480,BukitKiara,KualaLumpur,Malaysia",03-62033759,P.117 Segambut,,3.165745,101.652203
-McDonald'sTamanBuayaDT,"Lot4570TamanBuayaMelaka,MukimBukitKatil,DaerahMelakaTengah,75320,AirKeroh,Melaka,Malaysia",06-2337400,P.137 Hang Tuah Jaya,N.16 Ayer Keroh,2.277511,102.298276
-McDonald'sSriGombak,"No.1JalanSG.1/6,TamanSriGombak,68100,BatuCaves,Selangor,Malaysia",03-61889587,P.098 Gombak,N.17 Gombak Setia,3.23776,101.6993
-McDonald'sJalanTebrauDT,"LotPTD68950,Batu71/2,JalanKotaTinggi,81100,JohorBahru,Johor,Malaysia",07-3544108,P.158 Tebrau,N.41 Puteri Wangsa,1.535706,103.784543
-McDonald'sAEONWangsaMaju,"LotsF2.43,F2.44,F2.45,LevelF2,AeonWangsaMaju,No.6Jalan8/27A,Section5,53300,,KualaLumpur,Malaysia",03-41495655,P.118 Setiawangsa,,3.196319,101.743032
-McDonald'sPetronSeremban-KLHighwayDT,"8KM,KL-SerembanHighway,57000,SeriKembangan,KualaLumpur,Malaysia",03-89423932,P.103 Puchong,N.28 Seri Kembangan,3.047047,101.705739
-McDonald'sPranginMall,"Lot33-1-40,PranginMall,JalanDrLimChweeLeong,10000,GeorgeTown,PulauPinang,Malaysia",04-2626277,P.049 Tanjong,N.28 Komtar,5.414422,100.331057
-McDonald'sSunwayMentari,"No.30SunwayMentari,GroundFloorDataranMentari,JalanPJS8/2,46150,PetalingJaya,Selangor,Malaysia",03-56117941,P.105 Petaling Jaya,N.31 Subang Jaya,3.074902,101.612113
-McDonald'sTelukCempedakDT,"KawasanRekreasiTelukCempedak,JalanTelukCempedak,25100,Kuantan,Pahang,Malaysia",09-5054573,P.083 Kuantan,N.14 Teruntum,3.812396,103.37171
-McDonald'sTamanSriAndalas,"No.2,JalanSriSarawak18,TamanSriAndalas,41200,Klang,Selangor,Malaysia",03-33247937,P.111 Kota Raja,N.49 Sungai Kandis,3.016452,101.442557
-McDonald'sSection3ShahAlamDT,"No.4,JalanRU3/94,Sect3,40000,ShahAlam,Selangor,Malaysia",03-55139811,P.108 Shah Alam,N.40 Kota Anggerik,3.07445,101.510395
-McDonald'sSubangDT,"No.1JalanSS15/3A,47500,SubangJaya,Selangor,Malaysia",015-96049975,P.104 Subang,N.31 Subang Jaya,3.079081,101.585985
-McDonald'sLotussPuchongDT,"LotNo.7&9,GroundFloor,TescoHypermarket,JalanBandar3,PusatBandarPuchong,47100,Puchong,Selangor,Malaysia",03-80804917,P.104 Subang,N.30 Kinrara,3.035194,101.616172
-McDonald'sSenawangDT,"Lot2726,JalanTamanKomersilSenawang1,TamanKomersilSenawang,70450,Senawang,NegeriSembilan,Malaysia",06-6788489,P.131 Rembau,N.25 Paroi,2.703619,101.985591
-McDonald'sAEONTamanUniversity,"LG08,JuscoShoppingCenter,No.4,JalanPendidikan,TamanUniversiti,81300,Skudai,Johor,Malaysia",07-5506427,P.162 Iskandar Puteri,N.49 Kota Iskandar,1.542346,103.629175
-McDonald'sBandarSriDamansaraDT,"LotPT21552&PT21553,MukimSungaiBuloh,PersiaranPerdana,52200,BandarSriDamansara,KualaLumpur,Malaysia",03-62741559,P.106 Damansara,N.37 Bukit Lanjan,3.195093,101.607767
-McDonald'sPetronasSkudaiDT,"LotNo.PTD13309&PTD52136,KM11JalanSkudai,MukimTebrau,81200,JohorBahru,Johor,Malaysia",07-2383932,P.161 Pulai,N.47 Kempas,1.500357,103.697691
-McDonald'sPandanMewahDT,"BangunanRestoranMcDonald's,JalanMewahUtara,68000,Ampang,KualaLumpur,Malaysia",03-42955046,P.100 Pandan,N.22 Teratai,3.128108,101.762843
-McDonald'sPuchongPermaiDT,"Lot32426JalanPuchongPermai2,TamanPuchongPermai,47100,Puchong,Selangor,Malaysia",03-80518413,P.103 Puchong,N.29 Seri Serdang,3.009016,101.59908
-McDonald'sSetiawangsaDT,"Lot16794&16795,Jalan37/56,TamanSetiawangsa,54200,KualaLumpur,Malaysia",03-42651384,P.118 Setiawangsa,,3.178129,101.743585
-McDonald'sJuruDT,"No.1689,JalanPerusahaan,HighwayAutoCity,KawasanPerusahaan4,North-SouthHighway,JuruInterchange,MK11,SeberangPeraiTengahPerai4,13600,Perai,PulauPinang,Malaysia",04-5080510,P.046 Batu Kawan,N.17 Bukit Tengah,5.337408,100.431189
-McDonald'sBerjayaTimesSquare,"Lot05-93,93A,No.1,JalanImbi,55100,KualaLumpur,Malaysia",03-21100154,P.120 Bukit Bintang,,3.142065,101.710819
-McDonald'sSriKertehDT,"LotPT7132,MukimKerteh,24300,DaerahKemaman,Terengganu,Malaysia",09-8266920,P.040 Kemaman,N.29 Kemasik,4.506567,103.442922
-McDonald'sKotaDamansaraDT,"LotB,JalanCecawi6/18A,KotaDamansara,47810,PetalingJaya,Selangor,Malaysia",03-61561180,P.107 Sungai Buloh,N.39 Kota Damansara,3.160465,101.574277
-McDonald'sKotaKemuning,"No.1,JalanAnggerikVanilla31/94,Seksyen31,KotaKemuning,40706,ShahAlam,Selangor,Malaysia",03-51310287,P.111 Kota Raja,N.50 Kota Kemuning,3.002996,101.540994
-McDonald'sKaramunsing,"LotG-21,23,25and26part,CompleKaramunsing,JalanKaramunsing,88000,KotaKinabalu,Sabah,Malaysia",088-255346,P.172 Kota Kinabalu,N.20 Api-Api,5.971027,116.075163
-McDonald'sCalteSunwayPraiDT,"LotNos.5730,5731&5732,JalanJelawat,Mukim1,PusatBandarSeberangJaya,13700,Prai,PulauPinang,Malaysia",04-3982180,P.046 Batu Kawan,N.17 Bukit Tengah,5.339805,100.400229
-McDonald'sKuchaiLamaDT,"1/116B,OffJalanKuchaiLama,KuchaiEntrepreneursPark,58200,KualaLumpur,Malaysia",03-79822180,P.122 Seputeh,,3.087352,101.690106
-McDonald'sTamanConnaughtDT,"Lot18113,JalanCendikiawan,55100,MukimPetaling,KualaLumpur,Malaysia",03-91016190,P.123 Cheras,,3.081484,101.731946
-McDonald'sBukitTinggiDT,"Lot1,PersiaranBatuNilam,BandarBaruBukitTinggi,41200,Klang,Selangor,Malaysia",03-33243190,P.111 Kota Raja,N.48 Sentosa,3.007941,101.432729
-McDonald'sDamansaraDamaiDT,"Lot36327,JalanPJU10/1,DamansaraDamai,47000,SungaiBuloh,Selangor,Malaysia",03-61435573,P.106 Damansara,N.37 Bukit Lanjan,3.19494,101.591349
-McDonald'sPelangiIndahDT,"PetronasPetrolStation,LotNo.105615,JalanPesona,TamanPelangiIndah,81800,JohorBahru,Johor,Malaysia",07-8610480,P.158 Tebrau,N.41 Puteri Wangsa,1.582352,103.800959
-McDonald'sRawangDT,"LotPT678,JalanPusatBandar,48000,Rawang,Selangor,Malaysia",03-60901716,P.097 Selayang,N.14 Rawang,3.32015,101.576902
-McDonald'sPetronasTPMDT,"PetronasPetrolStation,TechnologyParkMalaysia,SerembanKL-Highway,50700,KualaLumpur,Malaysia",03-90541502,P.122 Seputeh,,3.056652,101.704186
-McDonald'sLotussPenang,"1-1-01&1-1-02,LotA3-4,JalanUdini,11700,PulauPinang,Malaysia",04-6579803,P.051 Bukit Gelugor,N.32 Seri Delima,5.377527,100.315257
-McDonald'sTheCurve,"LotNoGZF-05&GZF-06,GroundFloor,TheCurve,MutiaraDamansara,47800,PetalingJaya,Selangor,Malaysia",03-76215834,P.106 Damansara,N.37 Bukit Lanjan,3.157567,101.612382
-McDonald'sEquineParkDT,"LotNo.2,PersiaranEquine,TamanEquine,43300,SeriKembangan,Selangor,Malaysia",03-89385387,P.103 Puchong,N.29 Seri Serdang,2.995664,101.67021
-McDonald'sUluKelang,"Lot517,276&277,Batu7,LebuhrayaLingkaranTengah2,MRR2,53300,MukimUluKelang,Selangor,Malaysia",03-41617604,P.098 Gombak,N.18 Hulu Kelang,3.202369,101.760348
-McDonald'sDesaAmanPuriDT,"StesyenMinyakShell,LotNo.PT1021&PT1022,JalanAman,PersiaranPerdana,DesaAmanPuri,52100,Kepong,Selangor,Malaysia",03-62759170,P.106 Damansara,N.37 Bukit Lanjan,3.20839,101.614484
-McDonald'sTanSriYaacob,"No.2,JalanJati,TamanNusaBestariJaya,81300,JohorBahru,Johor,Malaysia",07-5122741,P.161 Pulai,N.46 Perling,1.497839,103.655888
-McDonald'sAlamandaPutrajaya,"LG-07,LowerGroundFloor,AlamandaShoppingComple,JalanAlamanda,Presinct1,62000,Putrajaya,KualaLumpur,Malaysia",03-88888641,P.125 Putrajaya,,2.939491,101.710793
-McDonald'sKulaiDT,"Lot1150,JalanKasturi36/41,Indahpura,81000,Kulai,JohorBahru,Johor,Malaysia",07-6626515,P.163 Kulai,N.52 Senai,1.638243,103.625675
-McDonald'sAEONSeremban2,"LotG43,GroundFloor,JuscoSeremban2,ShoppingCentre,112PersiaranS2,PhaseB1,Seremban2,70300,Seremban,NegeriSembilan,Malaysia",06-6015842,P.130 Rasah,N.21 Bukit Kepayang,2.701288,101.91168
-McDonald'sUTMSkudaiDT,"LotPT61054,Batu11,JalanPontian,81300,Skudai,Johor,Malaysia",07-5621047,P.163 Kulai,N.52 Senai,1.550878,103.650721
-McDonald'sNKVEDT,"Lot15385SeksyenPJU1A,KM15.4ArahUtara,LebuhBaruLembahKelang,40150,PetalingJaya,Selangor,Malaysia",03-78028664,P.105 Petaling Jaya,N.32 Seri Setia,3.119409,101.59301
-McDonald'sPetronasAmpangDT,"D/APetronasServisStesen,JalanKolamAyerLama,Lot36904(PT27423),TamanDato'AhmadRazali,68000,Ampang,Selangor,Malaysia",03-42651703,P.099 Ampang,N.19 Bukit Antarabangsa,3.160062,101.754149
-McDonald'sDataranPahlawan,"LotA02,DataranPahlawanMelakaMegamall,JalanMerdeka,75000,Melaka,Malaysia",06-2810679,P.138 Kota Melaka,N.22 Bandar Hilir,2.190503,102.248951
-McDonald'sTamanSuteraDT,"LotPT135893,JalanRodaUtama,81300,Skudai,JohorBahru,Johor,Malaysia",07-5565121,P.162 Iskandar Puteri,N.48 Skudai,1.523079,103.678383
-McDonald'sQueensbayMall,"LG-73,LowerGroundFloor,QueensbayMall,100,PersiaranBayanIndah,11900,PulauPinang,Malaysia",04-6411559,P.052 Bayan Baru,N.36 Pantai Jerejak,5.332927,100.306606
-McDonald'sBandarTunHusseinOnnDT,"LotPT18150&PT18151,JalanSuasana2/2,BandarTunHusseinOnn,43200,Cheras,Selangor,Malaysia",03-90813046,P.102 Bangi,N.27 Balakong,3.050159,101.765296
-McDonald'sJuscoBalakong,"LotG51,GroundFloor,JuscoBalakongShoppingCentre,43200,Balakong,Selangor,Malaysia",03-90753905,P.102 Bangi,N.27 Balakong,3.033386,101.764829
-McDonald'sSriManjungDT,"Lot114,JalanLumut,Setiawangsa,32010,SriManjung,Perak,Malaysia",05-6887155,P.074 Lumut,N.51 Pasir Panjang,4.199318,100.655218
-McDonald'sJalanGopengDT,"PN684,MukimUluKinta,JalanGopeng,31350,Ipoh,Perak,Malaysia",05-3111916,P.071 Gopeng,N.45 Simpang Pulai,4.57256,101.112687
-McDonald'sSection22ShahAlamDT,"No.2,Jalan22/6,Seksyen22,40300,ShahAlam,Selangor,Malaysia",03-51037743,P.108 Shah Alam,N.41 Batu Tiga,3.040568,101.547503
-McDonald'sPetronasMelatiDT,"Lot3644HS(D)70344&,LotPT8081HS(D)107241,TamanMelati,MukimSetapak,53100,KualaLumpur,Malaysia",03-41473107,P.116 Wangsa Maju,,3.225019,101.728649
-McDonald'sBantingDT,"No.2JalanCemerlang4,42700Banting,Selangor,Malaysia",03-31813188,P.112 Kuala Langat,N.52 Banting,2.812972,101.50808
-McDonald'sAEONBukitTinggi,"AEONBukitTinggiShoppingCentre,No.1,PersiaranBatuNilam1/KS6,BandarBukitTinggi2,41200,Klang,Selangor,Malaysia",03-33188457,P.111 Kota Raja,N.48 Sentosa,2.994316,101.444921
-McDonald'sCalteFarlimDT,"CalteFarlimPetrolstation,LotNo.9435,Mukim13,NorthEastDistrict,11900,PulauPinang,Malaysia",012-7877219,P.051 Bukit Gelugor,N.34 Paya Terubong,5.387483,100.276876
-McDonald'sMelakaSentral,"PlazaMelakaSentral,LotNo.59,ZoneD,GroundFloor,75000,Melaka,Malaysia",06-2841224,P.137 Hang Tuah Jaya,N.15 Pengkalan Batu,2.221022,102.250072
-McDonald's1BorneoMall,"ConcourseFloor,1BorneoMall,LotNo.C215-C218&PartofD219,88871,KotaKinabalu,Sabah,Malaysia",088-447568,P.171 Sepanggar,N.16 Karambunai,6.035481,116.128903
-McDonald'sRahmanPutraDT,"No.4,Lot33428,JalanBRP3/3,BukitRahmanPutra,SeksyenU20,40160,ShahAlam,Selangor,Malaysia",03-61417586,P.107 Sungai Buloh,N.38 Paya Jaras,3.224623,101.556665
-McDonald'sShellJalanCherasDT,"LotPT7430,HSD111856,KM5.5,JalanCheras,56000,Cheras,KualaLumpur,Malaysia",03-91331724,P.123 Cheras,,3.104739,101.732853
-McDonald'sKKAirport,"LotNo.L3-L14,PublicConcourse,DepartureLevelTerminal1,KotaKinabaluInternationalAirport,88100,KotaKinabalu,Sabah,Malaysia",088-413791,P.173 Putatan,N.22 Tanjong Aru,5.923602,110.05062
-McDonald'sLabuanAirport,"LotNo.L1L04-L1L06,LabuanAirport,ArrivalHall1,TerminalBuilding,80569,WPLabuan,Malaysia",087-428890,P.166 Labuan,,5.29399,115.249723
-McDonald'sSriAlamMasaiDT,"LotPTD174172,JalanSeriAlam,BandarSeriAlam,81750,Masai,Johor,Malaysia",07-2564463,P.159 Pasir Gudang,N.42 Johor Jaya,1.496185,103.870776
-McDonald'sBandarBaruBangiDT,"PTD68518,PersiaranBangi,43650,BandarBaruBangi,Selangor,Malaysia",03-89221553,P.102 Bangi,N.26 Sungai Ramal,2.961851,101.758106
-McDonald'sBatuPahatDT,"LotPTD48029,TamanFloraUtama,JalanTanSweeHoe,83000,BatuPahat,Johor,Malaysia",07-4339286,P.149 Sri Gading,N.21 Parit Yaani,1.865327,102.947235
-McDonald'sTelukIntanDT,"Lot5017McDonald's,JalanChangkatJong,36000,TelukIntan,Perak,Malaysia",05-6211912,P.076 Teluk Intan,N.55 Pasir Bedamar,4.017385,101.027503
-McDonald'sTaipingSentral,"LotG-21andG-22,GroundFloor,TaipingSentral,No36,JalanIstanaLarut,34000,Taiping,Perak,Malaysia",05-8058167,P.060 Taiping,N.17 Pokok Assam,4.865729,100.731111
-McDonald'sKlangSentral,"No.2,JalanKlangSentral/KU05,BukitRaja,Meru,41050,Klang,Selangor,Malaysia",03-33583012,P.109 Kapar,N.42 Meru,3.110278,101.441132
-McDonald'sPetronasKLIADT,"LotPT3906,JalanTerminalKLIA(Outbound),64000,Sepang,Selangor,Malaysia",016-2232827,P.113 Sepang,N.56 Sungai Pelek,2.764666,101.683261
-McDonald'sPrimaSaujanaKajangDT,"LotPT52317,PrimaSaujana,MukimKajang,43000,Kajang,Selangor,Malaysia",03-87416420,P.101 Hulu Langat,N.24 Semenyih,3.007491,101.804351
-McDonald'sMelakaMallDT,"SebahagianLotPT3368,LebohAyehKeroh,MukimBukitBaru,75450,Melaka,Malaysia",06-3170712,P.137 Hang Tuah Jaya,N.17 Bukit Katil,2.231665,102.281344
-McDonald'sDataranPahlawan2,"FG-15&FG-16,GroundFloor,DataranPahlawanMelakaMegamall,JalanMerdeka,75000,Melaka,Malaysia",06-2866079,P.138 Kota Melaka,N.22 Bandar Hilir,2.190281,102.252978
-McDonald'sKBMall,"LotNo.29A&30,GroundFloor,KBMall,JalanHamzah,15050,KotaBharu,Kelantan,Malaysia",09-7419787,P.021 Kota Bharu,N.09 Kota Lama,6.117193,102.240196
-McDonald'sPuchongGatewayDT,"LotNo.48733,MukimPetalingLDPPuchongGateway,47100,Puchong,Selangor,Malaysia",03-89586508,P.103 Puchong,N.29 Seri Serdang,2.981733,101.648354
-McDonald'sBandarPerdaDT,"PT860,HS(D)1217,BandarPerda,Mukim6,DaerahSeberangPraiTengah,14000,PulauPinang,Malaysia",04-3830675,P.044 Permatang Pauh,N.10 Seberang Jaya,5.36814,100.424111
-McDonald'sPasirGudangDT,"LotPT69990,HSD124966,JalanBandarMukimPlentong,BandarBaruPasirGudang,81700PasirGudang,Johor,Malaysia",07-2526102,P.159 Pasir Gudang,N.43 Permas,1.470203,103.905013
-McDonald'sKotaTinggi,"BlockA,Lot2Aras1,Aras2&Lot1Aras1,JalanNiaga11,MukimKotaTinggi,DaerahKotaTinggi,81900,KotaTinggi,Johor,Malaysia",07-8828825,P.156 Kota Tinggi,N.37 Johor Lama,1.729912,103.902428
-McDonald'sSunwayCityIpohDT,"Lot303521,SunwayCity,MukimHuluKinta,DaerahKinta,31150UluKinta,Ipoh,Perak,Malaysia",05-5452194,P.063 Tambun,N.24 Hulu Kinta,4.624887,101.151631
-McDonald'sPutraNilaiDT,"PT1134,PersiaranPusatBandar,71800Nilai,NegeriSembilan,Malaysia",06-7971888,P.128 Seremban,N.10 Nilai,2.822465,101.793611
-McDonald'sPetronasMRR2KepongDT,"Lot25747,LebuhRayaSelayang,KepongLebuhRaya,LingkaranTengah2(MRR2),52100,Kepong,KualaLumpur,Malaysia",03-62596498,P.115 Batu,,3.229265,101.65503
-McDonald'sBukitIndahDT,"No.57,JalanIndah15/2,BukitIndah,81200,JohorBahru,Johor,Malaysia",07-2385535,P.161 Pulai,N.46 Perling,1.48168,103.65776
-McDonald'sPengkalanDT,"No.686,JalanPasirPuteh,PengkalanPegoh,31500,Ipoh,Perak,Malaysia",05-3203764,P.064 Ipoh Timor,N.26 Tebing Tinggi,4.542201,101.07017
-McDonald'sPuncakAlamDT,"Lot10655,JalanUtama,BandarPuncakAlam,45010,KualaSelangor,Selangor,Malaysia",03-33924370,P.107 Sungai Buloh,N.38 Paya Jaras,3.221722,101.447869
-McDonald'sKamparDT,"SebahagianLotNo.126028,JalanBatuSinar,TamanBandarBaruKampar,31900,Kampar,Perak,Malaysia",05-4658626,P.070 Kampar,N.42 Keranji,4.326304,101.144709
-McDonald's1Utama,"LotLG221,LowerGroundFloorPromenade,1UtamaShoppingCentre,PersiaranBandarUtama,BandarUtama,47800,PetalingJaya,Selangor,Malaysia",03-77262361,P.106 Damansara,N.36 Bandar Utama,3.150325,101.615344
-McDonald'sSibu,"ShopLotNo.2(Ground&1stFloor)andShopLotNo.4(GroundFloor),CausewayRoad,96007,Sibu,Sarawak,Malaysia",084-335522,P.211 Lanang,N.51 Bukit Assek,2.290759,111.826063
-McDonald'sMiriPermyjaya,"Lot5993,Block11,K.B.L.D.DesaIndah3,JalanTudan,BandarBaruPermyjaya,98000,Miri,Sarawak,Malaysia",085-641587,P.219 Miri,N.75 Senadin,4.471653,114.042988
-McDonald'sDungun,"GroundFloor&1stFloor,JalanBaruPakSabah,MukimKualaDungun,23000,Dungun,Terengganu,Malaysia",09-8441334,P.039 Dungun,N.27 Sura,4.755274,103.414494
-McDonald'sKulimDT,"No.28,JalanKLC1,KulimLandmarkCentral,09000Kedah,Malaysia",04-4903063,P.017 Padang Serai,N.34 Lunas,5.383114,100.545805
-McDonald'sUluTiramDT,"SebahagianLotPTD19827,MukimTebrau,UluTiram,81800,JohorBahru,Johor,Malaysia",07-8633429,P.158 Tebrau,N.40 Tiram,1.594882,103.82003
-McDonald'sCalteBandarPuteriKlangDT,"Lot133826,LebuhSanggul1/KS7,BandarPuteri,41200,Klang,Selangor,Malaysia",03-51623985,P.111 Kota Raja,N.49 Sungai Kandis,2.988257,101.465999
-McDonald'sPetronasBatuFerringhiDT,"Lot697&Lot764,JalanBatuFerringi,Seksyen2,BandarBaruFerringi,DaerahTimurLaut,11100,PulauPinang,Malaysia",04-8812516,P.048 Bukit Bendera,N.22 Tanjong Bunga,5.475314,100.251541
-McDonald'sKualaSelangorDT,"Lot640,TelukPiah,MukimKualaSelangor,45000,KualaSelangor,Selangor,Malaysia",03-32811285,P.096 Kuala Selangor,N.10 Bukit Melawati,3.330028,101.258749
-McDonald'sMutiaraDamansaraDT,"Lot69683,JalanPJU7/5,MutiaraDamansara,MukimSungaiBuloh,DaerahPetaling,45000,Selangor,Malaysia",03-77242782,P.106 Damansara,N.37 Bukit Lanjan,3.158188,101.613659
-McDonald'sSemenyihDT,"Lot1809,Batu22,JalanBeranang,MukimSemenyih,DaerahHuluLangat,43500,Selangor",03-87230592,P.101 Hulu Langat,N.24 Semenyih,2.936787,101.8526
-McDonald'sParitRajaDT,"Lot20398HS(D)59406,MKSriGading,83300,BatuPahat,Johor,Malaysia",07-4535286,P.149 Sri Gading,N.22 Parit Raja,1.848982,103.075914
-McDonald'sLotussTanjungPinang,"LotG10,11,12,13&14,TescoTanjungPinang,No1,JalanSeriTanjungPinang,10470,TanjungTokong,PulauPinang,Malaysia",04-8903551,P.048 Bukit Bendera,N.22 Tanjong Bunga,5.459071,100.30883
-McDonald'sTescoSeremban2,"No1,JalanHaruan2,70300,Seremban,NegeriSembilan,Malaysia",06-6315613,P.130 Rasah,N.21 Bukit Kepayang,2.711553,101.91543
-McDonald'sMountAustinDT,"Lot110034,JalanAustinHeights3,TamanMountAustin,MukimTebrau,81100,JohorBahru,Johor,Malaysia",07-3531918,P.158 Tebrau,N.41 Puteri Wangsa,1.557757,103.781721
-McDonald'sSetiaTropikaDT,"Lot141190,JalanSetiaTropika1/21,TamanSetiaTropika,MukimTebrau,81100,JohorBahru,Johor,Malaysia",07-2342618,P.158 Tebrau,N.41 Puteri Wangsa,1.548749,103.715152
-McDonald'sBandarUtamaCheng,"No.75,JalanInang3,TamanPayaRumputUtama,76450,BandarCheng,Melaka,Malaysia",06-3122476,P.136 Tangga Batu,N.13 Paya Rumput,2.280646,102.215438
-McDonald'sBatuBerendamDT,"LotPT13668,MukimBatuBerendam,MelakaTengah,75350,HangTuahJaya,Melaka,Malaysia",06-3173461,P.138 Kota Melaka,N.19 Kesidang,2.251997,102.2459
-McDonald'sKotaWarisanDT,"PintasanDengkilByPass(B29),43900,Sepang,Selangor,Malaysia",03-87068788,P.113 Sepang,N.55 Dengkil,2.817261,101.69428
-McDonald'sCittaMall,"G-43,CittaMall,No1,JalanPJU1A/48,PJU1A,AraDamansara,47301,PetalingJaya,Selangor,Malaysia",03-78316952,P.105 Petaling Jaya,N.32 Seri Setia,3.11277,101.579786
-McDonald'sPetronasMiriDT,"Lot1050(A),JalanBulanSabit,Block7,MCLD,98000,Miri,Sarawak,Malaysia",085-422117,P.219 Miri,N.74 Pujut,4.412187,114.003077
-McDonald'sSimpangDT,"No.97JalanBesar,JalanSimpang,34000,Taiping,Perak,Malaysia",05-8472324,P.060 Taiping,N.18 Aulong,4.822039,100.707831
-McDonald'sJalanKualaKangsarDT,"MukimHuluKinta,DaerahKinta,JalanKualaKangsar,31400,Ipoh,Perak,Malaysia",05-5250562,P.065 Ipoh Barat,N.29 Kepayang,4.633787,101.087556
-McDonald'sSandakanDT,"SebahagianCL075477584,Batu6,JalanUtara,90000,Sandakan,Sabah,Malaysia",089-235265,P.185 Batu Sapi,N.53 Sekong,5.863514,118.05596
-McDonald'sPDWaterfrontDT,"No.27,JalanPersiaran,PDWaterfront,71010,PortDickson,NegeriSembilan,Malaysia",06-6463188,P.132 Port Dickson,N.33 Sri Tanjung,2.521093,101.800038
-McDonald'sJlnApasTawauDT,"CL.105509868AtMile4,JalanApas,91000,Tawau,Sabah,Malaysia",089-913322,P.190 Tawau,N.69 Sri Tanjong,4.251907,117.920815
-McDonald'sM2Mall,"Lot1,Level1,BUSANA,MenaraMARA,No.232,JalanTuankuAbdulRahman,50100,KualaLumpur,Malaysia",03-22028034,P.120 Bukit Bintang,,3.157924,101.695732
-McDonald'sShellJalanSulamanDT,"OffJalanSulamanHighway,88000,KotaKinabalu,Sabah,Malaysia",088-387502,P.171 Sepanggar,N.16 Karambunai,6.018261,116.114743
-McDonald'sSetiaCityMall,"UnitNo.LG-40,SetiaCityMall,No.7,PersiaranSetiaDagang,BandarSetiaAlam,SeksyenU13,40170,ShahAlam,Selangor,Malaysia",03-33585287,P.108 Shah Alam,N.40 Kota Anggerik,3.109525,101.461522
-McDonald'sPontianDT,"Lot13182,JalanDelima,MukimBandarPontianKecil,82000,Pontian,Johor,Malaysia",07-6883200,P.164 Pontian,N.54 Pulai Sebatang,1.478419,103.392124
-McDonald'sKlebangDT,"PT238632,PersiaranKlebangPutra,TamanKlebangPutra,31200Chemor,Perak,Malaysia",05-2913269,P.063 Tambun,N.23 Manjoi,4.685182,101.120584
-McDonald'sPersiaranRajaMudaMusaDT,"LotPT3358,Seksyen31,PersiaranRajaMudaMusa(KS05),BandarKlang,DaerahKlang,41200,Klang,Selangor,Malaysia",03-33701539,P.110 Klang,N.47 Pandamaran,3.026235,101.423601
-McDonald'sUnderwaterWorldLangkawi,"PantaiCenang,07000,Langkawi,Kedah,Malaysia",04-9551565,P.004 Langkawi,N.02 Kuah,6.286845,99.72959
-McDonald'sInderaMahkotaDT,"LotPT96403,BandarInderaMahkota,MukimKualaKuantan,25200,Kuantan,Pahang,Malaysia",09-5737552,P.082 Indera Mahkota,N.13 Semambu,3.825664,103.304488
-McDonald'sSeriIskandarDT,"Plot531,BandarSeriIskandar,MukimBota,32600,PerakTengah,Perak,Malaysia",05-3713275,P.069 Parit,N.40 Bota,4.357689,100.969653
-McDonald'sMITCMelakaDT,"Lot15702,MukimBukitKatil,DaerahMelakaTengah,HangTuahJaya,75450,Melaka,Malaysia",06-2314743,P.137 Hang Tuah Jaya,N.16 Ayer Keroh,2.273822,102.285796
-McDonald'sTaipingLakeGardenDT,"Lot3410(PT1238),JalanSultanMansor,DaerahLarutDanMatang,34000,Taiping,Perak,Malaysia",05-8088795,P.060 Taiping,N.17 Pokok Assam,4.85431,100.745349
-McDonald'sHarbourMallSandakan,"LotG09,G10&G12A,HarbourMallSandakan,SandakanHarbourSquare,90000,Sandakan,Sabah,Malaysia",089-276276,P.186 Sandakan,N.56 Tanjong Papat,5.838595,118.119511
-McDonald'sNongChikDT,"SebahagianLotPT22062,JalanKolamAir,BandarJohorBahru,80100,JohorBahru,Johor,Malaysia",07-2209040,P.161 Pulai,N.46 Perling,1.462667,103.738872
-McDonald'sPengkalanChepaDT,"JalanBendahara1/36,TamanBendahara,PengkalanChepa,16100,KotaBaru,Kelantan,Malaysia",09-7731763,P.020 Pengkalan Chepa,N.06 Chempaka,6.163431,102.283544
-McDonald'sPekanDT,"SebahagianTanahTamanTasikSultanAbuBakar,26600,PekanBandarDiRaja,Pekan,Pahang,Malaysia",09-4269299,P.085 Pekan,N.21 Peramu Jaya,3.539354,103.385463
-McDonald'sKotaEmeraldDT,"SebahagianLot1246,MukimRawang,DaerahGombak,48000,Rawang,Selangor,Malaysia",03-60915570,P.097 Selayang,N.14 Rawang,3.317667,101.538584
-McDonald'sTescoAlmaDT,"SebahagianLot17493,JalanRozhan,PusatPerniagaanSeriImpian,14000,BukitMertajam,PulauPinang,Malaysia",604-5308379,P.045 Bukit Mertajam,N.14 Machang Bubuk,5.315285,100.477512
-McDonald'sBertamDT,"SebahagianLot20016,Mukim06,SeberangPeraiUtara,13200,PulauPinang,Malaysia",04-5755358,P.041 Kepala Batas,N.03 Pinang Tunggal,5.517539,100.450306
-McDonald'sTriangDT,"SebahagianPT25213,MukimTriang,DaerahBera,28300,Temerloh,Pahang,Malaysia",09-2556350,P.090 Bera,N.38 Triang,3.25927,102.435187
-McDonald'sTemerlohDT,"SebahagianLot1304Sek.05(GM7677),MukimPerak,28000,Temerloh,Pahang,Malaysia",09-2962529,P.088 Temerloh,N.32 Kuala Semantan,3.451867,102.409495
-McDonald'sTTDI(TamanTunDrIsmail),"No.2,2A&B,JalanTunMohdFuad2,TamanTunDrIsmail,60000,KualaLumpur,Malaysia",603-77221767,P.117 Segambut,,3.140522,101.629209
-McDonald'sBintuluDT,"Lots119&120,Block32,KemenaLandDistrict,JalanTunHusseinOnn,97000,Bintulu,Sarawak,Malaysia",086-312124,P.217 Bintulu,N.68 Tanjong Batu,3.19756,113.079632
-McDonald'sPlazaMerdeka,"LotNos.G-12,G-13,PartOfL1-15andAlfrescoArea,PlazaMerdeka,No88,PearlStreet,93000,Kuching,Sarawak,Malaysia",082-232479,P.195 Bandar Kuching,N.09 Padungan,1.558775,110.344069
-McDonald'sKluangDT,"265&343,GM.3095DanGM.3096,JalanKluang-AirHitam,86000,Kluang,Johor,Malaysia",07-7714658,P.152 Kluang,N.29 Mahkota,2.018448,103.297813
-McDonald'sMutiaraRiniDT,"SebahagianLot2144714,Lot2(PTD176566),TamanMutiaraRini,MukimPulai,86000JohorBahru,Johor,Malaysia",07-5212450,P.162 Iskandar Puteri,N.49 Kota Iskandar,1.514741,103.634202
-McDonald'sMeruRayaDT,"Lot82,JalanMeruBestariA2,DiatasSebahagianZon5,BandarMeruRaya,MukimHuluKinta,30020,Kinta,Perak,Malaysia",05-5262233,P.063 Tambun,N.23 Manjoi,4.670849,101.07766
-McDonald'sForestHeightDT,"SebahagianLot33369,MukimAmpanganSeremban,70450,Seremban,NegeriSembilan,Malaysia",06-7630260,P.130 Rasah,N.24 Seremban Jaya,2.699703,101.970083
-McDonald'sPetronSection7,"No.5,PersiaranKayanganSeksyen7(Fasa3C),40000,ShahAlam,Selangor,Malaysia",03-55240645,P.108 Shah Alam,N.40 Kota Anggerik,3.065698,101.490766
-McDonald'sSatokKuching,"Lot180&181,Ground&1stFloor,BangunanHajiAbdulRasit,JalanSatok,93400,Kuching,Sarawak,Malaysia",082-233598,P.194 Petra Jaya,N.08 Satok,1.553416,110.334022
-McDonald'sAlorMengkuduDT,"No8-A,JalanAlorMengkudu,05400,AlorSetar,Kedah,Malaysia",04-7317304,P.009 Alor Setar,N.14 Alor Mengkudu,6.096192,100.376115
-McDonald'sBatuCavesDT,"Lot52613,TamanSamudera,53000,BatuCaves,Selangor,Malaysia",03-61850130,P.098 Gombak,N.16 Sungai Tua,3.23509,101.689724
-McDonald'sSriManjung2DT,"SebahagianLot13108,MukimLumut,DaerahManjung,32010,SriManjung,Perak,Malaysia",05-6879482,P.074 Lumut,N.51 Pasir Panjang,4.199325,100.655221
-McDonald'sGongBadakDT,"LotNo.9154GM4340,JalanTengkuAmpuanIntanZaharah,MukimKualaNerus,21300,KualaTerengganu,Terengganu,Malaysia",09-6627800,P.035 Kuala Nerus,N.11 Seberang Takir,5.39816,103.084856
-McDonald'sGiantJalanKebunDT,"PT128899,Batu31/2,JalanKebun,TamanMaznah,41000,BandarKlang,DaerahKlang,Selangor,Malaysia",03-33701985,P.111 Kota Raja,N.48 Sentosa,3.024657,101.479994
-McDonald'sTamanDayaDT,"LotPTD110501,JalanNipah2,TamanDaya,81100,MukimTebrau,JohorBahru,Johor,Malaysia",07-3503205,P.158 Tebrau,N.41 Puteri Wangsa,1.543576,103.762622
-McDonald'sSriSerdangPrima,"No.20-1,20-2&20-3,Jalan18/33A,TamanSriSerdang,43300,SeriKembangan,Selangor,Malaysia",03-89409037,P.103 Puchong,N.29 Seri Serdang,3.008579,101.714358
-McDonald'sKokLanasDT,"Lot282,MukimMahangWest,DaerahKetereh,JajahanKotaBahru,16450,Kelantan,Malaysia",09-7882107,P.026 Ketereh,N.25 Kok Lanas,5.921957,102.244611
-McDonald'sTabuanJayaDT,"Lot16843(Lots4581,9210and9212),Block11,MTLDJalanCanna,93150,Kuching,Sarawak,Malaysia",082-360395,P.195 Bandar Kuching,N.11 Batu Lintang,1.513061,110.387951
-McDonald'sBandarPuteriPuchongDT,"No.G-6,No.1-6&No.2-6,JalanPuteri7/13A,BandarPuteri,47100,Puchong,Selangor,Malaysia",03-80514150,P.104 Subang,N.30 Kinrara,3.020174,101.625074
-McDonald'sSerembanDT,"Lot24158(PT2)&Lot24159(PT3),PekanBukitKepayang,MukimRasah,70200,Seremban,NegeriSembilan,Malaysia",06-7627625,P.130 Rasah,N.21 Bukit Kepayang,2.716919,101.918724
-McDonald'sJerantutDT,"Lot15495,MukimPedah,DaerahJerantut,27000,Jerantut,Pahang,Malaysia",09-2665900,P.081 Jerantut,N.10 Damak,3.933405,102.381333
-"McDonald'sMJCBatuKawaDT,Kuching","Lot3421(ParentLot2433),Block217KNLD,BatuKawaNewTownship,93250,Kuching,Sarawak,Malaysia",082-462587,P.196 Stampin,N.13 Batu Kitang,1.511653,110.304554
-McDonald'sKotaLaksamanaDT,"LotPT188,PekanKlebangSek.IV,DaerahMelakaTengah,BandarayaMelaka,75200,Melaka,Malaysia",06-2821406,P.138 Kota Melaka,N.19 Kesidang,2.202883,102.223247
-McDonald'sBHPTamanMelawatiDT,"LotPT8669,JalanLingkaranTengahII,53100,KualaLumpur,Malaysia",03-41622318,P.116 Wangsa Maju,,3.220217,101.735889
-McDonald'sBirchHouseDT,"No.73,JalanDato'Keramat,10150,Georgetown,PulauPinang,Malaysia",04-2265685,P.049 Tanjong,N.28 Komtar,5.412839,100.326031
-McDonald'sMainPlace,"LotNoGF-36,GroundFloor,MainPlaceMall,JalanUSJ21/10,47630,SubangJaya,Selangor,Malaysia",03-80118420,P.104 Subang,N.31 Subang Jaya,3.02665,101.581506
-McDonald'sNUSentral,"UnitNo.L4.02&03,Level4,1Sentral,JalanTravers,50470,KualaLumpur,Malaysia",03-22722054,P.120 Bukit Bintang,,3.133295,101.687277
-McDonald'sBandarSriPinangDT,"No2,LebuhSungaiPinang4,11600,PulauPinang,Malaysia",04-2815291,P.050 Jelutong,N.30 Sungai Pinang,5.395419,100.326778
-McDonald'sKLIA2Gateway,"LotL3-47-L3-50&L3-33,Level3,Gateway@KLIA2,H.S(D)7429,PTNo13,BandarLapanganTerbangAntarabangsaSepang,64000,Sepang,Selangor,Malaysia",03-87878271,P.113 Sepang,N.56 Sungai Pelek,2.743521,101.685438
-McDonald'sMetroCityDT,"Lot14212(Plot79),MetroCityNewTownship,Section65,KuchingTownLandDistrict,JalanMatang,93050,Kuching,Sarawak,Malaysia",082-646793,P.194 Petra Jaya,N.06 Tupong,1.568231,110.308561
-McDonald'sKangarDT,"JalanKampungBakau,01000,Kangar,Perlis,Malaysia",04-9779336,P.002 Kangar,N.08 Indera Kayangan,6.432622,100.196158
-McDonald'sSeremban2DT,"LotPT560,BandarSerembanUtama,Seremban2,70300,Seremban,NegeriSembilan,Malaysia",06-6307043,P.130 Rasah,N.21 Bukit Kepayang,2.691766,101.906053
-McDonald'sSriPetaling,"No63&63-1,JalanRadinTengah,BandarBaruSriPetaling,57000,KualaLumpur,Malaysia",03-90545927,P.122 Seputeh,,3.068888,101.6918
-McDonald'sIOICityMall,"LotNos.57&58,IOICityMall,IOIResort,62502,Putrajaya,Selangor,Malaysia",03-89571562,P.113 Sepang,N.55 Dengkil,2.970368,101.712868
 McDonald'sMuarDT,"Lot3070,JalanBakri,MukimBandarMaharani,84000,Muar,Johor,Malaysia",06-9510753,P.145 Bakri,N.13 Simpang Jeram,2.048498,102.59325
-McDonald'sKajangPerdanaDT,"18,MukimSemenyih,DaerahUluLangat,43000,Kajang,Selangor,Malaysia",03-87417192,P.102 Bangi,N.25 Kajang,2.990079,101.819705
-McDonald'sBandarSriPutraDT,"SebahagianLot38833,JalanSeriPutra1/9,BandarSeriPutra,43000,Kajang,Selangor,Malaysia",03-89120244,P.101 Hulu Langat,N.24 Semenyih,2.886726,101.792793
-McDonald'sJalanGambangDT,"Lot121596,JalanKuantanGambang,KualaKuantan,25150,Kuantan,Pahang,Malaysia",09-5362746,P.083 Kuantan,N.15 Tanjung Lumpur,3.779836,103.276752
-McDonald'sSabakBernamDT,"Lot24040PekanSungaiBesar,MukimPanchangBedena,45300,SabakBernam,Selangor,Malaysia",03-32243024,P.093 Sungai Besar,N.03 Sungai Panjang,3.673571,100.991464
-McDonald'sKotaMasaiDT,"Lot85821,TamanKotaMasai,Plentong,81700,PasirGudang,Johor,Malaysia",07-2527842,P.159 Pasir Gudang,N.43 Permas,1.492546,103.918802
-McDonald'sCalteDenaiAlamDT,"LotNo.3,PersiaranElektron,DenaiAlam,SectionU16,40160,ShahAlam,Selangor,Malaysia",03-77342914,P.108 Shah Alam,N.40 Kota Anggerik,3.159427,101.51307
-McDonald'sMidValley3,"Tingkat3,MidValleyMegamall,LingkaranSyedPutra,59200,KualaLumpur,Malaysia",03-22010506,P.121 Lembah Pantai,,3.117399,101.677572
-McDonald'sAmanCentral,"Unit1-39A,58,59,60,67&68,FirstFloor,AmanCentral,05100,AlorSetar,Kedah,Malaysia",04-7319299,P.009 Alor Setar,N.13 Kota Darul Aman,6.12524,100.366629
-McDonald'sCalteJalanTengahDT,"No.23-A,JalanTengah,BayanBaru,11950,BayanLepas,PulauPinang,Malaysia",04-6380570,P.052 Bayan Baru,N.36 Pantai Jerejak,5.319377,100.284669
-McDonald'sTamanUngkuTunAminahDT,"Lot13576,TamanUngkuAminah,MukimPulai,81300,JohorBahru,Johor,Malaysia",07-5571650,P.162 Iskandar Puteri,N.48 Skudai,1.513875,103.656394
-McDonald'sKotaBahruDT,"Lot2994,JalanKualaKrai,WakafCheYeh,15050,KotaBahru,Kelantan,Malaysia",09-7405427,P.021 Kota Bharu,N.10 Bunut Payong,6.086991,102.238965
-McDonald'sKLSentral,"Lot14,15,&16,FirstFloor,KualaLumpurSentralStation,50470,KualaLumpur,Malaysia",03-22711431,P.120 Bukit Bintang,,3.134615,101.686593
-McDonald'sMentakabStarMall,"F&B1,MentakabStarMall,No1,JalanStarCity1,StarCity,28400,Mentakab,Pahang,Malaysia",09-2785034,P.088 Temerloh,N.30 Mentakab,3.470383,102.331465
-McDonald'sMegamallPenang,"G-11,2898,JalanBaru,BandarPraiJaya,13600,SeberangPraiTengah,Prai,PulauPinang,Malaysia",04-3998199,P.046 Batu Kawan,N.16 Perai,5.377595,100.39953
-McDonald'sJalanSultanAzlanShahDT,"Lot197129,Plot2,JalanMedanIpoh,1AMedanIpohBistari,31400,Ipoh,Perak,Malaysia",05-5464573,P.064 Ipoh Timor,N.25 Canning,4.621261,101.116658
-McDonald'sJalanSulamanDT2KK,"Lot2OfNT013108275,AlongSulamanRoad,88450,KotaKinabalu,Sabah,Malaysia",088-493398,P.171 Sepanggar,N.17 Darau,6.038688,116.144268
-McDonald'sApi-Api(KotaKinabalu),"LotNo.1/G1&1/G2,Ground&FirstFloor,Api-ApiCentre,JalanCentrepoint,88000,KotaKinabalu,Sabah,Malaysia",088-261501/088-274611,P.172 Kota Kinabalu,N.20 Api-Api,5.976881,116.071212
-McDonald'sCentrePointKK,"LotL-9,LowerGroundFloor,CentrePointShoppingCentre,JalanCentrePoint,88000,KotaKinabalu,Sabah,Malaysia",088-269226,P.172 Kota Kinabalu,N.20 Api-Api,5.978472,116.072106
-McDonald'sSS15Subang,"GF,No.82&84,JalanSS15/4D,47500,SubangJaya,Selangor,Malaysia",03-56110172,P.104 Subang,N.31 Subang Jaya,3.073651,101.590526
-McDonald'sSection18ShahAlam,"No.37,JalanPinang18B,Section18,40200,ShahAlam,Selangor,Malaysia",03-55495398,P.108 Shah Alam,N.41 Batu Tiga,3.044239,101.51807
-McDonald'sGiantShahAlam,"Lot17-22,GroundFloor,GiantHypermarket,Lot2,ShahAlamStadium,PersiaranSukan,Seksyen13,41400,ShahAlam,Selangor,Malaysia",03-55110368,P.108 Shah Alam,N.40 Kota Anggerik,3.083907,101.549024
-McDonald'sProjectKarak,"Lot5946,JalanLingkaranTengahII,OffLebuhrayaKarak,53300,Gombak,Selangor,Malaysia",03-61876904,P.098 Gombak,N.17 Gombak Setia,3.240989,101.716157
-McDonald'sSection14,"No.2,Jalan14/4,46100,PetalingJaya,Selangor,Malaysia",03-79312673,P.105 Petaling Jaya,N.34 Bukit Gasing,3.109608,101.637001
-McDonald'sPJOldTown,"No.66,BlockCrystal,Jalan1/19,46200,PetalingJaya,Selangor,Malaysia",03-77836755,P.105 Petaling Jaya,N.34 Bukit Gasing,3.086649,101.64686
-McDonald'sPKNSShahAlam,"G14&G36,TingkatBawah,KompleksPKNS,40000,ShahAlam,Selangor,Malaysia",03-55192302,P.108 Shah Alam,N.40 Kota Anggerik,3.070532,101.516984
-McDonald'sKualaTerengganuDT,"Lot3540,JalanSultanMohammad,PadangHiliran,21100,KualaTerengganu,Terengganu,Malaysia",09-6313901,P.036 Kuala Terengganu,N.14 Bandar,5.310455,103.129287
-McDonald'sCalteChukai,"K-191,JalanKubangKurus,CukaiKemaman,24000,Kemaman,Terengganu,Malaysia",09-8585579,P.040 Kemaman,N.31 Cukai,4.22948,103.419971
-McDonald'sPutrajayaPersint2DT,"SebahagianLot7(2M1),Presint2,62100Putrajaya",03-88615413,P.125 Putrajaya,,2.926237,101.684837
-McDonald'sBHPJalanKapar,"PT34062,Batu3.5JalanKapar,42100SelangorDarulEhsan",03-32901226,P.109 Kapar,N.43 Sementa,3.071424,101.410867
-McDonald'sCyberjaya,"Prima5-B,JalanTeknorat5,63000,Cyberjaya,SelangorDarulEhsan",03-86880450,P.113 Sepang,N.55 Dengkil,2.921166,101.655869
-McDonald'sPetrajayaDT,"Plot1,Lot477(Phase2)Block17,SalakLandDistrict,JalanSemariang,93050,Kuching,Sarawak,Malaysia",082-506094,P.194 Petra Jaya,N.07 Samariang,1.586954,110.331143
-McDonald'sKuantanRiverfrontDT,"SebahagianLot57&SebahagianLot5,JalanTanahPutih,25000,Kuantan,Pahang",09-5132665,P.083 Kuantan,N.15 Tanjung Lumpur,3.799071,103.322594
-McDonald'sSuriaSabahKK,"LotG-Et1&PartofLotG35,GroundFloor,SuriaSabahShoppingMall,No.1,JalanTunFuadStephens,88000KotaKinabalu,Sabah,Malaysia",088-274649,P.172 Kota Kinabalu,N.19 Likas,5.986932,116.076192
-McDonald'sCitySquare,"No.M1-06-06A,Level1,JohorBahruCitySquare,JalanWongAhFook,80400,JohorBahru,Johor,Malaysia",07-2215801,P.161 Pulai,N.46 Perling,1.461972,103.763575
-McDonald'sSuriaKLCC,"LotC35-38,ConcourseFloor,SuriaKLCCShoppingCentre,JalanAmpang,50088,KualaLumpur,Malaysia",03-27151512,P.120 Bukit Bintang,,3.157474,101.712164
-McDonald'sBHPTamanKosasDT,"LotPT9623,JalanTamanKosas2,TamanKosas,68000,Ampang,Selangor,Malaysia",016-7239014,P.099 Ampang,N.19 Bukit Antarabangsa,3.148208,101.76634
-McDonald'sShellPutraHeightDT,"LotPT.35810,PersiaranPutraIndah,PutraHeights,MukimDamansara,DaerahPetaling,47650,Selangor,Malaysia",03-51035347,P.111 Kota Raja,N.50 Kota Kemuning,2.99728,101.570971
-McDonald'sShellJalanPandanDT,"LotPTD209631,JalanPandan,81100,JohorBahru,Johor,Malaysia",07-3512295,P.159 Pasir Gudang,N.42 Johor Jaya,1.525077,103.772502
-McDonald'sParadigmMallJB,"Lot4F-45B,FourthFloor,ParadigmMallJB,JalanSkudai,81200JohorBahru,Johor.",07-2309173,P.161 Pulai,N.47 Kempas,1.515158,103.685767
-McDonald'sMyTownMall,"LotNo.B1-03&B1-E-03,MyTownShoppingCentre,No.6,JalanCohcrane,Section90,55100,KualaLumpur,Malaysia",03-27322566,P.119 Titiwangsa,,3.134208,101.723645
-McDonald'sSetiaAlamDT,"PT34532,JalanSetiaAlamARU13/AR,SetiaAlam,SectionU13,40170,ShahAlam,Selangor,Malaysia",03-33582970,P.108 Shah Alam,N.40 Kota Anggerik,3.127111,101.466829
-McDonald'sSunwayVelocityMall,"LG,SunwayVelocityMall,JalanPeel,55100,KualaLumpur,Malaysia",03-27320717,P.123 Cheras,,3.127299,101.724463
-McDonald'sOUG,"PartofG03toG06,GroundFloor,PlazaOUG,JalanKlangLama,58000KualaLumpur.",03-79820933,P.122 Seputeh,,3.081921,101.671337
-McDonald'sBintangPlazaMiri,"Lot1264,1stFloor,BintangPlazaShoppingCentre,JalanMiri-Pujut,98008Miri,Sarawak,Malaysia",085-433118,P.219 Miri,N.73 Piasau,4.397233,113.993806
-McDonald'sSetiaPearlDT,"PartofLot16793,Mukim12,BaratDaya,11900,PulauPinang,Malaysia",04-2962806,P.053 Balik Pulau,N.38 Bayan Lepas,5.302556,100.261412
-McDonald'sAmpanganDT,"LotGE-03,CentrepointSeremban,JalanDato'SiamangGagap,70300,Seremban,NegeriSembilan,Malaysia",06-7600425,P.128 Seremban,N.14 Ampangan,2.722367,101.955652
-McDonald'sShellSerdangRaya,"LotPT2469,JalanUtama,TamanSerdangJaya,43300SeriKembangan,Selangor.",03-89381092,P.103 Puchong,N.28 Seri Kembangan,3.047288,101.704716
-McDonald'sIntermarkMall,"LotNo.G17,G17A&G17B,GroundFloor,IntermarkMall,348,JalanTunRazak,50400,KualaLumpur,Malaysia",03-27155667,P.119 Titiwangsa,,3.161279,101.720181
-McDonald'sGurneyPlaza,"UnitNo.170-G-75&170-01-73,10250,Penang,Malaysia",04-2264654,P.048 Bukit Bendera,N.25 Pulau Tikus,5.43709,100.309951
-McDonald'sPetronasKotaDamansaraDT,"PartofPetronasStationKotaDamansara,No30,JalanTeknologi,Seksyen2,PJU5,KotaDamansara,47810PetalingJaya,Selangor",03-61503517,P.107 Sungai Buloh,N.39 Kota Damansara,3.14975,101.579685
-McDonald'sDanauKotaDT,"PartofLot201138,JalanLangkawi,MukimSetapak,TamanDanauKota,53300KualaLumpur.",03-41310897,P.116 Wangsa Maju,,3.2066149,101.7175568
-McDonald'sCanaryGardenKlangDT,"PartofLotPT51795,JalanLangatKS8,BandarBestari,41200Klang,SelangorDarulEhsan.",03-31221647,P.110 Klang,N.46 Pelabuhan Klang,2.960231,101.466226
-McDonald'sDesaParkCityDT,"LotGF32&FF31,WaterfrontParkcity,PersiaranResiden,DesaparkCity,52200KualaLumpur.",03-62610971,P.117 Segambut,,3.1877337,101.62778
-McDonald'sShellPortDicksonDT,"Lot9169,7thMile,JalanPantai,KampungBaharu,71050PortDickson,NegeriSembilan",06-6466815,P.132 Port Dickson,N.31 Bagan Pinang,2.47339,101.857923
-McDonald'sShellSection13DT,"No.1,Jalan13/55A,Seksyen13,40100ShahAlam,SelangorDarulEhsan.",03-55690661,P.108 Shah Alam,N.40 Kota Anggerik,3.0857043,101.55331
-McDonald'sShellMahkotaCherasDT,"BandarMahkotaCheras,43200,Batu9,Cheras,Selangor.",03-90109849,P.102 Bangi,N.25 Kajang,3.050911,101.786975
-McDonald'sBeverlyHillsDT,"LotNo.CL215347916(Lot9),JalanBundusan,Penampang,88620KotaKinabalu,Sabah.",08-8710442,P.174 Penampang,N.25 Kapayan,5.931921,116.098781
-McDonald'sPetronBandarSaujanaPutraDT,"PartofLot26104,JalanSaujanaPutra,BandarSaujanaPutra,OffLebuhrayaELITE,42610JenjaromSelangor.",03-51036118,P.112 Kuala Langat,N.51 Sijangkang,2.944413,101.587978
-McDonald'sJuruR&R,"PartofLotNo.341&6154,Mukim6,JalanBukitTengah,SeberangPeraiTengah,13700PulauPinang",04-5026142,P.046 Batu Kawan,N.17 Bukit Tengah,5.355126,100.416819
-McDonald'sShaftsburyDT,"UnitNo.G-17,GroundFloor,ShaftsburyPutrajaya,JalanAlamanda,Presint1,62000Putrajaya,WilayahPersekutuanPutrajaya",03-88612903,P.125 Putrajaya,,2.939236,101.713325
-McDonald'sPetronasPasirPekanDT,"Lot3201,StesyenMinyakPetronas,KampungPasirPekan,16250,PasirPekanKotaBharu,KelantanDarulNaim",09-7186061,P.019 Tumpat,N.03 Pasir Pekan,6.1190494,102.2165414
-McDonald'sShellSS6,"LotPT3630,JalanSS6/12,KelanaJaya,47301PetalingJaya,Selangor",03-78028854,P.105 Petaling Jaya,N.32 Seri Setia,3.105129,101.5975
-PetronasBatu3FederalHighwayDT,"LotPT5,HD(D)239246,Batu3FederalHighway,PekanCountryHeight(FederalHighwayKlangBound),DaerahPetaling,46150SubangJaya,Selangor",016-2238193,P.108 Shah Alam,N.41 Batu Tiga,3.080722,101.572347
-McDonald'sKualaPilahDT,"LotPT2781,JalanMelang,TamanMelang,72000KualaPilah,NegeriSembilan",06-4831069,P.129 Kuala Pilah,N.18 Pilah,2.73433,102.235089
-McDonald'sAmanjayaDT,"PartofLot894-Lot900,Lot955-Lot961,Seksyen64,BandarAmanJaya,Seksyen64,BandarAmanJaya,08000,SungaiPetani,KedahDarulAman",04-4410974,P.014 Merbok,N.25 Bukit Selambau,5.6730823,100.5102205
-McDonald'sPearlPointDT,"LotNoG-08,GroundFloor,PearlPointShoppingComple,5thMile,OldKlangRoad,58000KualaLumpur",03-79710196,P.122 Seputeh,,3.084915,101.673568
-McDonald'sStulangDT,"LotPTB24076,JalanIbrahimSultan,StulangLaut,BandarJohorBahru,80300JohorBahru,Johor",07-2073794,P.160 Johor Bahru,N.45 Stulang,1.467432,103.778644
-McDonald'sEducityJBDT,"LotPTD189218,JalanKampungLalang,Educity,IskandarPuteri,79100JohorBahru,Johor",07-5103667,P.162 Iskandar Puteri,N.49 Kota Iskandar,1.428935,103.616117
-McDonald'sJalanP.Ramlee,"LotG-W-1,GroundFloor,WestWing,RohasPureCircle,No9,JalanPRamlee,50450KualaLumpur",03-21815851,P.120 Bukit Bintang,,3.154587,101.708461
-McDonald'sBaganAjamDT,"PlotNo.2,PusatPerniagaanOren,DiatasLot10067(SebahagianLotLama:35),JalanBaganAjamSeksyen1,13000BandarButterworth,SeberangPeraiUtaraPulauPinang.",04-3137858,P.043 Bagan,N.07 Sungai Puyu,5.440361,100.381611
-McDonald'sAMJBertamDT,"GM229,Lot18859,MukimBertam,75260DaerahMelakaTengah,Melaka",06-3347865,P.138 Kota Melaka,N.19 Kesidang,2.253646,102.222233
-McDonald'sSempornaDT,"CountryLease125340490,Mile1,JalanBubul,91308Semporna,Sabah",08-9788603,P.189 Semporna,N.65 Senallang,4.475638,118.607646
-McDonald'sKeningauDT,"CountryLease135367387,JalanJabatanPerhutanan,OffLebuhrayaKeningau-Tambunan,89008Keningau,Sabah",08-7332181,P.180 Keningau,N.41 Liawan,5.33996,116.157801
-McDonald'sPSSBukitKatilDT,"Lot4985,JalanTunHamzah,MukimBukitKatil,75450BukitKatil,Melaka",06-3182439,P.137 Hang Tuah Jaya,N.17 Bukit Katil,2.235689,102.301093
-McDonald'sLikasBayKK,"LotC,AnjungSelera,TanjungLipat,LikasJalanTunFuadStephens,88400KotaKinabaluSabah",015-96322370,P.171 Sepanggar,N.17 Darau,6.009846,116.110757
-McDonald'sBHPJalanKepong,"LotPT1,Batu61/2,JalanKepong,52000KualaLumpur",03-62500090,P.114 Kepong,,3.208163,101.653579
-McDonald'sPetronasBandarKinraraDT,"PartofLot4054,Phase5A,JalanKinrara6,BandarKinrara,47180Puchong,Selangor",03-80740617,P.104 Subang,N.30 Kinrara,3.036724,101.654738
-McDonald'sPetronasTamanDagangDrive-Thru,"PetronasTamanDagang,PT12671,JalanNirwana,TamanNirwana,68000,Ampang,Selangor.",03-42705247,P.100 Pandan,N.21 Pandan Indah,3.145192,101.755045
-McDonald'sDesaTebrauDT,"LotPTD83404,TamanDesaTebrau,81100MukimTebrau,JohorBahru",015-96368490,P.158 Tebrau,N.41 Puteri Wangsa,1.55525,103.798566
-McDonald'sShellJalanSentulDT,"PT8938,JalanSentul/BatuCaves,MukimSetapak,Sentul,51100KualaLumpur",016-2127692,P.109 Kapar,N.42 Meru,3.12223,101.41208
-McDonald'sSubangBestariDT,"PT42395,JalanNovaJU5/J,SubangBestari,SeksyenU5,40150ShahAlam,Selangor.",03-78311205,P.107 Sungai Buloh,N.39 Kota Damansara,3.176072,101.545641
-McDonald'sBahauDT,"PT1127,JalanKiara1/2,PusatPerniagaanKiara,72100Bahau,NegeriSembilan",06-4539877,P.127 Jempol,N.07 Jeram Padang,2.825381,102.431691
-McDonald'sTampinDT,"Lot613,JalanSeremban-Tampin,73000Tampin,NegeriSembilan",016-2372097,P.133 Tampin,N.36 Repah,2.473091,102.226762
-McDonald'sKualaKangsarDT,"Lot2492,JalanTaiping,MukimSayong,33000DaerahKualaKangsar,PerakDarulRidzuan",05-7762482,P.067 Kuala Kangsar,N.34 Bukit Chandan,4.772459,100.932845
-McDonald'sEcoMajesticDT,"No.1,JalanEcoMajestic9/1,EcoMajestic,43500Semenyih,Selangor",03-87239527,P.101 Hulu Langat,N.24 Semenyih,2.901795,101.836588
-McDonald'sWismaLimFooYong,"WismaLimFooYong,LotNo.62,Seksyen57,JalanRajaChulan,50250KualaLumpur.",03-21102479,P.110 Klang,N.45 Bandar Baru Klang,3.09032,101.42334
-McDonald'sPKNSPJDT,"Lot201,No.17,JalanYongShookLin,MenaraPKNSPetalingJaya,Seksyen7,46050SelangorDarulEhsan",03-79314943,P.109 Kapar,N.43 Sementa,3.05596,101.3834
-McDonald'sMerlimauDT,"PT6370,JalanBMU1,BandarBaruMerlimauUtara,77300Merlimau,Melaka",06-2639126,P.139 Jasin,N.27 Merlimau,2.169054,102.431728
-McDonald'sSentulUOADT,"LOTPT10098,JalanSentulPasar,MukimSetapakDalam,BandarayaKualaLumpur51000KualaLumpur",03-27029214,P.115 Batu,,3.202057,101.689976
-McDonald'sPSSUSJ1DT,"LotHS(D)216848,PT36061,PekanPenaga,TamanSubangMewah,SubangJaya,Selangor",03-80812681,P.104 Subang,N.31 Subang Jaya,3.04779,101.601864
-McDonald'sSeriAustinDT,"Lot132943,PersiaranJayaPutra,TamanSeriAustin,81100JohorBahru,Johor.",07-3643411,P.158 Tebrau,N.41 Puteri Wangsa,1.579057,103.749927
+McDonald'sBatuPahatDT,"LotPTD48029,TamanFloraUtama,JalanTanSweeHoe,83000,BatuPahat,Johor,Malaysia",07-4339286,P.149 Sri Gading,N.21 Parit Yaani,1.865327,102.947235
+McDonald'sParitRajaDT,"Lot20398HS(D)59406,MKSriGading,83300,BatuPahat,Johor,Malaysia",07-4535286,P.149 Sri Gading,N.22 Parit Raja,1.848982,103.075914
 McDonald'sSimpangRenggamDT,"Lot17143,JalanBesar,MukimRenggam,SimpangRenggam,86200Kluang,Johor",011-10895318,P.151 Simpang Renggam,N.27 Layang-Layang,1.822241,103.315606
-McDonald'sPSSJalanREKO,"Lot53934,RekoSentral,MukimKajang,43000DaerahHuluLangat,Selangor",03-87354278,P.102 Bangi,N.25 Kajang,2.969077,101.789231
+McDonald'sKluangDT,"265&343,GM.3095DanGM.3096,JalanKluang-AirHitam,86000,Kluang,Johor,Malaysia",07-7714658,P.152 Kluang,N.29 Mahkota,2.018448,103.297813
+McDonald'sKluang,"No.1,JalanMd.LazimSaim,86000,Kluang,Johor,Malaysia",07-7716134,P.152 Kluang,N.29 Mahkota,2.034448,103.320414
+McDonald'sKotaTinggi,"BlockA,Lot2Aras1,Aras2&Lot1Aras1,JalanNiaga11,MukimKotaTinggi,DaerahKotaTinggi,81900,KotaTinggi,Johor,Malaysia",07-8828825,P.156 Kota Tinggi,N.37 Johor Lama,1.729912,103.902428
+McDonald'sPelangiIndahDT,"PetronasPetrolStation,LotNo.105615,JalanPesona,TamanPelangiIndah,81800,JohorBahru,Johor,Malaysia",07-8610480,P.158 Tebrau,N.41 Puteri Wangsa,1.582352,103.800959
+McDonald'sJalanTebrauDT,"LotPTD68950,Batu71/2,JalanKotaTinggi,81100,JohorBahru,Johor,Malaysia",07-3544108,P.158 Tebrau,N.41 Puteri Wangsa,1.535706,103.784543
+McDonald'sSetiaTropikaDT,"Lot141190,JalanSetiaTropika1/21,TamanSetiaTropika,MukimTebrau,81100,JohorBahru,Johor,Malaysia",07-2342618,P.158 Tebrau,N.41 Puteri Wangsa,1.548749,103.715152
+McDonald'sDesaTebrauDT,"LotPTD83404,TamanDesaTebrau,81100MukimTebrau,JohorBahru",015-96368490,P.158 Tebrau,N.41 Puteri Wangsa,1.55525,103.798566
+McDonald'sMountAustinDT,"Lot110034,JalanAustinHeights3,TamanMountAustin,MukimTebrau,81100,JohorBahru,Johor,Malaysia",07-3531918,P.158 Tebrau,N.41 Puteri Wangsa,1.557757,103.781721
+McDonald'sSeriAustinDT,"Lot132943,PersiaranJayaPutra,TamanSeriAustin,81100JohorBahru,Johor.",07-3643411,P.158 Tebrau,N.41 Puteri Wangsa,1.579057,103.749927
+McDonald'sTamanDayaDT,"LotPTD110501,JalanNipah2,TamanDaya,81100,MukimTebrau,JohorBahru,Johor,Malaysia",07-3503205,P.158 Tebrau,N.41 Puteri Wangsa,1.543576,103.762622
+McDonald'sUluTiramDT,"SebahagianLotPTD19827,MukimTebrau,UluTiram,81800,JohorBahru,Johor,Malaysia",07-8633429,P.158 Tebrau,N.40 Tiram,1.594882,103.82003
+McDonald'sKotaMasaiDT,"Lot85821,TamanKotaMasai,Plentong,81700,PasirGudang,Johor,Malaysia",07-2527842,P.159 Pasir Gudang,N.43 Permas,1.492546,103.918802
+McDonald'sPasirGudangDT,"LotPT69990,HSD124966,JalanBandarMukimPlentong,BandarBaruPasirGudang,81700PasirGudang,Johor,Malaysia",07-2526102,P.159 Pasir Gudang,N.43 Permas,1.470203,103.905013
+McDonald'sShellJalanPandanDT,"LotPTD209631,JalanPandan,81100,JohorBahru,Johor,Malaysia",07-3512295,P.159 Pasir Gudang,N.42 Johor Jaya,1.525077,103.772502
+McDonald'sSriAlamMasaiDT,"LotPTD174172,JalanSeriAlam,BandarSeriAlam,81750,Masai,Johor,Malaysia",07-2564463,P.159 Pasir Gudang,N.42 Johor Jaya,1.496185,103.870776
+McDonald'sPermasJaya,"No2,JalanPermasJaya10,BandarBaruPermasJaya,80400,JohorBahru,Johor,Malaysia",07-3804925,P.159 Pasir Gudang,N.43 Permas,1.49526,103.815515
+McDonald'sPlazaPelangi,"Lot1.19,PlazaPelangi,JalanTebrau/JalanKuning,80400,JohorBahru,Johor,Malaysia",07-3311746,P.160 Johor Bahru,N.45 Stulang,1.4799,103.7651
+McDonald'sStulangDT,"LotPTB24076,JalanIbrahimSultan,StulangLaut,BandarJohorBahru,80300JohorBahru,Johor",07-2073794,P.160 Johor Bahru,N.45 Stulang,1.467432,103.778644
 McDonald'sPSSTamanPerlingDT,"Lot50844,JalanLayang16,TamanPerling,81200JohorBahru,Johor",07-2171431,P.161 Pulai,N.46 Perling,1.4738,103.66878
-McDonald'sKotaStarDT,"Lot81,JalanSultanahBahiyah,MukimAlorMalai.05350KotaSetarKedah",04-7372976,P.009 Alor Setar,N.12 Suka Menanti,6.1431924,100.3654614
-McDonald'sCameronHighlandDT,"LotPt3275,MukimTanahRata,39000,DaerahCameronHighlands,PahangDarulMakmur.",05-4914107,P.078 Cameron Highlands,N.01 Tanah Rata,4.496029,101.390626
-McDonald'sPSSBukitBeruntungDT,"Lot10496,No.1JalanKamunting,MukimSerendah,48300DaerahHuluSelangor,Selangor",03-60218371,P.094 Hulu Selangor,N.07 Batang Kali,3.41297,101.557582
-McDonald'sShellTasikAmpangDT,"LotPT2536,LebuhRayaLingkaranTengah2,MukimAmpang,55000KualaLumpur",,P.119 Titiwangsa,,3.151919749,101.745321
-McDonald'sKubangKerianDT,"Lot523Seksyen54,MukimKenali,DaerahKubangKerian,JajahanKotaBharu,KelantanDarulNaim",,P.024 Kubang Kerian,N.19 Demit,6.093778,102.27775
-McDonald'sKajangImpianDT,"LotPT.70550,JalanKajangImpian1/2,TamanKajangImpian,MukimBandarBaruBangi,43650DaerahHuluLangat,SelangorDarulEhsan",03-89221937,P.102 Bangi,N.25 Kajang,2.975016,101.77144
-McDonald'sShellLukutDT,"PT4849,JalanBesarLukut,Batu4,BandarBaruLukut,71010PortDickson,NegeriSembilan",,P.132 Port Dickson,N.30 Lukut,2.565154633,101.820597
-McDonald'sPSSBangiNBLaybyDT,"LotPT2(HSD41974)BerhadapanLebuhraya,UtaraSelatanKL-(KM297.9-298.1ArahUtara)BandarSungaiMerab,MukimDengkil,Sepang,SelangorDarulEhsan",03-89229640,P.113 Sepang,N.55 Dengkil,2.945037,101.751844
-McDonald'sShellDengkilBypassDT,"Lot101777,KM48.7,JalanPintasanDengkil-Putrajaya(FT29)ArahUtara,43800Dengkil,Selangor",,P.113 Sepang,N.55 Dengkil,2.869292,101.685648
-McDonald'sCalteSungaiDuaDT,"CalteSungaiDuaNorthBound,PMT10359,KM132.5,LebuhrayaUtaraSelatan,13600PermatangPauh,PulauPinang",,P.044 Permatang Pauh,N.11 Permatang Pasir,5.423207,100.4128
-McDonald'sShellBandarBotanikDT,"LotPT118176JalanLangat,BandarBotanik,41200Klang,Selangor",,P.111 Kota Raja,N.49 Sungai Kandis,2.99088,101.4477997
-McDonald'sShellBukitBintangDT,"225,BukitBintangSt,Imbi,55100KualaLumpur,FederalTerritoryOfKualaLumpur",,P.120 Bukit Bintang,,3.14752,101.7178428
-McDonald'sBandarBukitPuchongDT,"2,JalanBP7/1Sierra7,BandarBukitPuchong,47120Puchong,Selangor",,P.103 Puchong,N.29 Seri Serdang,2.98357,101.6171598
-McDonald'sGentingGrand,"LotNo.G/LG1A.00,LowerGroundFloor,GentingGrandHotel,GentingHighlandsResort,69000GentingHighland,Pahang",,P.089 Bentong,N.34 Ketari,3.43353,101.7925899
-McDonald'sLangkawiKuahDT,"Lot107,MukimKuah,07000DaerahLangkawiKedah",,P.004 Langkawi,N.02 Kuah,6.32844,99.834406
-McDonald'sAmvertonDT,"Lot85631,JalanU17/16,BukitAmvertonSeksyenU17,40160ShahAlam,Selangor",,P.107 Sungai Buloh,N.38 Paya Jaras,3.216468,101.5293271
-McDonald'sICONICSimpangAmpatDT,"2,JalanIconicPoint,IconicPoint,14100SimpangAmpat,PulauPinang",,P.046 Batu Kawan,N.18 Bukit Tambun,5.283685,100.476241
-McDonald'sShellJalanKuchingDT,"Lot58043,JalanKuching,MukimBatu68100,WlayahPersekutuanKualaLumpur",,P.115 Batu,,3.223098,101.6721257
-McDonald'sPenangInternationalAirport,"LotPC05,DepatureLevel,PenangInternationalAirport,11900BayanLepas,PulauPinang",,P.052 Bayan Baru,N.37 Batu Maung,5.293007,100.265933
-McDonald'sTroika,"Lot1-1,1-2ResidensiTroika,JalanMahmood,15200KotaBharu,Kelantan",,P.021 Kota Bharu,N.09 Kota Lama,6.120501,102.240525
+McDonald'sCitySquare,"No.M1-06-06A,Level1,JohorBahruCitySquare,JalanWongAhFook,80400,JohorBahru,Johor,Malaysia",07-2215801,P.161 Pulai,N.46 Perling,1.461972,103.763575
+McDonald'sTanSriYaacob,"No.2,JalanJati,TamanNusaBestariJaya,81300,JohorBahru,Johor,Malaysia",07-5122741,P.161 Pulai,N.46 Perling,1.497839,103.655888
+McDonald'sPetronasSkudaiDT,"LotNo.PTD13309&PTD52136,KM11JalanSkudai,MukimTebrau,81200,JohorBahru,Johor,Malaysia",07-2383932,P.161 Pulai,N.47 Kempas,1.500357,103.697691
+McDonald'sParadigmMallJB,"Lot4F-45B,FourthFloor,ParadigmMallJB,JalanSkudai,81200JohorBahru,Johor.",07-2309173,P.161 Pulai,N.47 Kempas,1.515158,103.685767
+McDonald'sPlazaAngsana,"LotNo.L1-27,PlazaAngsana,JalanSkudai,PusatBandarTampoi,81000,Johor,Malaysia",07-2321277,P.161 Pulai,N.47 Kempas,1.495077,103.705668
+McDonald'sNongChikDT,"SebahagianLotPT22062,JalanKolamAir,BandarJohorBahru,80100,JohorBahru,Johor,Malaysia",07-2209040,P.161 Pulai,N.46 Perling,1.462667,103.738872
+McDonald'sBukitIndahDT,"No.57,JalanIndah15/2,BukitIndah,81200,JohorBahru,Johor,Malaysia",07-2385535,P.161 Pulai,N.46 Perling,1.48168,103.65776
+McDonald'sMutiaraRiniDT,"SebahagianLot2144714,Lot2(PTD176566),TamanMutiaraRini,MukimPulai,86000JohorBahru,Johor,Malaysia",07-5212450,P.162 Iskandar Puteri,N.49 Kota Iskandar,1.514741,103.634202
+McDonald'sAEONTamanUniversity,"LG08,JuscoShoppingCenter,No.4,JalanPendidikan,TamanUniversiti,81300,Skudai,Johor,Malaysia",07-5506427,P.162 Iskandar Puteri,N.49 Kota Iskandar,1.542346,103.629175
+McDonald'sTamanSuteraDT,"LotPT135893,JalanRodaUtama,81300,Skudai,JohorBahru,Johor,Malaysia",07-5565121,P.162 Iskandar Puteri,N.48 Skudai,1.523079,103.678383
+McDonald'sTamanUngkuTunAminahDT,"Lot13576,TamanUngkuAminah,MukimPulai,81300,JohorBahru,Johor,Malaysia",07-5571650,P.162 Iskandar Puteri,N.48 Skudai,1.513875,103.656394
+McDonald'sEducityJBDT,"LotPTD189218,JalanKampungLalang,Educity,IskandarPuteri,79100JohorBahru,Johor",07-5103667,P.162 Iskandar Puteri,N.49 Kota Iskandar,1.428935,103.616117
+McDonald'sUTMSkudaiDT,"LotPT61054,Batu11,JalanPontian,81300,Skudai,Johor,Malaysia",07-5621047,P.163 Kulai,N.52 Senai,1.550878,103.650721
+McDonald'sKulaiDT,"Lot1150,JalanKasturi36/41,Indahpura,81000,Kulai,JohorBahru,Johor,Malaysia",07-6626515,P.163 Kulai,N.52 Senai,1.638243,103.625675
+McDonald'sPontianDT,"Lot13182,JalanDelima,MukimBandarPontianKecil,82000,Pontian,Johor,Malaysia",07-6883200,P.164 Pontian,N.54 Pulai Sebatang,1.478419,103.392124
 McDonald'sLabuan,"IR9/C12,TropicalUmbrellaLight,IndustrialEstate,JalanArsat,87014,WPLabuan,Malaysia",,P.166 Labuan,,5.296338,115.238963
-McDonald'sShellWangsaMajuDT,"Lot28332,Jalan8/27A,PusatBandarWangsaMaju,53300KualaLumpur",,P.118 Setiawangsa,,3.19744,101.744674130684
-McDonald'sJalanTunRazakDT,"No9,JalanFletcher,50400KualaLumpur",,P.118 Setiawangsa,,3.1721,101.7086
-McDonald'sCalteKrubongDT,"SebahagianLot23344,JalanPantaiBelimbing,75260Krubong,Melaka",,P.136 Tangga Batu,N.13 Paya Rumput,2.29776,102.24862
-McDonald'sShellSerembanJayaDT,"JalanSerembanJaya,PT2443,Pekan,71450Seremban,NegeriSembilan",,P.130 Rasah,N.24 Seremban Jaya,2.675337,101.975288
-McDonald'sIKEABatuKawanDT,"PlotNo.1,HSD47588,PT5910,Mukim13,SeberangPeraiSelatan,14100BatuKawan,PulauPinang",,P.046 Batu Kawan,N.18 Bukit Tambun,5.234703,100.442596
-McDonald'sPetronasTanahMerahDT,"PSSMaka,Lot9844&9845,MukimofMaka,17500JajahanTanahMerah,Kelantan.",,P.027 Tanah Merah,N.26 Bukit Panau,5.821232,102.149476
-McDonald'sEdusphereDT,"AtelierCentre,JalanAtelier1,Edusphere,Cyber11,63000Cyberjaya,Selangor.",,P.113 Sepang,N.55 Dengkil,2.93385,101.63631
-McDonald'sPetronNorthKiaraDT,"452,JalanSegambut,KampungSegambutTengah,1200KualaLumpur",,P.117 Segambut,,3.18298,101.65492
-McDonald'sTanjungTokongDT,"No.6,JalanTanjungTokong,10250GeorgeTownPulauPinang",,P.048 Bukit Bendera,N.25 Pulau Tikus,5.446954,100.3055678
-McDonald'sPantaiSentralParkDT,"No.2,JalanPantaiSentral1,PantaiSentral,59200,WilayahPersekutuanKualaLumpur.",,P.121 Lembah Pantai,,3.101972,101.666333
-McDonald'sTanjongMalimDT,"Lot232,JalanTanjongMalim,ProtonCity,MukimHuluBernamProtonCity,MukimHuluBernam,35900TimorDaerahMuallim,Perak.",,P.077 Tanjong Malim,N.59 Behrang,3.69252,101.52008
+McDonald'sLabuanAirport,"LotNo.L1L04-L1L06,LabuanAirport,ArrivalHall1,TerminalBuilding,80569,WPLabuan,Malaysia",087-428890,P.166 Labuan,,5.29399,115.249723
+McDonald'sShellJalanSulamanDT,"OffJalanSulamanHighway,88000,KotaKinabalu,Sabah,Malaysia",088-387502,P.171 Sepanggar,N.16 Karambunai,6.018261,116.114743
+McDonald'sJalanSulamanDT2KK,"Lot2OfNT013108275,AlongSulamanRoad,88450,KotaKinabalu,Sabah,Malaysia",088-493398,P.171 Sepanggar,N.17 Darau,6.038688,116.144268
+McDonald's1BorneoMall,"ConcourseFloor,1BorneoMall,LotNo.C215-C218&PartofD219,88871,KotaKinabalu,Sabah,Malaysia",088-447568,P.171 Sepanggar,N.16 Karambunai,6.035481,116.128903
+McDonald'sLikasBayKK,"LotC,AnjungSelera,TanjungLipat,LikasJalanTunFuadStephens,88400KotaKinabaluSabah",015-96322370,P.171 Sepanggar,N.17 Darau,6.009846,116.110757
+McDonald'sApi-Api(KotaKinabalu),"LotNo.1/G1&1/G2,Ground&FirstFloor,Api-ApiCentre,JalanCentrepoint,88000,KotaKinabalu,Sabah,Malaysia",088-261501/088-274611,P.172 Kota Kinabalu,N.20 Api-Api,5.976881,116.071212
+McDonald'sKaramunsing,"LotG-21,23,25and26part,CompleKaramunsing,JalanKaramunsing,88000,KotaKinabalu,Sabah,Malaysia",088-255346,P.172 Kota Kinabalu,N.20 Api-Api,5.971027,116.075163
+McDonald'sSuriaSabahKK,"LotG-Et1&PartofLotG35,GroundFloor,SuriaSabahShoppingMall,No.1,JalanTunFuadStephens,88000KotaKinabalu,Sabah,Malaysia",088-274649,P.172 Kota Kinabalu,N.19 Likas,5.986932,116.076192
+McDonald'sCentrePointKK,"LotL-9,LowerGroundFloor,CentrePointShoppingCentre,JalanCentrePoint,88000,KotaKinabalu,Sabah,Malaysia",088-269226,P.172 Kota Kinabalu,N.20 Api-Api,5.978472,116.072106
+McDonald'sKKAirport,"LotNo.L3-L14,PublicConcourse,DepartureLevelTerminal1,KotaKinabaluInternationalAirport,88100,KotaKinabalu,Sabah,Malaysia",088-413791,P.173 Putatan,N.22 Tanjong Aru,5.923602,110.05062
+McDonald'sBeverlyHillsDT,"LotNo.CL215347916(Lot9),JalanBundusan,Penampang,88620KotaKinabalu,Sabah.",08-8710442,P.174 Penampang,N.25 Kapayan,5.931921,116.098781
+McDonald'sKeningauDT,"CountryLease135367387,JalanJabatanPerhutanan,OffLebuhrayaKeningau-Tambunan,89008Keningau,Sabah",08-7332181,P.180 Keningau,N.41 Liawan,5.33996,116.157801
+McDonald'sSandakanDT,"SebahagianCL075477584,Batu6,JalanUtara,90000,Sandakan,Sabah,Malaysia",089-235265,P.185 Batu Sapi,N.53 Sekong,5.863514,118.05596
+McDonald'sHarbourMallSandakan,"LotG09,G10&G12A,HarbourMallSandakan,SandakanHarbourSquare,90000,Sandakan,Sabah,Malaysia",089-276276,P.186 Sandakan,N.56 Tanjong Papat,5.838595,118.119511
+McDonald'sSempornaDT,"CountryLease125340490,Mile1,JalanBubul,91308Semporna,Sabah",08-9788603,P.189 Semporna,N.65 Senallang,4.475638,118.607646
+McDonald'sJlnApasTawauDT,"CL.105509868AtMile4,JalanApas,91000,Tawau,Sabah,Malaysia",089-913322,P.190 Tawau,N.69 Sri Tanjong,4.251907,117.920815
+McDonald'sMetroCityDT,"Lot14212(Plot79),MetroCityNewTownship,Section65,KuchingTownLandDistrict,JalanMatang,93050,Kuching,Sarawak,Malaysia",082-646793,P.194 Petra Jaya,N.06 Tupong,1.568231,110.308561
+McDonald'sPetrajayaDT,"Plot1,Lot477(Phase2)Block17,SalakLandDistrict,JalanSemariang,93050,Kuching,Sarawak,Malaysia",082-506094,P.194 Petra Jaya,N.07 Samariang,1.586954,110.331143
+McDonald'sSatokKuching,"Lot180&181,Ground&1stFloor,BangunanHajiAbdulRasit,JalanSatok,93400,Kuching,Sarawak,Malaysia",082-233598,P.194 Petra Jaya,N.08 Satok,1.553416,110.334022
+McDonald'sKuchingII,"GroundFloor,ShopLotNo.12&13,3rdMile,JalanTunAhmadZaidiAdruce,93250,Kuching,Sarawak,Malaysia",082-232265,P.195 Bandar Kuching,N.11 Batu Lintang,1.525011,110.336949
+McDonald'sTabuanJayaDT,"Lot16843(Lots4581,9210and9212),Block11,MTLDJalanCanna,93150,Kuching,Sarawak,Malaysia",082-360395,P.195 Bandar Kuching,N.11 Batu Lintang,1.513061,110.387951
+McDonald'sKuching,"2ndFloor,Lot268-269,JalanTuankuAbdulRahman,93100,Kuching,Sarawak,Malaysia",082-232278,P.195 Bandar Kuching,N.09 Padungan,1.557502,110.353033
+McDonald'sPlazaMerdeka,"LotNos.G-12,G-13,PartOfL1-15andAlfrescoArea,PlazaMerdeka,No88,PearlStreet,93000,Kuching,Sarawak,Malaysia",082-232479,P.195 Bandar Kuching,N.09 Padungan,1.558775,110.344069
+"McDonald'sMJCBatuKawaDT,Kuching","Lot3421(ParentLot2433),Block217KNLD,BatuKawaNewTownship,93250,Kuching,Sarawak,Malaysia",082-462587,P.196 Stampin,N.13 Batu Kitang,1.511653,110.304554
+McDonald'sSibu,"ShopLotNo.2(Ground&1stFloor)andShopLotNo.4(GroundFloor),CausewayRoad,96007,Sibu,Sarawak,Malaysia",084-335522,P.211 Lanang,N.51 Bukit Assek,2.290759,111.826063
+McDonald'sBintuluDT,"Lots119&120,Block32,KemenaLandDistrict,JalanTunHusseinOnn,97000,Bintulu,Sarawak,Malaysia",086-312124,P.217 Bintulu,N.68 Tanjong Batu,3.19756,113.079632
+McDonald'sPetronasMiriDT,"Lot1050(A),JalanBulanSabit,Block7,MCLD,98000,Miri,Sarawak,Malaysia",085-422117,P.219 Miri,N.74 Pujut,4.412187,114.003077
+McDonald'sMiriPermyjaya,"Lot5993,Block11,K.B.L.D.DesaIndah3,JalanTudan,BandarBaruPermyjaya,98000,Miri,Sarawak,Malaysia",085-641587,P.219 Miri,N.75 Senadin,4.471653,114.042988
+McDonald'sBintangPlazaMiri,"Lot1264,1stFloor,BintangPlazaShoppingCentre,JalanMiri-Pujut,98008Miri,Sarawak,Malaysia",085-433118,P.219 Miri,N.73 Piasau,4.397233,113.993806
