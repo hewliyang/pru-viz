@@ -1,6 +1,6 @@
 # pru-viz
 
-A simple web app to visualise Malaysian election data through maps! Currently still a *WIP* and I'm open to contributions.
+A simple web app to visualise Malaysian election data through maps! Currently still a *WIP*. All contributions are welcome.
 
 ### Installation
 
@@ -20,7 +20,7 @@ pip3 install -r requirements.txt
 Run
 
 ```
-streamlit run main.py
+streamlit run GE15.py
 ```
 
 ### Credits

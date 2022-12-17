@@ -6,22 +6,13 @@ import json
 from itertools import cycle
 from streamlit_echarts import st_echarts
 from utils.maps import map_cont_echarts, map_results_echarts
-from utils.cards import result_card
+from utils.cards import result_card, link_card
 from utils.geometry import morph_geos
+from utils.st_styles import reduce_top_padding, load_bootstrap_stylesheet, load_css
 from streamlit_extras.colored_header import colored_header
 from streamlit_extras.dataframe_explorer import dataframe_explorer
 from streamlit_extras.badges import badge
 
-
-@st.experimental_singleton
-def load_css(path):
-    with open(path) as f:
-        return st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
-@st.experimental_singleton
-def load_bootstrap_stylesheet(path):
-    with open(path) as f:
-        return st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 @st.experimental_memo
 def load_data():
@@ -47,16 +38,10 @@ def load_data():
     return results, geojson, candidates, gdf, census, voters
 
 def main():
-    st.title("pru-viz")
-    badge_columns = cycle(st.columns(17))
-    with next(badge_columns): badge(type="github", name="hewliyang/pru-viz")
-    with next(badge_columns): badge(type="twitter", name="hewliyang")
+    st.title("GE15 Maps")
 
     # read in data
     results, geojson, candidates, gdf, census, voters = load_data()  
-
-    # do a log transformation on the pengundi_jumlah column - need to refactor this
-    # results["log_total"] = np.log(results["pengundi_jumlah"])
 
     options = ["Results", "Registered Voters", "Turnout", "Undi Rosak", "Majoriti", "Undi Tolak", "Absentees"]
     index = 0
@@ -68,7 +53,7 @@ def main():
     else:
         c1, c2, _, _, _ = st.columns(5)
         with c1:
-            morph = st.checkbox("Morph by total voters per seat")
+            morph = st.checkbox("Adjust for consituency size [make cartogram]")
         with c2:
             n = st.number_input(label="Number of iterations", min_value=1, max_value=100)
 
@@ -215,6 +200,27 @@ def main():
 if __name__ == "__main__":
     st.set_page_config(layout="wide", page_title="pru-viz", page_icon="./public/malaysia.ico")
     load_bootstrap_stylesheet("./styles/bootstrap.min.css")
-    # load_css("./styles/main.css")
+    load_css("./styles/main.css")
+    reduce_top_padding()
+
+    with st.sidebar:
+        st.markdown('<h1>pru-viz <span class="badge badge-secondary">Beta</span></h1>',
+        unsafe_allow_html=True)
+        st.markdown("### A simple web app to visualise GE15 and census data with maps!")
+        badge_columns = cycle(st.columns(3))
+        with next(badge_columns): badge(type="github", name="hewliyang/pru-viz")
+        with next(badge_columns): badge(type="twitter", name="hewliyang")
+
+        st.markdown("## Data sources")
+        st.markdown(link_card("https://github.com/Thevesh/analysis-election-msia", "Thevesh", "Election"), unsafe_allow_html=True)
+        st.markdown(link_card("https://github.com/dosm-malaysia/data-open", "Department of Statistics <br/> Malaysia", "Census"), unsafe_allow_html=True)
+
+        st.markdown("---")
+        st.markdown('## About')
+        st.markdown(
+            '<h6>Made in &nbsp<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit logo" height="16">&nbsp by <a href="https://twitter.com/hewliyang">@hewliyang</a></h6>',
+            unsafe_allow_html=True,
+        )
+        
     main()
 

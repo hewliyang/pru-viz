@@ -21,3 +21,13 @@ def result_card(
         </div>
     </div>
     """
+
+def link_card(
+    url: str,
+    display: str,
+    description: str = None
+) -> str:
+    return f'''
+    <a href="{url}" class="btn btn-primary btn-sm active text-wrap" role="button" aria-pressed="true">{display}
+    <span class="badge badge-light text-wrap">{description}</span></a>
+    '''
