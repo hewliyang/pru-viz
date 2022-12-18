@@ -4,19 +4,23 @@ import pandas as pd
 import leafmap.foliumap as leafmap
 from itertools import cycle
 from streamlit_extras.badges import badge
+from streamlit_extras.colored_header import colored_header
 from utils.cards import link_card
 from utils.st_styles import load_bootstrap_stylesheet, load_css, reduce_top_padding
 
 PARLIMEN_URL = "https://raw.githubusercontent.com/dosm-malaysia/data-open/main/datasets/geodata/electoral_0_parlimen.geojson"
 DUN_URL = "https://raw.githubusercontent.com/dosm-malaysia/data-open/main/datasets/geodata/electoral_1_dun.geojson"
+STATE_URL = "https://raw.githubusercontent.com/dosm-malaysia/data-open/main/datasets/geodata/administrative_1_state.geojson"
 
 @st.experimental_memo
 def load_data():
     parlimen_gdf = gpd.read_file(PARLIMEN_URL)
-    dun_gdf = gpd.read_file(DUN_URL)
+    dun_gdf = gpd.read_file(DUN_URL)    
+    state_gdf = gpd.read_file(STATE_URL)
     parlimen_geojson = parlimen_gdf.to_json()
     dun_geojson = dun_gdf.to_json()
-    return parlimen_gdf, dun_gdf, parlimen_geojson, dun_geojson
+    state_geojson = state_gdf.to_json()
+    return parlimen_gdf, dun_gdf, parlimen_geojson, dun_geojson, state_gdf, state_geojson
 
 def census():
     st.markdown("# **Census Data** **:red[[WIP]]**")
@@ -26,73 +30,77 @@ def census():
     the **Department of Statistics, Malaysia** built with **NextJS** and **Nivo** which is a plotting 
     library for **ReactJS**.
 
-    Here, we will be using the great **Leafmap** package by **Qisheng Wu** & of course **Plotly Express**
+    Here, we will be using the fantastic **Leafmap** package by **Qisheng Wu** & of course **Plotly Express**
     which should allow for greater interactivity. **(and in Python!)**
     """)
     ################ Data Prep
-    parlimen_gdf, dun_gdf, parlimen_geojson, dun_geojson = load_data()
+    parlimen_gdf, dun_gdf, parlimen_geojson, dun_geojson, state_gdf, state_geojson = load_data()
 
     # get the state names, parlimen and DUN will be generated based on the state selected
     state_list = sorted(list(parlimen_gdf.state.unique()))
 
-    # get parlimen names
-    parlimen_list = sorted(list(parlimen_gdf.parlimen.unique()))
-
-    # get DUN names
-    dun_list = sorted(list(dun_gdf.dun.unique()))
-    ################
-
-
-
     col1, col2 = st.columns([1,4])
     with col1:
         st.markdown("### 🧭 **Find my area**")
-        selected_state = st.selectbox(
-            "Select your state",
-            state_list,
+        st.markdown("----")
+
+        selected_geo_filter = st.selectbox(
+            "Select constituency level",
+            ["DUN", "Parlimen", "State"],
+            index=2
         )
 
+        filter_flag = st.checkbox(label = "Apply filter")
         #### Selections
 
-        if selected_state:
-            selected_geo_filter = st.selectbox(
-                "Select geo-filter",
-                ["DUN", "Parlimen"]
+        if selected_geo_filter:
+            selected_state = st.selectbox(
+                "Select your state",
+                state_list,
             )
             if selected_geo_filter:
                 if selected_geo_filter == "DUN":
                     filtered_dun = dun_gdf[dun_gdf["state"]==selected_state]
                 else:
                     filtered_parlimen = parlimen_gdf[parlimen_gdf["state"]==selected_state]
-                selected_area = st.selectbox(
-                    "Select area",
-                    sorted(list(filtered_dun.dun.unique())) if selected_geo_filter == "DUN" else \
-                        sorted(list(filtered_parlimen.parlimen.unique()))
-                )
-        
-        ### temporary marker function
-        with st.form("Marker"):
-            st.markdown("### Mark your location!")
-            lat = st.number_input("Insert a latitude")
-            long = st.number_input("Insert a longitude")
 
-            submitted = st.form_submit_button("Submit")
-            if submitted:
-                st.write("Marker plotted at", lat, long)
+                if selected_geo_filter == "State":
+                    selected_area = selected_state
+                else:
+                    selected_area = st.selectbox(
+                        "Select area",
+                        sorted(list(filtered_dun.dun.unique())) if selected_geo_filter == "DUN" else \
+                            sorted(list(filtered_parlimen.parlimen.unique())) if selected_geo_filter == "Parlimen" else \
+                                list()
+                    )
+    
     with col2:
         m = leafmap.Map(google_map="ROADMAP", locate_control=True)
-        if selected_geo_filter == "DUN":
-            m.add_gdf(dun_gdf, layer_name="Parlimen Boundaries")
+        if not filter_flag:
+            selected_area_df = dun_gdf if selected_geo_filter == "DUN" else parlimen_gdf \
+                if selected_geo_filter == "Parlimen" else state_gdf
         else:
-            m.add_gdf(parlimen_gdf, layer_name="Parlimen Boundaries")
-
-        if lat and long:
-            m.add_marker([lat, long])
-
+            selected_area_df = dun_gdf[dun_gdf["dun"] == selected_area] if selected_geo_filter == "DUN" else \
+                parlimen_gdf[parlimen_gdf["parlimen"] == selected_area] if selected_geo_filter == "Parlimen" else \
+                    state_gdf[state_gdf["state"] == selected_state]
+    
+        m.add_gdf(selected_area_df)
         m.to_streamlit()
 
 
-
+    ##### Demographic Summary for Area
+    colored_header(
+        label = "Demographic Summary",
+        description = f"""
+        Charts describing the distribution of demographic data for 
+        {selected_area if filter_flag else "Malaysia"}
+        """,
+        color_name = "red-70"
+    )
+    if filter_flag:
+        pass
+    else:
+        pass
 
 
 
@@ -101,7 +109,7 @@ def census():
 if __name__ == "__main__":
     st.set_page_config(layout="wide", page_title="Census", page_icon="./public/malaysia.ico")
     load_bootstrap_stylesheet("./styles/bootstrap.min.css")
-    #load_css("./styles/main.css")
+    load_css("./styles/main.css")
     reduce_top_padding()
 
     with st.sidebar:
