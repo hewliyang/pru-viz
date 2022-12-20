@@ -1,7 +1,9 @@
+cartogram_geopandas==0.0.0rc0
 Cython==0.29.32
 folium==0.13.0
 geopandas==0.12.1
 leafmap==0.14.1
+millify==0.1.1
 numpy==1.23.5
 pandas==1.5.2
 plotly==5.11.0
@@ -10,5 +12,3 @@ Shapely==1.8.5.post1
 streamlit==1.16.0
 streamlit_echarts==0.4.0
 streamlit_extras==0.2.4
-./cartogram_geopandas
-
