@@ -1,10 +1,10 @@
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from typing import List, Union
+from typing import List
 
-DEFAULT_HEIGHT = 300
-DEFAULT_HOLE = 0.3
+DEFAULT_HEIGHT = 250
+DEFAULT_HOLE = 0.4
 
 def pie(
     df: pd.DataFrame,
@@ -22,10 +22,10 @@ def pie(
             y = 0.5
         ),
         margin=dict(
-            l=0,
+            l=38,
             r=0,
             t=22,
-            b=0
+            b=10
         )
     )
     return fig

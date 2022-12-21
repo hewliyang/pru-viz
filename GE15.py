@@ -112,7 +112,7 @@ def main():
                 description = "Personal information in the order: age, sex, race",
                 color_name = "violet-70"
             )
-            st.markdown('### Click on a region to display the results')
+            st.info('Click on a region to display the results')
     else:
         filtered_df = results[results.parlimen==clicked_state]
         filtered_candidates = candidates[candidates.parlimen==clicked_state].sort_values(by="votes", ascending=False)

@@ -148,10 +148,16 @@ tooltip_result_jscode = 'function test(a){return a.seriesName+"<br/>"+a.name+": 
 # selected columns names for each category
 
 ## one dimensional metrics to use:
-## income_avg, income_median, household_size_avg, births, deaths
+## population, income_avg, income_median, household_size_avg, births, deaths
 attr_nationality = ["nationality_citizen", "nationality_non_citizen"]
 attr_sex = ["sex_male", "sex_female"]
-attr_ethnicity = ["ethnicity_proportion_bumi", "ethnicity_proportion_chinese", "ethnicity_proportion_indian", "ethnicity_proportion_other"]
-attr_age_group = ["age_proportion_0_14", "age_proportion_15_64", "age_proportion_65_above"]
+attr_ethnicity = ["ethnicity_bumi", "ethnicity_chinese", "ethnicity_indian", "ethnicity_other"]
+attr_religion = ["religion_muslim", "religion_christian", "religion_buddhist", "religion_hindu", "religion_other", "religion_atheist", "religion_unknown"]
+attr_married = ["marital_never_married", "marital_married", "marital_widowed", "marital_separated", "marital_unknown"]
+attr_age_group = ["age_0_14", "age_15_64", "age_65_above"]
 attr_births = ["live_births_male", "live_births_female"]
 attr_deaths = ["deaths_male", "deaths_female"]
+
+
+attr_ethnicity_proportion = ["ethnicity_proportion_bumi", "ethnicity_proportion_chinese", "ethnicity_proportion_indian", "ethnicity_proportion_other"]
+attr_age_group_proportion = ["age_proportion_0_14", "age_proportion_15_64", "age_proportion_65_above"]
