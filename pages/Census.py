@@ -2,17 +2,9 @@ import streamlit as st
 import geopandas as gpd
 import pandas as pd
 import leafmap.foliumap as leafmap
-import plotly.express as px
-from millify import millify
-from itertools import cycle
-from streamlit_extras.badges import badge
 from streamlit_extras.colored_header import colored_header
-from streamlit_extras.metric_cards import style_metric_cards
-from utils.cards import link_card
-from utils.st_styles import load_bootstrap_stylesheet, load_css, reduce_top_padding
-from utils.constants import (attr_nationality, attr_sex, attr_ethnicity, attr_deaths, attr_age_group,
- attr_births, attr_religion, attr_married, attr_ethnicity_proportion, attr_age_group_proportion)
-from utils.charts import pie
+from utils.st_styles import init_styles
+from utils.charts import pie_array, pie_array_ns
 
 PARLIMEN_URL = "https://raw.githubusercontent.com/dosm-malaysia/data-open/main/datasets/geodata/electoral_0_parlimen.geojson"
 DUN_URL = "https://raw.githubusercontent.com/dosm-malaysia/data-open/main/datasets/geodata/electoral_1_dun.geojson"
@@ -24,19 +16,16 @@ def load_data():
     parlimen_gdf = gpd.read_file(PARLIMEN_URL)
     dun_gdf = gpd.read_file(DUN_URL)    
     state_gdf = gpd.read_file(STATE_URL)
-    # parlimen_geojson = parlimen_gdf.to_json()
-    # dun_geojson = dun_gdf.to_json()
-    # state_geojson = state_gdf.to_json()
 
-    # census census_parlimen_df
     census_parlimen_df = pd.read_csv("./data/census_parlimen.csv")
     census_dun_df = pd.read_csv("./data/census_dun.csv")
     census_district_df = pd.read_csv("./data/census_district.csv").query('year == 2020')
 
     return parlimen_gdf, dun_gdf, state_gdf, census_parlimen_df, census_dun_df, census_district_df
 
+    
 def census():
-    st.markdown("# **Census 2020** **:red[[WIP]]**")
+    st.markdown("# **Census 2020**")
     st.markdown("""
     This section is essentially a recreation of **[KAWASANKU](https://kawasanku.dosm.gov.my/)**, 
     a very nice open source visualisation project by
@@ -113,364 +102,29 @@ def census():
     if filter_flag:
         
         # case for state only selection
-        if selected_geo_filter == "State":
-            
-            c1, c2, c3, c4 = st.columns([2.5,3,3,3], gap = "medium")
+        if selected_geo_filter == "State": # state case
 
             census_parlimen_df = census_parlimen_df.query(f'state == "{selected_state}"')
             census_district_df = census_district_df.query(f'state == "{selected_state}"')
 
-            with c2:
-                st.write("")
-                st.write("")     
-                st.write("")
-                st.write("")                 
-                fig = pie(census_parlimen_df, attributes=attr_nationality, names=["Citizen", "Non-Citizen"],
-                    title="Nationality")
-                st.plotly_chart(fig, use_container_width=True)
+            pie_array_ns(census_district_df=census_district_df, census_parlimen_df=census_parlimen_df)
 
-            with c3:
-                st.write("")
-                st.write("") 
-                st.write("")
-                st.write("")                                  
-                fig = pie(census_parlimen_df, attributes=attr_sex, names=["Male", "Female"],
-                    title="Sex")
-                st.plotly_chart(fig, use_container_width=True)
-
-            with c4:
-                st.write("")
-                st.write("")    
-                st.write("")
-                st.write("")                              
-                fig = pie(census_district_df, attributes=attr_ethnicity, names=["Bumiputera", "Chinese", "Indian", "Other"],
-                    title="Ethnicity")
-                st.plotly_chart(fig, use_container_width=True)
-
-            c5, c6, c7, c8 = st.columns([2.5,3,3,3], gap = "medium")
-
-            with c6:
-                st.write("")
-                st.write("")                    
-                fig = pie(census_district_df, attributes=attr_age_group, names=["0-14", "15-64", ">=65"],
-                    title="Age Group")
-                st.plotly_chart(fig, use_container_width=True)
-
-            with c7:
-                st.write("")
-                st.write("")                  
-                fig = pie(census_district_df, attributes=attr_married, names=["Never Married", "Married", "Widowed", "Seperated", "Unknown"],
-                    title="Maritial Status")
-                st.plotly_chart(fig, use_container_width=True)   
-
-            with c8:
-                st.write("")
-                st.write("")
-                fig = pie(census_district_df, attributes=attr_religion, names=["Muslim", "Christian", "Buddhist", "Hindu", "Other", "Atheist", "Unknown"],
-                    title="Religion")
-                st.plotly_chart(fig, use_container_width=True)
-
-
-            # metric stuff
-            
-            with st.container():
-                with c1:
-                    # get metrics
-
-                    total_population = census_parlimen_df["population_total"].sum()
-                    income_avg = census_parlimen_df["income_avg"].mean()
-                    income_median = census_parlimen_df["income_median"].mean()
-                    household_size = census_parlimen_df["household_size_avg"].mean()
-                    births = census_parlimen_df["live_births"].sum()
-                    deaths = census_parlimen_df["deaths"].sum()
-
-                    # display metrics
-
-                    st.metric(label="Total population" ,value = millify(total_population, precision=2))
-                    st.metric(label="Average Household Income" ,value = millify(income_avg, precision=3))
-                    st.metric(label="Median Household Income" ,value = millify(income_median, precision=3))
-                with c5:
-                    st.metric(label="Average Household Size" ,value = millify(household_size, precision=2))
-                    st.metric(label="Births" ,value = millify(births))
-                    st.metric(label="Deaths" ,value = millify(deaths))
-                
-                style_metric_cards()
-
-        elif selected_geo_filter == "Parlimen":
+        elif selected_geo_filter == "Parlimen": # parlimen case
 
             census_parlimen_df = census_parlimen_df.query(f'parlimen == "{selected_area}"')
-
-            c1, c2, c3, c4 = st.columns([2.5,3,3,3], gap = "medium")
-
-            with c2:
-                st.write("")
-                st.write("")     
-                st.write("")
-                st.write("")                 
-                fig = pie(census_parlimen_df, attributes=attr_nationality, names=["Citizen", "Non-Citizen"],
-                    title="Nationality")
-                st.plotly_chart(fig, use_container_width=True)
-
-            with c3:
-                st.write("")
-                st.write("") 
-                st.write("")
-                st.write("")                                  
-                fig = pie(census_parlimen_df, attributes=attr_sex, names=["Male", "Female"],
-                    title="Sex")
-                st.plotly_chart(fig, use_container_width=True)
-
-            with c4:
-                st.write("")
-                st.write("")    
-                st.write("")
-                st.write("")                              
-                fig = pie(census_parlimen_df, attributes=attr_ethnicity_proportion, names=["Bumiputera", "Chinese", "Indian", "Other"],
-                    title="Ethnicity")
-                st.plotly_chart(fig, use_container_width=True)
-
-            c5, c6, c7, c8 = st.columns([2.5,3,3,3], gap = "medium")
-
-            with c6:
-                st.write("")
-                st.write("")                    
-                fig = pie(census_parlimen_df, attributes=attr_age_group_proportion, names=["0-14", "15-64", ">=65"],
-                    title="Age Group")
-                st.plotly_chart(fig, use_container_width=True)
-
-            with c7:
-                st.write("")
-                st.write("")                  
-                st.write("placeholder")
-
-            with c8:
-                st.write("")
-                st.write("")
-                st.write("placeholder")
-
-
-            # metric stuff
-            
-            with st.container():
-                with c1:
-                    # get metrics
-
-                    total_population = census_parlimen_df["population_total"].sum()
-                    income_avg = census_parlimen_df["income_avg"].mean()
-                    income_median = census_parlimen_df["income_median"].mean()
-                    household_size = census_parlimen_df["household_size_avg"].mean()
-                    births = census_parlimen_df["live_births"].sum()
-                    deaths = census_parlimen_df["deaths"].sum()
-
-                    # display metrics
-
-                    st.metric(label="Total population" ,value = millify(total_population, precision=2))
-                    st.metric(label="Average Household Income" ,value = millify(income_avg, precision=3))
-                    st.metric(label="Median Household Income" ,value = millify(income_median, precision=3))
-                with c5:
-                    st.metric(label="Average Household Size" ,value = millify(household_size, precision=2))
-                    st.metric(label="Births" ,value = millify(births))
-                    st.metric(label="Deaths" ,value = millify(deaths))
-                
-                style_metric_cards()
-
-
-
-
-
-
+            pie_array(census_parlimen_df=census_parlimen_df)
 
         else: # DUN case
 
             census_dun_df = census_dun_df.query(f'dun == "{selected_area}"')
             census_dun_df.live_births = census_dun_df["live_births"].str.replace(',','')
-
-            c1, c2, c3, c4 = st.columns([2.5,3,3,3], gap = "medium")
-
-            with c2:
-                st.write("")
-                st.write("")     
-                st.write("")
-                st.write("")                 
-                fig = pie(census_dun_df, attributes=attr_nationality, names=["Citizen", "Non-Citizen"],
-                    title="Nationality")
-                st.plotly_chart(fig, use_container_width=True)
-
-            with c3:
-                st.write("")
-                st.write("") 
-                st.write("")
-                st.write("")                                  
-                fig = pie(census_dun_df, attributes=attr_sex, names=["Male", "Female"],
-                    title="Sex")
-                st.plotly_chart(fig, use_container_width=True)
-
-            with c4:
-                st.write("")
-                st.write("")    
-                st.write("")
-                st.write("")                              
-                fig = pie(census_dun_df, attributes=attr_ethnicity_proportion, names=["Bumiputera", "Chinese", "Indian", "Other"],
-                    title="Ethnicity")
-                st.plotly_chart(fig, use_container_width=True)
-
-            c5, c6, c7, c8 = st.columns([2.5,3,3,3], gap = "medium")
-
-            with c6:
-                st.write("")
-                st.write("")                    
-                fig = pie(census_dun_df, attributes=attr_age_group_proportion, names=["0-14", "15-64", ">=65"],
-                    title="Age Group")
-                st.plotly_chart(fig, use_container_width=True)
-
-            with c7:
-                st.write("")
-                st.write("")                  
-                st.write("placeholder")
-
-            with c8:
-                st.write("")
-                st.write("")
-                st.write("placeholder")
+            pie_array(census_dun_df=census_dun_df)
 
 
-            # metric stuff
-            
-            with st.container():
-                with c1:
-                    # get metrics
-
-                    total_population = census_dun_df["population_total"].sum()
-                    income_avg = census_dun_df["income_avg"].mean()
-                    income_median = census_dun_df["income_median"].mean()
-                    household_size = census_dun_df["household_size_avg"].mean()
-                    births = census_dun_df["live_births"].sum()
-                    deaths = census_dun_df["deaths"].sum()
-
-                    # display metrics
-
-                    st.metric(label="Total population" ,value = millify(total_population, precision=2))
-                    st.metric(label="Average Household Income" ,value = millify(income_avg, precision=3))
-                    st.metric(label="Median Household Income" ,value = millify(income_median, precision=3))
-                with c5:
-                    st.metric(label="Average Household Size" ,value = millify(household_size, precision=2))
-                    st.metric(label="Births" ,value = millify(births))
-                    st.metric(label="Deaths" ,value = millify(deaths))
-                
-                style_metric_cards()
-
-
-
-
-    else:
-        c1, c2, c3, c4 = st.columns([2.5,3,3,3], gap = "medium")
-
-        with c2:
-            st.write("")
-            st.write("")     
-            st.write("")
-            st.write("")                 
-            fig = pie(census_parlimen_df, attributes=attr_nationality, names=["Citizen", "Non-Citizen"],
-                title="Nationality")
-            st.plotly_chart(fig, use_container_width=True)
-
-        with c3:
-            st.write("")
-            st.write("") 
-            st.write("")
-            st.write("")                                  
-            fig = pie(census_parlimen_df, attributes=attr_sex, names=["Male", "Female"],
-                title="Sex")
-            st.plotly_chart(fig, use_container_width=True)
-
-        with c4:
-            st.write("")
-            st.write("")    
-            st.write("")
-            st.write("")                              
-            fig = pie(census_district_df, attributes=attr_ethnicity, names=["Bumiputera", "Chinese", "Indian", "Other"],
-                title="Ethnicity")
-            st.plotly_chart(fig, use_container_width=True)
-
-        c5, c6, c7, c8 = st.columns([2.5,3,3,3], gap = "medium")
-
-        with c6:
-            st.write("")
-            st.write("")                    
-            fig = pie(census_district_df, attributes=attr_age_group, names=["0-14", "15-64", ">=65"],
-                title="Age Group")
-            st.plotly_chart(fig, use_container_width=True)
-
-        with c7:
-            st.write("")
-            st.write("")                  
-            fig = pie(census_district_df, attributes=attr_married, names=["Never Married", "Married", "Widowed", "Seperated", "Unknown"],
-                title="Maritial Status")
-            st.plotly_chart(fig, use_container_width=True)   
-
-        with c8:
-            st.write("")
-            st.write("")
-            fig = pie(census_district_df, attributes=attr_religion, names=["Muslim", "Christian", "Buddhist", "Hindu", "Other", "Atheist", "Unknown"],
-                title="Religion")
-            st.plotly_chart(fig, use_container_width=True)
-
-
-        # metric stuff
-        
-        with st.container():
-            with c1:
-                # get metrics
-
-                total_population = census_parlimen_df["population_total"].sum()
-                income_avg = census_parlimen_df["income_avg"].mean()
-                income_median = census_parlimen_df["income_median"].mean()
-                household_size = census_parlimen_df["household_size_avg"].mean()
-                births = census_parlimen_df["live_births"].sum()
-                deaths = census_parlimen_df["deaths"].sum()
-
-                # display metrics
-
-                st.metric(label="Total population" ,value = millify(total_population, precision=2))
-                st.metric(label="Average Household Income" ,value = millify(income_avg, precision=3))
-                st.metric(label="Median Household Income" ,value = millify(income_median, precision=3))
-            with c5:
-                st.metric(label="Average Household Size" ,value = millify(household_size, precision=2))
-                st.metric(label="Births" ,value = millify(births))
-                st.metric(label="Deaths" ,value = millify(deaths))
-            
-            style_metric_cards()
-
-
-
-
-
-
-
+    else: # national case
+       
+       pie_array_ns(census_district_df=census_district_df, census_parlimen_df=census_parlimen_df)
 
 if __name__ == "__main__":
-    st.set_page_config(layout="wide", page_title="Census", page_icon="./public/malaysia.ico")
-    load_bootstrap_stylesheet("./styles/bootstrap.min.css")
-    load_css("./styles/main.css")
-    reduce_top_padding()
-
-    with st.sidebar:
-        st.markdown('<h1>pru-viz <span class="badge badge-secondary">Beta</span></h1>',
-        unsafe_allow_html=True)
-        st.markdown("### A simple web app to visualise GE15 and census data with maps!")       
-        badge_columns = cycle(st.columns(3))
-        with next(badge_columns): badge(type="github", name="hewliyang/pru-viz")
-        with next(badge_columns): badge(type="twitter", name="hewliyang")
-
-        st.markdown("## Data sources")
-        st.markdown(link_card("https://github.com/Thevesh/analysis-election-msia", "Thevesh", "Election"), unsafe_allow_html=True)
-        st.markdown(link_card("https://github.com/dosm-malaysia/census_parlimen_df-open", "Department of Statistics <br/> Malaysia", "Census"), unsafe_allow_html=True)
-
-        st.markdown("---")
-        st.markdown('## About')
-        st.markdown(
-            '<h6>Made in &nbsp<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit logo" height="16">&nbsp by <a href="https://twitter.com/hewliyang">@hewliyang</a></h6>',
-            unsafe_allow_html=True,
-        )
- 
+    init_styles()
     census()

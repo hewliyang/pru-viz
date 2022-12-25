@@ -3,16 +3,14 @@ import pandas as pd
 import geopandas as gpd
 import re
 import json
-from itertools import cycle
 from streamlit_echarts import st_echarts
 from utils.maps import map_cont_echarts, map_results_echarts
-from utils.cards import result_card, link_card
+from utils.cards import result_card, paginator, total_voter_card
 from utils.geometry import morph_geos
-from utils.st_styles import reduce_top_padding, load_bootstrap_stylesheet, load_css
+from utils.st_styles import init_styles
 from streamlit_extras.colored_header import colored_header
-from streamlit_extras.dataframe_explorer import dataframe_explorer
-from streamlit_extras.badges import badge
-
+from utils.charts import (parlimen_voters_wide_to_long, population_pyramid_echarts
+    , pie_voter_type_echarts)
 
 @st.experimental_memo
 def load_data():
@@ -66,43 +64,43 @@ def main():
         )
         if selected_map == options[0]:
             map, options = map_results_echarts(candidate_df=candidates, geojson=morph_geos(gdf,results,n)) if morph else map_results_echarts(candidate_df=candidates, geojson=geojson)
-            clicked_state = st_echarts(options, map=map, height=800, key="result",
+            clicked_state = st_echarts(options, map=map, height=850, key="result",
                 events={"click": "function(params) {return params.name}"})
         elif selected_map == options[1]:
             target = "pengundi_jumlah"
             map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
                 title="GE15 Registered Voters (2022)", log=log, discrete=True)
-            clicked_state = st_echarts(options, map=map, height=800, key=target,
+            clicked_state = st_echarts(options, map=map, height=850, key=target,
                 events={"click": "function(params) {return params.name}"})
         elif selected_map == options[2]:
             target = "peratus_keluar"
             map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
                 title="GE15 Voter Turnout (%) (2022)", log=log)
-            clicked_state = st_echarts(options, map=map, height=800, key=target,
+            clicked_state = st_echarts(options, map=map, height=850, key=target,
                 events={"click": "function(params) {return params.name}"})                
         elif selected_map == options[3]:
             target = "undi_rosak"
             map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
                 title="GE15 Undi Rosak (%) (2022)", log=log, normalise=True)
-            clicked_state = st_echarts(options, map=map, height=800, key=target,
+            clicked_state = st_echarts(options, map=map, height=850, key=target,
                 events={"click": "function(params) {return params.name}"})
         elif selected_map == options[4]:
             target = "majoriti"
             map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
                 title="GE15 Majoriti (%) (2022)", log=log, normalise=True)
-            clicked_state = st_echarts(options, map=map, height=800, key=target,
+            clicked_state = st_echarts(options, map=map, height=850, key=target,
                 events={"click": "function(params) {return params.name}"})
         elif selected_map == options[5]:
             target = "undi_tolak"
             map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
                 title="GE15 Undi Tolak (%) (2022)", log=log, normalise=True)
-            clicked_state = st_echarts(options, map=map, height=800, key=target,
+            clicked_state = st_echarts(options, map=map, height=850, key=target,
                 events={"click": "function(params) {return params.name}"})            
         elif selected_map == options[6]:
             target = "pengundi_tidak_hadir"
             map, options = map_cont_echarts(result_df=results, geojson=geojson, target=target,
                 title="GE15 Absentees (%) (2022)", log=log, normalise=True, normalise_on="pengundi_jumlah")
-            clicked_state = st_echarts(options, map=map, height=800, key=target,
+            clicked_state = st_echarts(options, map=map, height=850, key=target,
                 events={"click": "function(params) {return params.name}"})  
 
     if clicked_state is None:
@@ -130,7 +128,8 @@ def main():
             # display state + parlimen
             st.markdown(f"""##### **{filtered_df["state"].iloc[0]} - {filtered_df["parlimen"].iloc[0]}**""")
 
-            # create and display result cards
+            # create cards
+            cards = []
             for _, row in filtered_candidates.iterrows():
                 card = result_card(
                     candidate_name = row["name_display"],
@@ -141,86 +140,54 @@ def main():
                     candidate_age = row["age"],
                     candidate_sex = row["sex"],
                     candidate_race = row["ethnicity"])
+                cards.append(card)
+
+            # display cards with paginator
+
+            for card in paginator(cards, "curr_page", 4):
                 st.markdown(card, unsafe_allow_html=True)
 
-    # display the dataframe in an expander
-    with st.expander("Explore candidate data!"):
-        df_exp = dataframe_explorer(candidates)
-        st.dataframe(df_exp, use_container_width=True)
 
-        # make the filtered DF available for download via a button
-        csv = df_exp.to_csv(index=False).encode('utf-8')
-        st.download_button(
-            label = "Download data as CSV",
-            data = csv,
-            file_name = "candidates_ge15_filtered.csv",
-            mime = "text/csv"
-        )
+    # voter statistics 
 
-    with st.expander("Explore result data!"):
-        result_exp = dataframe_explorer(results)
-        st.dataframe(result_exp, use_container_width=True)
+    colored_header(
+        label = "Voter Summary",
+        description = f"For {'Malaysia' if not clicked_state else clicked_state}",
+        color_name = "red-70"
+    )
+    v3, v1, v2 = st.columns([1,3,2])
 
-        # make the filtered DF available for download via a button
-        csv = result_exp.to_csv(index=False).encode('utf-8')
-        st.download_button(
-            label = "Download data as CSV",
-            data = csv,
-            file_name = "results_ge15_filtered.csv",
-            mime = "text/csv"
-        )
+    with v1:
+        voters_long = parlimen_voters_wide_to_long(voters)
 
-    with st.expander("Explore census data!"):
-        census_exp = dataframe_explorer(census)
-        st.dataframe(census_exp, use_container_width=True)
+        if clicked_state is None:
+            options = population_pyramid_echarts(voters_long)
+        else:
+            options = population_pyramid_echarts(voters_long, filter=clicked_state)
+        
+        st_echarts(options)
+    
+    with v3:
+        
+        st.markdown("<h4 style='text-align:center;'> Total Voters </h4>", unsafe_allow_html=True)
+        # get total voters for each GE
 
-        # make the filtered DF available for download via a button
-        csv = census_exp.to_csv(index=False).encode('utf-8')
-        st.download_button(
-            label = "Download data as CSV",
-            data = csv,
-            file_name = "census_filtered.csv",
-            mime = "text/csv"
-        )
+        if clicked_state is not None:
+            voters = voters.query(f"parlimen == '{clicked_state}'")
 
-    with st.expander("Explore voter data!"):
-        voters_exp = dataframe_explorer(voters)
-        st.dataframe(voters_exp, use_container_width=True)
+        ge15_voters = voters["total"].sum()
+        ge14_voters = voters["total_ge14"].sum()
 
-        # make the filtered DF available for download via a button
-        csv = voters_exp.to_csv(index=False).encode('utf-8')
-        st.download_button(
-            label = "Download data as CSV",
-            data = csv,
-            file_name = "voters_filtered.csv",
-            mime = "text/csv"
-        )
+        st.markdown(total_voter_card(ge15_voters=ge15_voters, ge14_voters=ge14_voters), unsafe_allow_html=True)
 
+    with v2:
+        if clicked_state is not None:
+            voters = voters.query(f"parlimen == '{clicked_state}'")
+    
+        options = pie_voter_type_echarts(voters)
+        st_echarts(options)
 
 if __name__ == "__main__":
-    st.set_page_config(layout="wide", page_title="pru-viz", page_icon="./public/malaysia.ico")
-    load_bootstrap_stylesheet("./styles/bootstrap.min.css")
-    load_css("./styles/main.css")
-    reduce_top_padding()
-
-    with st.sidebar:
-        st.markdown('<h1>pru-viz <span class="badge badge-secondary">Beta</span></h1>',
-        unsafe_allow_html=True)
-        st.markdown("### A simple web app to visualise GE15 and census data with maps!")
-        badge_columns = cycle(st.columns(3))
-        with next(badge_columns): badge(type="github", name="hewliyang/pru-viz")
-        with next(badge_columns): badge(type="twitter", name="hewliyang")
-
-        st.markdown("## Data sources")
-        st.markdown(link_card("https://github.com/Thevesh/analysis-election-msia", "Thevesh", "Election"), unsafe_allow_html=True)
-        st.markdown(link_card("https://github.com/dosm-malaysia/data-open", "Department of Statistics <br/> Malaysia", "Census"), unsafe_allow_html=True)
-
-        st.markdown("---")
-        st.markdown('## About')
-        st.markdown(
-            '<h6>Made in &nbsp<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit logo" height="16">&nbsp by <a href="https://twitter.com/hewliyang">@hewliyang</a></h6>',
-            unsafe_allow_html=True,
-        )
-        
+    init_styles()
     main()
 

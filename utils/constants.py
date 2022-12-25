@@ -161,3 +161,6 @@ attr_deaths = ["deaths_male", "deaths_female"]
 
 attr_ethnicity_proportion = ["ethnicity_proportion_bumi", "ethnicity_proportion_chinese", "ethnicity_proportion_indian", "ethnicity_proportion_other"]
 attr_age_group_proportion = ["age_proportion_0_14", "age_proportion_15_64", "age_proportion_65_above"]
+attr_employment = []
+
+attr_voter_type = ["votertype_regular", "votertype_early_army", "votertype_early_police", "votertype_postal_overseas"]
