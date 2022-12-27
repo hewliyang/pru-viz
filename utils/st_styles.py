@@ -50,7 +50,7 @@ def init_styles():
 
         st.markdown("## Data sources")
         st.markdown(link_card("https://github.com/Thevesh/analysis-election-msia", "Thevesh", "Election"), unsafe_allow_html=True)
-        st.markdown(link_card("https://github.com/dosm-malaysia/census_parlimen_df-open", "Department of Statistics <br/> Malaysia", "Census"), unsafe_allow_html=True)
+        st.markdown(link_card("https://github.com/dosm-malaysia/data-open", "Department of Statistics <br/> Malaysia", "Census"), unsafe_allow_html=True)
 
         st.markdown("---")
         st.markdown('## About')
