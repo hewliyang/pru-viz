@@ -18,7 +18,7 @@ def main():
 
     results, candidates, census, voters = load_data()  
     
-    st.title("Raw Data")
+    st.markdown("# **Raw Data**")
 
     st.markdown("""
 

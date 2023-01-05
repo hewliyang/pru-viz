@@ -41,12 +41,12 @@ def init_styles():
     reduce_top_padding()
 
     with st.sidebar:
-        st.markdown('<h1>pru-viz <span class="badge badge-secondary">Beta</span></h1>',
+        st.markdown('<h1>pru-viz <span class="badge badge-secondary">v1</span></h1>',
         unsafe_allow_html=True)
-        st.markdown("### A simple web app to visualise GE15 and census data with maps!")       
+        st.markdown("### A simple web app to visualise GE15 and census data")       
         badge_columns = cycle(st.columns(3))
         with next(badge_columns): badge(type="github", name="hewliyang/pru-viz")
-        with next(badge_columns): badge(type="twitter", name="hewliyang")
+        with next(badge_columns): badge(type="twitter", name="hewliyang_")
 
         st.markdown("## Data sources")
         st.markdown(link_card("https://github.com/Thevesh/analysis-election-msia", "Thevesh", "Election"), unsafe_allow_html=True)
@@ -55,6 +55,6 @@ def init_styles():
         st.markdown("---")
         st.markdown('## About')
         st.markdown(
-            '<h6>Made in &nbsp<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit logo" height="16">&nbsp by <a href="https://twitter.com/hewliyang">@hewliyang</a></h6>',
+            '<h6>Made in &nbsp<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit logo" height="16">&nbsp by <a href="https://github.com/hewliyang">@hewliyang</a></h6>',
             unsafe_allow_html=True,
         )

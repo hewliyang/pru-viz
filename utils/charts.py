@@ -1,4 +1,5 @@
 import pandas as pd
+import altair as alt
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
@@ -8,7 +9,7 @@ from millify import millify
 from streamlit_extras.metric_cards import style_metric_cards
 from utils.constants import attr_voter_type
 from utils.constants import (attr_nationality, attr_sex, attr_ethnicity, attr_religion, attr_married, attr_ethnicity_proportion, attr_age_group_proportion,
-attr_age_group)
+attr_age_group, census_agg_map)
 
 DEFAULT_HEIGHT = 250
 DEFAULT_HOLE = 0.4
@@ -24,6 +25,7 @@ def pie(
 ) -> go.Figure:
     values = df[attributes].sum() if sum_flag else df[attributes].mean()
     fig = px.pie(values=values, names=names, title=title, height=height, hole =hole)
+    fig.update_traces(textposition='inside')
     fig.update_layout(
         legend=dict(
             y = 0.5
@@ -33,7 +35,9 @@ def pie(
             r=0,
             t=22,
             b=10
-        )
+        ),
+        uniformtext_mode='hide',
+        uniformtext_minsize=12
     )
     return fig
 
@@ -448,3 +452,44 @@ def pie_array_ns(
             st.metric(label="Deaths" ,value = millify(deaths))
         
         style_metric_cards()
+
+def make_altair_bar(df: pd.DataFrame,
+    metric: str,
+    to_highlight:list=[], 
+    mean=False):
+
+    def string_builder(to_highlight:list) -> str:
+        query = ""
+        sep = "||"
+
+        # do the first one manually
+        copy = [x for x in to_highlight]
+        first_state = copy.pop(0)
+        query += f"datum.state == '{first_state}'"
+
+        for state in to_highlight:
+            base = f"datum.state == '{state}'"
+            query += sep + base
+        return query
+    
+    # check if should agg by mean instead
+
+    if census_agg_map[metric] == "mean":
+        mean=True
+
+    c = alt.Chart(
+            df, 
+            title=f"{metric}"
+        ).mark_bar(
+            cornerRadius=3
+        ).encode(
+            y=alt.Y('state', sort='-x', title=""),
+            x=alt.X(f'sum({metric})' if not mean else f'mean({metric})', title=""),
+        color=alt.condition(
+            string_builder(to_highlight) if len(to_highlight) > 0 else "datum.state == ''",
+            alt.value("red"),
+            alt.value("lightblue")
+            )
+        )
+
+    return c

@@ -164,3 +164,10 @@ attr_age_group_proportion = ["age_proportion_0_14", "age_proportion_15_64", "age
 attr_employment = []
 
 attr_voter_type = ["votertype_regular", "votertype_early_army", "votertype_early_police", "votertype_postal_overseas"]
+
+# census indicators - split by aggregation type (sum / mean)
+
+mean = ["ethnicity_proportion_bumi", "ethnicity_proportion_chinese", "ethnicity_proportion_indian", "ethnicity_proportion_other", "age_proportion_0_14", "age_proportion_15_64", "age_proportion_65_above", "age_proportion_18_above", "household_size_avg", "labour_participation_rate", "labour_unemployment_rate", "income_avg", "income_median", "expenditure_avg", "gini", "poverty_incidence","utilities_pipedwater_home", "utilities_pipedwater_public", "utilities_pipedwater_other", "utilities_electricity_home", "utilities_electricity_none"]
+sum = ["area_km2","population_total", "nationality_citizen", "nationality_non_citizen", "sex_male", "sex_female","housing_total","household_total","live_births","live_births_male","live_births_female","deaths","deaths_male","deaths_female","sme_small","sme_micro", "sme_medium", "businesses_agriculture", "businesses_crops", "businesses_livestock", "businesses_fisheries", "businesses_forestry", "businesses_mining", "businesses_manufacturing", "businesses_construction", "businesses_services"]
+
+census_agg_map = dict({metric:"mean" for metric in mean}, **{metric:"sum" for metric in sum})

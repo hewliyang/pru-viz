@@ -4,7 +4,8 @@ import pandas as pd
 import leafmap.foliumap as leafmap
 from streamlit_extras.colored_header import colored_header
 from utils.st_styles import init_styles
-from utils.charts import pie_array, pie_array_ns
+from utils.charts import pie_array, pie_array_ns, make_altair_bar
+
 
 PARLIMEN_URL = "https://raw.githubusercontent.com/dosm-malaysia/data-open/main/datasets/geodata/electoral_0_parlimen.geojson"
 DUN_URL = "https://raw.githubusercontent.com/dosm-malaysia/data-open/main/datasets/geodata/electoral_1_dun.geojson"
@@ -29,14 +30,13 @@ def census():
     st.markdown("""
     This section is essentially a recreation of **[KAWASANKU](https://kawasanku.dosm.gov.my/)**, 
     a very nice open source visualisation project by
-    the **Department of Statistics, Malaysia** built with **NextJS** and **Nivo** which is a plotting 
-    library for **ReactJS**.
-
-    Here, we will be using the fantastic **Leafmap** package by **Qisheng Wu** & of course **Plotly Express**
-    which should allow for greater interactivity. **(and in Python!)**
+    the **Department of Statistics, Malaysia (DOSM)**
     """)
     ################ census_parlimen_df Prep
     parlimen_gdf, dun_gdf, state_gdf, census_parlimen_df, census_dun_df, census_district_df  = load_data()
+
+    # keep a original copy of census_parlimen_df for non-cross filtering use
+    census_parlimen_df_cp = census_parlimen_df.copy()
 
     # get the state names, parlimen and DUN will be generated based on the state selected
     state_list = sorted(list(parlimen_gdf.state.unique()))
@@ -104,7 +104,7 @@ def census():
         # case for state only selection
         if selected_geo_filter == "State": # state case
 
-            census_parlimen_df = census_parlimen_df.query(f'state == "{selected_state}"')
+            census_parlimen_df = census_parlimen_df.query(f'state == "{selected_state}"') # operate on copy cuz we need the original df later
             census_district_df = census_district_df.query(f'state == "{selected_state}"')
 
             pie_array_ns(census_district_df=census_district_df, census_parlimen_df=census_parlimen_df)
@@ -124,6 +124,44 @@ def census():
     else: # national case
        
        pie_array_ns(census_district_df=census_district_df, census_parlimen_df=census_parlimen_df)
+
+    ### Comparison section - hist+density for key indicators -- statewide only
+
+    colored_header(
+        label = "Comparison of Key Indicators",
+        description = f"""
+        Statewise comparison of available indicators. Note : incomes are by household | rates are in %
+        """,
+        color_name = "red-70"
+    )
+
+    # multiselect dropdown
+
+    opts = list(census_parlimen_df_cp.columns)
+    to_remove = ["state","parlimen","code_state","code_parlimen","year"]
+    for col in to_remove:
+        opts.remove(col)
+
+    selections = st.multiselect(label="Choose metrics (max 4)", options=opts,
+        default=["household_size_avg", "income_median", "gini", "population_total"],
+        max_selections=4)
+
+    # highlighter menu
+    states = sorted(list(census_parlimen_df_cp.state.unique()))
+
+    to_highlight = st.multiselect(label = "Choose states to highlight",
+        options = states,
+        default=["W.P. Kuala Lumpur"])
+    
+    c1,c2,c3,c4 = st.columns(4)
+    try:
+        c1.altair_chart(make_altair_bar(census_parlimen_df_cp, selections[0], to_highlight=to_highlight), use_container_width=True)
+        c2.altair_chart(make_altair_bar(census_parlimen_df_cp, selections[1], to_highlight=to_highlight), use_container_width=True)
+        c3.altair_chart(make_altair_bar(census_parlimen_df_cp, selections[2], to_highlight=to_highlight), use_container_width=True)
+        c4.altair_chart(make_altair_bar(census_parlimen_df_cp, selections[3], to_highlight=to_highlight), use_container_width=True)
+    except:
+        pass
+
 
 if __name__ == "__main__":
     init_styles()
