@@ -2,11 +2,11 @@
 
  > A simple web app to visualise Malaysian election data through maps! All pull requests are welcome!
 
-## Quick Start
-
 <p align="center">
     <img src="./public/pru-viz.png" alt="pru-viz">
 </p>
+
+## Quick Start
 
 The typical `python` environment setup.
 
