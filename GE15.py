@@ -36,6 +36,7 @@ def load_data():
     return results, geojson, candidates, gdf, census, voters
 
 def main():
+
     st.markdown("# **GE15 Maps**")
 
     # read in data
