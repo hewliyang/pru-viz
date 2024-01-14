@@ -4,7 +4,8 @@ from streamlit_extras.dataframe_explorer import dataframe_explorer
 
 from utils.st_styles import init_styles
 
-@st.experimental_memo
+
+@st.cache_data
 def load_data():
     results = pd.read_csv("./data/results_parlimen_ge15.csv")
     candidates = pd.read_csv("./data/candidates_ge15.csv")
@@ -13,14 +14,16 @@ def load_data():
 
     return results, candidates, census, voters
 
+
 def main():
     # display the dataframe in an expander
 
-    results, candidates, census, voters = load_data()  
-    
+    results, candidates, census, voters = load_data()
+
     st.markdown("# **Raw Data**")
 
-    st.markdown("""
+    st.markdown(
+        """
 
     Access the raw data used for the previous pages here. Some tips for usage:
     1.  **Filter** by variables - should be self explanatory. 
@@ -28,19 +31,20 @@ def main():
     3.  Once filtered according to your liking, you may **download** the filtered/sorted data as `.csv` by clicking on the button.
 
     Happy exploring!
-    """)
+    """
+    )
 
     with st.expander("Explore candidate data!"):
         df_exp = dataframe_explorer(candidates)
         st.dataframe(df_exp, use_container_width=True)
 
         # make the filtered DF available for download via a button
-        csv = df_exp.to_csv(index=False).encode('utf-8')
+        csv = df_exp.to_csv(index=False).encode("utf-8")
         st.download_button(
-            label = "Download data as CSV",
-            data = csv,
-            file_name = "candidates_ge15_filtered.csv",
-            mime = "text/csv"
+            label="Download data as CSV",
+            data=csv,
+            file_name="candidates_ge15_filtered.csv",
+            mime="text/csv",
         )
 
     with st.expander("Explore result data!"):
@@ -48,12 +52,12 @@ def main():
         st.dataframe(result_exp, use_container_width=True)
 
         # make the filtered DF available for download via a button
-        csv = result_exp.to_csv(index=False).encode('utf-8')
+        csv = result_exp.to_csv(index=False).encode("utf-8")
         st.download_button(
-            label = "Download data as CSV",
-            data = csv,
-            file_name = "results_ge15_filtered.csv",
-            mime = "text/csv"
+            label="Download data as CSV",
+            data=csv,
+            file_name="results_ge15_filtered.csv",
+            mime="text/csv",
         )
 
     with st.expander("Explore census data!"):
@@ -61,12 +65,12 @@ def main():
         st.dataframe(census_exp, use_container_width=True)
 
         # make the filtered DF available for download via a button
-        csv = census_exp.to_csv(index=False).encode('utf-8')
+        csv = census_exp.to_csv(index=False).encode("utf-8")
         st.download_button(
-            label = "Download data as CSV",
-            data = csv,
-            file_name = "census_filtered.csv",
-            mime = "text/csv"
+            label="Download data as CSV",
+            data=csv,
+            file_name="census_filtered.csv",
+            mime="text/csv",
         )
 
     with st.expander("Explore voter data!"):
@@ -74,13 +78,14 @@ def main():
         st.dataframe(voters_exp, use_container_width=True)
 
         # make the filtered DF available for download via a button
-        csv = voters_exp.to_csv(index=False).encode('utf-8')
+        csv = voters_exp.to_csv(index=False).encode("utf-8")
         st.download_button(
-            label = "Download data as CSV",
-            data = csv,
-            file_name = "voters_filtered.csv",
-            mime = "text/csv"
+            label="Download data as CSV",
+            data=csv,
+            file_name="voters_filtered.csv",
+            mime="text/csv",
         )
+
 
 if __name__ == "__main__":
     init_styles()
